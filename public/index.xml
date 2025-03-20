@@ -1,309 +1,545 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Towards Computational Lexical Semantic Change Detection on Towards Computational Lexical Semantic Change Detection</title>
+    <title>Towards Computational Lexical Semantic Change Detection</title>
     <link>https://languagechange.org/</link>
-    <description>Recent content in Towards Computational Lexical Semantic Change Detection on Towards Computational Lexical Semantic Change Detection</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 06 Dec 2024 10:00:00 +0200</lastBuildDate>
+    <atom:link href="https://languagechange.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://languagechange.org/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://languagechange.org/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/hero/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://languagechange.org/home/about/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/about/</guid>
+      <description>&lt;h1 id=&#34;project-description&#34;&gt;Project Description&lt;/h1&gt;&#xA;&lt;p&gt;In this project, we worked on automatic, corpus-based methods for detecting semantic change and lexical replacement for Swedish and English. The project was the first of its kind. We investigated some of the fundamental questions of &lt;em&gt;how&lt;/em&gt;, &lt;em&gt;when&lt;/em&gt;, and &lt;em&gt;why&lt;/em&gt; languages change to allow us to quantify language change and shift lexical typological research from small case studies done on limited data sets to larger scales and over wider time spans using various media types and sources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://languagechange.org/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/experience/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selected Publications</title>
+      <link>https://languagechange.org/home/publications_selected/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/publications_selected/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;More publications&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Recent Publications</title>
+      <link>https://languagechange.org/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/publications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selected Events</title>
+      <link>https://languagechange.org/home/events_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/events_selected/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Selected Talks</title>
+      <link>https://languagechange.org/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://languagechange.org/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>https://languagechange.org/home/events/</link>
+      <pubDate>Thu, 01 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recent Posts</title>
+      <link>https://languagechange.org/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/posts/</guid>
+      <description></description>
+    </item>
     <item>
       <title>SemEval2020</title>
       <link>https://languagechange.org/semeval/</link>
-      <pubDate>Mon, 27 May 2019 00:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/semeval/</guid>
-      <description>&lt;p&gt;We will be organizing a SemEval2020 task on &lt;a href=&#34;https://faustusdotbe.github.io/Unsupervised-Lexical-Semantic-Change-Detection-SemEval2020/&#34;&gt;Unsupervised Lexical Semantic Change Detection&lt;/a&gt;.
-The task is organised by&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Barbara McGillivray (The Alan Turing Institute / University of Cambridge),&lt;/li&gt;
-&lt;li&gt;Dominik Schlechtweg (University of Stuttgart),&lt;/li&gt;
-&lt;li&gt;Simon Hengchen (University of Helsinki),&lt;/li&gt;
-&lt;li&gt;Haim Dubossarsky (University of Cambridge), and&lt;/li&gt;
-&lt;li&gt;Nina Tahmasebi (University of Gothenburg).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;More information soon!&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;We will be organizing a SemEval2020 task on &lt;!-- raw HTML omitted --&gt;Unsupervised Lexical Semantic Change Detection&lt;!-- raw HTML omitted --&gt;.&#xA;The task is organised by&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Barbara McGillivray (The Alan Turing Institute / University of Cambridge),&lt;/li&gt;&#xA;&lt;li&gt;Dominik Schlechtweg (University of Stuttgart),&lt;/li&gt;&#xA;&lt;li&gt;Simon Hengchen (University of Helsinki),&lt;/li&gt;&#xA;&lt;li&gt;Haim Dubossarsky (University of Cambridge), and&lt;/li&gt;&#xA;&lt;li&gt;Nina Tahmasebi (University of Gothenburg).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;More information soon!&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Project description</title>
+      <link>https://languagechange.org/home/description/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/description/</guid>
+      <description>&lt;p&gt;The most common word for ‘young female human’ changed from &lt;em&gt;maiden&lt;/em&gt; in Old and Middle English to &lt;em&gt;girl&lt;/em&gt; in Modern English. This is a case of lexical replacement: a bundle of semantic material is first symbolized by one word, and later in time by another word (onomasiology). Parallel to this, &lt;em&gt;girl&lt;/em&gt; ‘young person’ came to mean ‘young female person’. This is a case of semantic change: a word stays the same over time 1 while the semantic material it symbolizes changes (semasiology). It is often useful to talk about the semantic material of a word as clustering into several sub-meanings: senses. Senses can be added, removed or changed. A particularly interesting kind of alteration is positive/negative sentiment change: while the morpheme &lt;em&gt;skit&lt;/em&gt; in &lt;em&gt;skitdag&lt;/em&gt; ’shitty, bad day’ has a negative connotation, in the last few decades it has acquired a positive connotation as an intensifier in words like &lt;em&gt;skitgott&lt;/em&gt; ’really good’. Sentiment analysis is increasingly important for commercial and political research and can greatly benefit from automatically handling lexical and semantic change.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>https://languagechange.org/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/tags/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://languagechange.org/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://languagechange.org/home/contact/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/home/contact/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;Contact us&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;sign up&lt;!-- raw HTML omitted --&gt; for our mailinglist.&lt;/p&gt;&#xA;&lt;p&gt;If you want to collaborate with us on a Master thesis project or a PhD project, send us an email with a short project proposal.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>LOT Winter School 2024</title>
       <link>https://languagechange.org/events/lot-2024/</link>
-      <pubDate>Fri, 06 Dec 2024 10:00:00 +0200</pubDate>
-      
+      <pubDate>Sun, 03 Sep 2023 13:21:31 +0200</pubDate>
       <guid>https://languagechange.org/events/lot-2024/</guid>
-      <description>&lt;p&gt;Nina Tahmasebi (University of Gothenburg), together with Haim Dubossarsky, Pierluigi Cassotti, and Francesco Periti will be teaching a course on Computational modeling of semantic change.&lt;/p&gt;
-
-&lt;p&gt;During the LOT Winter School two types of courses are on offer: 1. RM1 courses specifically designed for first-year Research Master (RM) students, and 2. Regular courses, which are open to second-year RM students and PhD students. The RM1 courses will only be given in week 1 (January 8-12). Regular courses will be given in both weeks.&lt;/p&gt;
-
-&lt;p&gt;The programme offers a wide variety of relevant topics in linguistics, taught by national and international researchers. The levels of the courses range from introductory (RM1 courses) to intermediate and advanced (regular courses).&lt;/p&gt;
-
-&lt;p&gt;In addition to the courses, there will be Research Discussion Groups (RDGs) just for PhD students.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Nina Tahmasebi (University of Gothenburg), together with Haim Dubossarsky, Pierluigi Cassotti, and Francesco Periti will be teaching a course on Computational modeling of semantic change.&lt;/p&gt;&#xA;&lt;p&gt;During the LOT Winter School two types of courses are on offer: 1. RM1 courses specifically designed for first-year Research Master (RM) students, and 2. Regular courses, which are open to second-year RM students and PhD students. The RM1 courses will only be given in week 1 (January 8-12). Regular courses will be given in both weeks.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>The DURel Annotation Tool</title>
+      <link>https://languagechange.org/publication/2023-durel/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2023-durel/</guid>
+      <description></description>
+    </item>
     <item>
       <title>(Chat)GPT v BERT: Dawn of Justice for Semantic Change Detection</title>
       <link>https://languagechange.org/publication/2024-eacl-gptvbert/</link>
-      <pubDate>Sat, 10 Feb 2024 00:00:00 +0100</pubDate>
-      
+      <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2024-eacl-gptvbert/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EMNLP 2023</title>
       <link>https://languagechange.org/publication/2023-emnlp/</link>
-      <pubDate>Wed, 06 Dec 2023 00:00:00 +0100</pubDate>
-      
+      <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2023-emnlp/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ChiWUG: A Graph-based Evaluation Dataset for Chinese Lexical Semantic Change Detection</title>
       <link>https://languagechange.org/publication/2023-chiwug/</link>
-      <pubDate>Sat, 26 Aug 2023 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2023-chiwug/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Incremental Semantic Shift Detection</title>
       <link>https://languagechange.org/publication/2023-incremental-shift/</link>
-      <pubDate>Tue, 22 Aug 2023 00:00:00 +0200</pubDate>
-      
+      <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2023-incremental-shift/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Routledge Handbook of Historical Linguistics, 2nd Edition</title>
       <link>https://languagechange.org/publication/2023-rhhl-bookchapter/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
-      
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2023-rhhl-bookchapter/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Nodalida 2023</title>
       <link>https://languagechange.org/publication/2023-nodalida/</link>
-      <pubDate>Sat, 20 May 2023 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2023-nodalida/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Svenska Språkets Historia</title>
       <link>https://languagechange.org/events/2023-ssh/</link>
-      <pubDate>Fri, 12 May 2023 09:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 17 Apr 2023 13:21:31 +0200</pubDate>
       <guid>https://languagechange.org/events/2023-ssh/</guid>
-      <description>&lt;p&gt;Språk förändras över tid. Ofta är dessa förändringar signifikanta för mycket mer än bara vårt språk, de pekar också på hur samhällen och kulturer förändras. Genom den revolution vi har sett de senaste två årtiondena i form av stora mängder tillgängliga digitala texter, och datorkraft nog att handskas med dessa volymer av text, kan vi nu studera språkliga, kulturella och samhälleliga förändringar. Med hjälp av datorer kan vi studera förändringar över långa tidsperioder och olika typer av genrer. Vi kan undersöka hur olika språk lånar av, påverkar, och samverkar med varandra.&lt;/p&gt;
-
-&lt;p&gt;I denna plenarföreläsning kommer jag att ge en översikt över språkteknologin och dess möjligheter att handskas med språkförändringar på ett automatiskt vis. Jag kommer att diskutera nuvarande och framtida möjligheter, samt begränsningar, när vi tillämpar språkteknologi på stora mängder text.  Vad är neurala nätverk och vad innebär denna metodrevolution när det gäller vår förmåga att hitta och tolka språkförändringar? Vilka nya möjligheter finns det nu och vilka tror vi kommer finnas i framtiden?&lt;/p&gt;
-
-&lt;p&gt;Därefter kommer jag att presentera vårt 6-åriga forskningsprogram Change is Key!, finansierat av RJ, där vi använder oss av toppmoderna språkteknologiska verktyg för att studera text i stor skala. Med hjälp av dessa metoder kommer vi att studera samhälls- och kulturförändringar, bl a inom litteraturvetenskap, analytisk sociologi, genusvetenskap och, i samarbete med ett annat forskningsprojekt, idéhistoria.  Jag kommer att ge en överblick av våra delprojekt, och de möjligheter och stora utmaningar vi har framför oss. Som exempel kommer jag att beskriva våra praktiska erfarenheter från vårt arbete med Marknadens språk, och hur språkteknologiska verktyg kan användas för att bidra till kvalitativ forskning. Till sist ger jag min bild av hur långt vi kan komma med digitala verktyg när det gäller kvalitativ textforskning.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Språk förändras över tid. Ofta är dessa förändringar signifikanta för mycket mer än bara vårt språk, de pekar också på hur samhällen och kulturer förändras. Genom den revolution vi har sett de senaste två årtiondena i form av stora mängder tillgängliga digitala texter, och datorkraft nog att handskas med dessa volymer av text, kan vi nu studera språkliga, kulturella och samhälleliga förändringar. Med hjälp av datorer kan vi studera förändringar över långa tidsperioder och olika typer av genrer. Vi kan undersöka hur olika språk lånar av, påverkar, och samverkar med varandra.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>KBR Digital Heritage seminar series</title>
       <link>https://languagechange.org/events/2022-kbr/</link>
-      <pubDate>Tue, 18 Oct 2022 14:00:00 +0200</pubDate>
-      
+      <pubDate>Wed, 28 Sep 2022 13:21:31 +0200</pubDate>
       <guid>https://languagechange.org/events/2022-kbr/</guid>
-      <description>&lt;p&gt;Image borrowed from KBR.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Image borrowed from KBR.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>LSCDiscovery: A shared task on semantic change discovery and detection in Spanish</title>
       <link>https://languagechange.org/publication/2022-lscdiscovery/</link>
-      <pubDate>Fri, 26 Aug 2022 00:00:00 +0200</pubDate>
-      
+      <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2022-lscdiscovery/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>DiaWUG: A Dataset for Diatopic Lexical Semantic Variation in Spanish</title>
       <link>https://languagechange.org/publication/2022-diawug/</link>
-      <pubDate>Thu, 26 May 2022 00:00:00 +0200</pubDate>
-      
+      <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2022-diawug/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Introduction to special issue on areal typology of lexico-semantics</title>
+      <link>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Patterns of persistence and diffusibility in the European lexicon</title>
+      <link>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Semantic maps and temperature: Capturing the lexicon-grammar interface across languages</title>
+      <link>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talking temperature with close relatives: Semantic systems across Slavic languages</title>
+      <link>https://languagechange.org/publication/2022-koptjevskajatamm/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2022-koptjevskajatamm/</guid>
+      <description></description>
+    </item>
     <item>
       <title>3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange&#39;22)</title>
       <link>https://languagechange.org/events/2022-acl-lchange/</link>
-      <pubDate>Thu, 25 Nov 2021 09:30:00 +0100</pubDate>
-      
+      <pubDate>Thu, 25 Nov 2021 09:30:00 +0000</pubDate>
       <guid>https://languagechange.org/events/2022-acl-lchange/</guid>
-      <description>&lt;p&gt;The workshop builds upon &lt;a href=&#34;https://languagechange.org/events/2019-acl-lcworkshop/&#34;&gt;its first iteration in 2019&lt;/a&gt;, and &lt;a href=&#34;https://languagechange.org/events/2021-acl-lcworkshop/&#34;&gt;the second edition in 20121&lt;/a&gt;. It will be colocated with  &lt;a href=&#34;https://2022.aclweb.org/&#34;&gt;ACL 2022&lt;/a&gt; in Dublin , Ireland, as a hybrid event. The workshop dates are not yet fixed but will be on May 26-28, or possibly both dates. This year, LChange will feature a shared task on semantic change detection for Spanish as one track of the workshop. 
-
-We hope to make this third edition another resounding success!&lt;/p&gt; 
-&lt;p&gt;The call for papers will be similar to last time: all aspects around computational approaches to historical language change with the focus on digital text corpora. If you have published in the field previously, and are inrerested in helping out in the PC to review papers, &lt;a href=&#34;mailto:PC-ACLws2022@[remove]languagechange.org&#34; target=&#34;_top&#34;&gt;send us an email&lt;/a&gt;. LChange&#39;19 resulted in a book on &lt;a href=&#34;https://langsci-press.org/catalog/book/303&#34;&gt;Computational approaches to semantic change&lt;/a&gt;, and this year, we are considering a special issue journal for invited workshop papers.&lt;/p&gt;
-
-&lt;p&gt;&lt;h1&gt;Important Dates&lt;/h1&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;ul&gt;
-  &lt;li&gt;Feb. 28, 2022: Paper submission&lt;/li&gt;
-  &lt;li&gt;March 26, 2022: Notification of acceptance&lt;/li&gt;
-  &lt;li&gt;April 10, 2022: Camera-ready papers due&lt;/li&gt;
-  &lt;li&gt;May 26-28, 2022: Workshop date (days will be decided upon later)&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-
-&lt;h1&gt;Workshop Topics&lt;/h1&gt;
-&lt;p&gt; This workshop explores state-of-the-art computational methodologies, theories and  digital text resources on exploring the time-varying nature of human language.&lt;/p&gt;
-
-
-&lt;p&gt;The aim of this workshop is three-fold. First, we want to provide pioneering researchers who work on computational methods, evaluation, and large-scale modelling of language change &lt;strong&gt;an outlet for disseminating cutting-edge research on topics concerning language change&lt;/strong&gt;. We want to utilize this proposed workshop as a platform for sharing state-of-the-art research progress in this fundamental domain of natural language research.&lt;/p&gt;
-
-&lt;p&gt;Second, in doing so we want to &lt;strong&gt;bring together domain experts across disciplines&lt;/strong&gt;. 
-by connecting researchers in historical linguistics with those that develop and test computational methods for detecting semantic change and laws of semantic change; and those that need knowledge (of the occurrence and shape) of language change, for example, in digital humanities and computational social sciences where text mining is applied to diachronic corpora subject to e.g., lexical semantic change.&lt;/p&gt;
-
-&lt;p&gt;Third, the detection and  modelling of language change using diachronic text and text mining raise &lt;strong&gt;undamental theoretical and methodological challenges&lt;/strong&gt; for future research.
-
-&lt;p&gt;Besides these goals, this workshop will also support  discussion on the evaluation of computational methodologies for uncovering language change. SemEval2020 Task1 on unsupervised detection of lexical semantic change attracted three figure submission numbers and a total of 21 submitted system papers. Since then, two more tasks have been completed, and we will organize the shared task on Spanish as a part of this workshop.&lt;/p&gt;
-
-&lt;p&gt;We invite original research papers from a wide range of topics, including but not limited to:&lt;/p&gt;
-
- &lt;ul&gt;
-  &lt;li&gt; Novel methods for detecting diachronic semantic change and lexical replacement&lt;/li&gt;
-  &lt;li&gt; Automatic discovery and quantitative evaluation of laws of language change&lt;/li&gt;
-  &lt;li&gt; Computational theories and generative models of language change&lt;/li&gt;
-  &lt;li&gt; Sense-aware (semantic) change analysis&lt;/li&gt;
-  &lt;li&gt; Diachronic word sense disambiguation&lt;/li&gt;
-  &lt;li&gt; Novel methods for diachronic analysis of low-resource languages&lt;/li&gt;
-  &lt;li&gt; Novel methods for diachronic linguistic data visualization&lt;/li&gt;
-  &lt;li&gt; Novel applications and implications of language change detection&lt;/li&gt;
-  &lt;li&gt; Quantification of sociocultural influences on language change&lt;/li&gt;
-  &lt;li&gt; Cross-linguistic, phylogenetic, and developmental approaches to language change&lt;/li&gt;
-  &lt;li&gt; Novel datasets for cross-linguistic and diachronic analyses of language&lt;/li&gt;
-&lt;/ul&gt; 
-
-
-&lt;h1&gt;Shared Task&lt;/h1&gt;
-
-&lt;p&gt;The task will have two subtasks organized in two phases respectively: &lt;/p&gt;
- &lt;ul&gt;
-      &lt;li&gt; discovery, and&lt;/li&gt;
-      &lt;li&gt;  binary change detection (detection of sense gain or loss vs. neither).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Note that &lt;em&gt;discovery&lt;/em&gt; introduces additional difficulties for models as compared to the more simple semantic change &lt;em&gt;detection&lt;/em&gt;, e.g. because a large number of predictions is required and the target words are not preselected, balanced or cleaned.
-Yet, discovery is an important task, with applications such as lexicography where dictionary makers aim to cover the full vocabulary of a language.&lt;/p&gt;
-
-&lt;p&gt;The full task description will be published on CodaLab with a short description on the workshop web page.  &lt;/p&gt;
-
-&lt;p&gt;Task organizers: Frank D. Zamora-Reina, Felipe Bravo-Marquez, Dominik Schlechtweg.&lt;/p&gt;
-
-&lt;p&gt;&lt;h1&gt;Keynote Talks&lt;/h1&gt;
-To be announced&lt;br&gt;
-&lt;!--&lt;br&gt;
- &lt;a href=&#34;https://www1.ids-mannheim.de/lexik/personal/koplenig.html&#34;&gt;Alexander Koplenig&lt;/a&gt; (Leibniz-Institute for the German Language in Mannheim) 
-&lt;br&gt; Title of talk: &lt;strong&gt;Two challenges we face when analyzing diachronic corpora &lt;/strong&gt;&lt;br&gt;
-Abstract: In my keynote, I want to discuss two important challenges for the quantitative analysis of diachronic corpora that I believe deserve more attention: &lt;br&gt;
-&lt;ul&gt; 
-&lt;li&gt;    The first challenge is the systematic influence of the sample size when it comes to basically all measures in quantitative linguistics (Baayen 2001). By analysing the lexical dynamics of the German weekly news magazine “Der Spiegel” (consisting of approximately 365,000 articles and 237,000,000 words that were published between 1947 and 2017), I show that this influence makes it difficult to quantify lexical dynamics and language change. I will also demonstrate that standard sampling approaches do not solve this problem. I will suggest an approach that is able to break the sample size dependence but presupposes access to the full text data (Koplenig, Wolfer &amp; Müller-Spitzer 2019). &lt;/li&gt;
-&lt;li&gt;    The second challenge is of methodological nature and relates to the problem of representativeness of diachronic corpora. Labov (1994) famously stated that &#34;historical documents survive by chance, not by design, and the selection that is available is the product of an unpredictable series of historical accidents.&#34; By using both Google Books Ngram data (Michel et al. 2010; Koplenig 2015; Pechenick, Danforth &amp; Dodds 2015) and publicly available data from the German National Bibliography, I will try to show that the problem is even more fundamental, because there is good reason to believe that composition of the body of published written works (from which a corresponding corpus is supposed to be sampled from) systematically changes as a function of time. This makes it difficult to disentangle actual language change from environmental changes in the textual habitat  (Szmrecsanyi 2016).&lt;/li&gt;
-&lt;/ul&gt; 
-&lt;a href=&#34;http://people.ds.cam.ac.uk/hd423/&#34;&gt;Haim Dubossarsky&lt;/a&gt; (Research Fellow at University of Cambridge) &lt;br&gt;
-Title of talk: [Semantic change in the time of Machine Learning, doing it right!](/pdf/lchange19/lchange_Dubossarsky.pdf)&lt;br&gt;
---&gt;&lt;/p&gt;
-
-&lt;!--TODO_EDIT--&gt;
-
-&lt;p&gt;&lt;h1&gt;Submissions&lt;/h1&gt;
-&lt;p&gt;We accept three types of submissions, long and short papers, following the ACL2022 style, and the &lt;a href=&#34;https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation&#34;&gt;ACL submission policy&lt;/a&gt;, and shared task papers.&lt;/p&gt;
-&lt;!-- 
- &lt;p&gt;Long papers may consist of up to eight (8) pages of content, plus unlimited references, short papers may consist of up to four (4) pages of content; final versions will be given one additional page of content so that reviewers&#39; comments can be taken into account. Abstracts may consist of up to two (2) pages of content, plus unlimited references. &lt;/p&gt;
- &lt;p&gt;Submissions should be sent in electronic forms, using the Softconf START conference management system. The &lt;a href=&#34;https://www.softconf.com/acl2019/lcworkshop/&#34;&gt;submission site&lt;/a&gt; is now available.  &lt;/p&gt;
---&gt;
-&lt;p&gt;Details on paper length and submission proceedure will be posted once released by ACL2022.&lt;/p&gt;
-
-&lt;p&gt;The workshop is planned to last two full days. Submissions are open to all, and are to be submitted anonymously. Workshop papers will be refereed through a double-blind peer review process by at least three reviewers with final acceptance decisions made by the workshop organizers. Shared task participants can choose to submit their papers to the shared task where papers will be reviewed by other task participants, or to the main workshop where they will be reviewed according to the normal workshop proceedure. &lt;/p&gt;
-
-&lt;!-- # &lt;h1 id=&#34;programme-committee&#34;&gt;Programme Committee&lt;/h1&gt;
-# &lt;font size=&#34;30&#34; &gt;
-# &lt;table style=&#34;font-size: 14px&#34;&gt; 
-# &lt;tr&gt;  &lt;th&gt;    Nicholas    A.Lester    &lt;/td&gt;   &lt;th&gt;    Stian Rødven    Eide    &lt;/td&gt;   &lt;th&gt;    Bill    Noble   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Yvonne  Adesam  &lt;/td&gt;   &lt;th&gt;    Antske  Fokkens &lt;/td&gt;   &lt;th&gt;    Kjetil  Norvag  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Rami    Aly &lt;/td&gt;   &lt;th&gt;    Mats    Fridlund    &lt;/td&gt;   &lt;th&gt;    Ella    Rabinovich  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Avishek Anand   &lt;/td&gt;   &lt;th&gt;    Michael Färber  &lt;/td&gt;   &lt;th&gt;    Taraka  Rama    &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Timothy Baldwin &lt;/td&gt;   &lt;th&gt;    Johannes    Hellrich    &lt;/td&gt;   &lt;th&gt;    Jacobo  Rouces  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Pierpaolo   Basile  &lt;/td&gt;   &lt;th&gt;    Simon   Hengchen    &lt;/td&gt;   &lt;th&gt;    Sylvie  Saget   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Barend  Beekhuizen  &lt;/td&gt;   &lt;th&gt;    Louise  Holmer  &lt;/td&gt;   &lt;th&gt;    Eyal    Sagi    &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Meriem  Beloucif    &lt;/td&gt;   &lt;th&gt;    Mika    Hämäläinen  &lt;/td&gt;   &lt;th&gt;    Asad    Sayeed  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Klaus   Berberich   &lt;/td&gt;   &lt;th&gt;    Abhik   Jana    &lt;/td&gt;   &lt;th&gt;    Dominik Schlechtweg &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Aleksandrs  Berdicevskis    &lt;/td&gt;   &lt;th&gt;    Péter   Jeszenszky  &lt;/td&gt;   &lt;th&gt;    Vidya   Somashekarappa  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Chris   Biemann &lt;/td&gt;   &lt;th&gt;    Dirk    Johannßen   &lt;/td&gt;   &lt;th&gt;    Andreas Spitz   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Damian  Blasi   &lt;/td&gt;   &lt;th&gt;    Richard Johansson   &lt;/td&gt;   &lt;th&gt;    Ian Stewart &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Ricardo Campos  &lt;/td&gt;   &lt;th&gt;    Antti   Kanner  &lt;/td&gt;   &lt;th&gt;    Suzanne Stevenson   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Annalina    Caputo  &lt;/td&gt;   &lt;th&gt;    Tom Kenter  &lt;/td&gt;   &lt;th&gt;    Barbro  Wallgren Hemlin &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Brady   Clark   &lt;/td&gt;   &lt;th&gt;    Jey Han Lau &lt;/td&gt;   &lt;th&gt;    Susanne Vejdemo &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Paul    Cook    &lt;/td&gt;   &lt;th&gt;    Liina   Lindström   &lt;/td&gt;   &lt;th&gt;    Mikael  Vejdemo Johansson   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Dana    Dannells    &lt;/td&gt;   &lt;th&gt;    Behrooz     Mansouri    &lt;/td&gt;   &lt;th&gt;    Melvin  Wevers  &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Pavel   Denisov &lt;/td&gt;   &lt;th&gt;    Animesh Mukherjee   &lt;/td&gt;   &lt;th&gt;    Guanghao    You &lt;/td&gt;   &lt;/tr&gt;
-# &lt;tr&gt;  &lt;th&gt;    Haim    Dubossarsky &lt;/td&gt;   &lt;th&gt;    Luis    Nieto Piña  &lt;/td&gt;   &lt;th&gt;    Yihong  Zhang   &lt;/td&gt;   &lt;/tr&gt;
-# &lt;/table&gt; 
-# &lt;/font&gt; --&gt;
-
-&lt;p&gt;&lt;h1 id=&#34;programme-committee&#34;&gt;Contact&lt;/h1&gt;
-&lt;a href=&#34;mailto:PC-ACLws2019@[remove]languagechange.org&#34; target=&#34;_top&#34;&gt;Contact us&lt;/a&gt; if you have any questions.&lt;/p&gt;
-
-&lt;p&gt;Organisers:
-&lt;a href=&#34;https://spraakbanken.gu.se/en/about/staff/nina&#34;&gt;Nina Tahmasebi&lt;/a&gt;,
-&lt;a href=&#34;https://adammo12.github.io/adamjatowt/&#34;&gt;Adam Jatowt&lt;/a&gt;,
-&lt;a href=&#34;http://www.cs.toronto.edu/~yangxu/&#34;&gt;Yang Xu&lt;/a&gt;,
-&lt;a href=&#34;https://spraakbanken.gu.se/en/about/staff/simon&#34;&gt;Simon Hengchen&lt;/a&gt;,
-&lt;a href=&#34;https://smontariol.github.io/&#34;&gt;Syrielle Montariol&lt;/a&gt;, and Haim Dubossarsky.&lt;/p&gt;
-
-&lt;p&gt;&lt;h1&gt;Anti-Harassment Policy&lt;/h1&gt;
-Our workshop highly values the open exchange of ideas, the freedom of thought and expression, and respectful scientific debate. We support and uphold the &lt;a href=&#34;https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy&#34;&gt;ACL Anti-Harassment policy&lt;/a&gt;, and any workshop participant should feel free to contact any of the workshop organisers or Priscilla Rasmussen, in case of any issues.&lt;/p&gt;
-
-&lt;p&gt;&lt;p&gt;References:&lt;br&gt;
- &lt;ul&gt;
-&lt;li&gt;Simon Hengchen, Nina Tahmasebi, Dominik Schlechtweg, Haim Dubossarsky.  &lt;a href=&#34;https://langsci-press.org/catalog/view/303/3037/2384-1&#34;&gt;Challenges for Computational Lexical Semantic Change&lt;/a&gt;. Nina Tahmasebi, Lars Borin, Adam Jatowt, Yang Xu, Simon Hengchen (eds). Computational Approaches to Semantic Change. Berlin: Language Science Press.&lt;/li&gt;
-&lt;li&gt;Nina Tahmasebi, Adam Jatowt, Lars Borin. &lt;a href=&#34;https://doi.org/10.5281/zenodo.5040302&#34;&gt;Survey of Computational Approaches to Lexical Semantic Change Detection&lt;/a&gt;. Nina Tahmasebi, Lars Borin, Adam Jatowt, Yang Xu, Simon Hengchen (eds). Computational Approaches to Semantic Change. Berlin: Language Science Press. &lt;/li&gt;
-&lt;li&gt;Baayen, R. Harald. 2001. Word Frequency Distributions. Dordrecht: Kluwer Academic Publishers.&lt;/li&gt;
-&lt;li&gt;Koplenig, Alexander. 2015. The Impact of Lacking Metadata for the Measurement of Cultural and Linguistic Change Using the Google Ngram Data Sets—Reconstructing the Composition of the German Corpus in Times of WWII. Digital Scholarship in the Humanities fqv037. &lt;a href=&#34;https://doi.org/10.1093/llc/fqv037&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1093/llc/fqv037&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Koplenig, Alexander, Sascha Wolfer &amp;amp; Carolin Müller-Spitzer. 2019. Studying Lexical Dynamics and Language Change via Generalized Entropies: The Problem of Sample Size. Entropy 21(5). &lt;a href=&#34;https://doi.org/10.3390/e21050464&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.3390/e21050464&lt;/a&gt;. &lt;a href=&#34;http://www.mdpi.com/1099-4300/21/5/464&#34; target=&#34;_blank&#34;&gt;http://www.mdpi.com/1099-4300/21/5/464&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Labov, William. 1994. Principles of linguistic change (Language in Society 20). Oxford, UK ; Cambridge [Mass.]: Blackwell.&lt;/li&gt;
-&lt;li&gt;Michel, Jean-Baptiste, Yuan Kui Shen, Aviva Presser Aiden, Adrian Verses, Matthew K. Gray, The Google Books Team, Joseph P. Pickett, et al. 2010. Quantitative Analysis of Culture Using Millions of Digitized Books (Supporting Online Material II). Science 331(14). &lt;a href=&#34;http://www.sciencemag.org/content/331/6014/176/suppl/DC1&#34; target=&#34;_blank&#34;&gt;http://www.sciencemag.org/content/331/6014/176/suppl/DC1&lt;/a&gt; (5 March, 2014).&lt;/li&gt;
-&lt;li&gt;Pechenick, Eitan Adam, Christopher M. Danforth &amp;amp; Peter Sheridan Dodds. 2015. Characterizing the Google Books Corpus: Strong Limits to Inferences of Socio-Cultural and Linguistic Evolution. (Ed.) Alain Barrat. PLOS ONE 10(10). e0137041. &lt;a href=&#34;https://doi.org/10.1371/journal.pone.0137041&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1371/journal.pone.0137041&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Szmrecsanyi, Benedikt. 2016. About text frequencies in historical linguistics: Disentangling environmental and grammatical change. Corpus Linguistics and Linguistic Theory 12(1). 153–171. &lt;a href=&#34;https://doi.org/10.1515/cllt-2015-0068&#34; target=&#34;_blank&#34;&gt;https://doi.org/10.1515/cllt-2015-0068&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;We hope to make this third edition another resounding success!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Organisers:&#xA;&lt;!-- raw HTML omitted --&gt;Nina Tahmasebi&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Adam Jatowt&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Yang Xu&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Simon Hengchen&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Syrielle Montariol&lt;!-- raw HTML omitted --&gt;, and Haim Dubossarsky.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</title>
       <link>https://languagechange.org/publication/2021-emnlp21-dwug/</link>
-      <pubDate>Thu, 26 Aug 2021 00:00:00 +0200</pubDate>
-      
+      <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2021-emnlp21-dwug/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Computational approaches to semantic change</title>
       <link>https://languagechange.org/publication/2021-semchange-book/</link>
-      <pubDate>Sun, 22 Aug 2021 00:00:00 +0200</pubDate>
-      
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/publication/2021-semchange-book/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>Survey of computational approaches to lexical semantic change detection </title>
+      <link>https://languagechange.org/publication/2021-semchange-surveypaper/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2021-semchange-surveypaper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visualization systems and novel applications</title>
+      <link>https://languagechange.org/publication/2021-semchange-applications/</link>
+      <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2021-semchange-applications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Challenges for computational lexical semantic change</title>
+      <link>https://languagechange.org/publication/2021-semchange-challenges/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2021-semchange-challenges/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talking about temperature and social thermoregulation in the languages of the world</title>
+      <link>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2nd International Workshop on Computational Approaches to Historical Language Change 2021 (LChange&#39;21)</title>
+      <link>https://languagechange.org/events/2021-acl-lchange/</link>
+      <pubDate>Mon, 09 Nov 2020 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2021-acl-lchange/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Organisers:&#xA;&lt;!-- raw HTML omitted --&gt;Nina Tahmasebi&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Adam Jatowt&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Yang Xu&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Simon Hengchen&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Syrielle Montariol&lt;!-- raw HTML omitted --&gt;, and Haim Dubossarsky.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
+      <link>https://languagechange.org/events/2020-semeval-2020-task1/</link>
+      <pubDate>Mon, 09 Nov 2020 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2020-semeval-2020-task1/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Our &lt;!-- raw HTML omitted --&gt;task description paper&lt;!-- raw HTML omitted --&gt; has been published. &lt;!-- raw HTML omitted --&gt;Videos&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;slides&lt;!-- raw HTML omitted --&gt; are now available.&lt;/p&gt;&#xA;&lt;p&gt;More information on the task itself can be found on &lt;!-- raw HTML omitted --&gt;Codalab&lt;!-- raw HTML omitted --&gt;.&#xA;Swedish testdata available &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;, postevaluation data for all participating languages available &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>An introduction to lexical semantic change</title>
+      <link>https://languagechange.org/talk/2020-stuttgart/</link>
+      <pubDate>Tue, 27 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/2020-stuttgart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
+      <link>https://languagechange.org/publication/2020-semeval-taskpaper/</link>
+      <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2020-semeval-taskpaper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>2nd Workshop on Computational Detection of Language Change 2020</title>
+      <link>https://languagechange.org/events/2020-sltc-lcworkshop/</link>
+      <pubDate>Tue, 16 Jun 2020 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2020-sltc-lcworkshop/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Examples of welcomed talks include:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Post-Evaluation Data for SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
+      <link>https://languagechange.org/publication/2020-semeval2020-postevaldata/</link>
+      <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2020-semeval2020-postevaldata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Unsupervised Lexical Semantic Change Detection – Past, Present &amp; Future</title>
+      <link>https://languagechange.org/talk/2020-jerusalem/</link>
+      <pubDate>Thu, 27 Feb 2020 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/2020-jerusalem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Swedish Test Data for SemEval 2020 Task 1</title>
+      <link>https://languagechange.org/publication/2020-semeval2020-swedishdata/</link>
+      <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2020-semeval2020-swedishdata/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time for change: Evaluating models of semantic change without evaluation tasks</title>
+      <link>https://languagechange.org/publication/2019-cambridgesymposium/</link>
+      <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2019-cambridgesymposium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Språkforskaren som blev it-konsult</title>
+      <link>https://languagechange.org/post/curie-paper/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/post/curie-paper/</guid>
+      <description>Susanne Vejdemo i Curie</description>
+    </item>
+    <item>
+      <title>Göteborg Book Fair</title>
+      <link>https://languagechange.org/events/2022-book-fair/</link>
+      <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2022-book-fair/</guid>
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt; Nu digitaliserar vi hela det svenska trycket: men hur, när och varför?&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kungliga biblioteket och de fem stora universitetsbiblioteken har tagit på sig uppdraget att digitalisera allt som har tryckts i Sverige ända från 1400-talet och fram till i dag. Men hur ska det gå till, när blir det klart och vem ska betala kalaset?&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;Medverkande: Nina Tahmasebi, docent i språkteknologi, Göteborgs universitet, Lars Burman, överbibliotekarie, Uppsala universitetsbibliotek, Karin Byström, Uppsala universitetsbibliotek och Lars Ilshammar, biträdande riksbibliotekarie, KB.&#xA;Arrangör: Kungliga biblioteket&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keynote at CHR2022</title>
+      <link>https://languagechange.org/events/2022-chr/</link>
+      <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2022-chr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lecture series Digital Humanities</title>
+      <link>https://languagechange.org/events/2022-dh-lecture-series/</link>
+      <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2022-dh-lecture-series/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Turing workshop on automatic methods for lexical semantic change</title>
+      <link>https://languagechange.org/events/2019-turing-lcworkshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2019-turing-lcworkshop/</guid>
+      <description>&lt;p&gt;Words change their meaning over time, depending on a range of linguistic and extra-linguistic factors. Associating a word’s correct meaning in its historical context is a central challenge in diachronic research, and is relevant to a range of computational linguistics tasks, including information retrieval and semantic search on historical texts. In recent years, computational linguistics research has made great advances in the area of automatic detection of lexical semantic change, using a range of approaches varying from topic models to neural word embeddings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Project meeting in Gothenburg</title>
+      <link>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</guid>
+      <description>Project meeting in Gothenburg</description>
+    </item>
+    <item>
+      <title>Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change</title>
+      <link>https://languagechange.org/publication/2019-acl2019/</link>
+      <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2019-acl2019/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1st International Workshop on Computational Approaches to Historical Language Change 2019</title>
+      <link>https://languagechange.org/events/2019-acl-lcworkshop/</link>
+      <pubDate>Tue, 14 May 2019 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2019-acl-lcworkshop/</guid>
+      <description>&lt;p&gt;The workshop was co-located with &lt;!-- raw HTML omitted --&gt;ACL 2019 &lt;!-- raw HTML omitted --&gt; in Florence, on August 2nd, 2019.  We received over &lt;!-- raw HTML omitted --&gt;50 submissions!&lt;!-- raw HTML omitted --&gt; and had over 65 attendees. Thank you all for making the workshop such a success!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;The full list of accepted papers, together with the &lt;strong&gt;posters and presentations&lt;/strong&gt; can be found &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;.&#xA;The introduction and closing slides are here: &lt;a href=&#34;https://languagechange.org/pdf/lchange19/lchange-intro.pdf&#34;&gt;LChange&#39;19 Intro &amp;amp; Closing&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discovering Semantic Shifts Using Diachronic Word Sense Embeddings</title>
+      <link>https://languagechange.org/talk/2019-uppsala/</link>
+      <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/2019-uppsala/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>On Lexical Semantic Change and Evaluation</title>
+      <link>https://languagechange.org/talk/2019-stuttgart/</link>
+      <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/2019-stuttgart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workshop on Lexical Semantic Change 2019</title>
+      <link>https://languagechange.org/talk/2019-helsinki/</link>
+      <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/2019-helsinki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Workshop on Lexical Semantic Change</title>
+      <link>https://languagechange.org/events/2019-acl-lcworkshop---copy/</link>
+      <pubDate>Thu, 24 Jan 2019 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2019-acl-lcworkshop---copy/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>Wp1: Word Sense Induction</title>
+      <link>https://languagechange.org/wps/word-sense-induction/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/wps/word-sense-induction/</guid>
+      <description>Word Sense Induction (WSI) is the task of automatically finding the meaning of words from text.</description>
+    </item>
+    <item>
+      <title>Wp2: Semantic Change Detection</title>
+      <link>https://languagechange.org/wps/semantic-change/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/wps/semantic-change/</guid>
+      <description>Computationally detecting diachronic changes in meaning</description>
+    </item>
+    <item>
+      <title>Wp3: Lexical Replacement</title>
+      <link>https://languagechange.org/wps/lexical-replacement/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/wps/lexical-replacement/</guid>
+      <description>Computational detection of lexical replacements from diachronic texts.</description>
+    </item>
+    <item>
+      <title>Wp4: Applications</title>
+      <link>https://languagechange.org/wps/application/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/wps/application/</guid>
+      <description>Language change to further research</description>
+    </item>
+    <item>
+      <title>Survey of Computational Approaches to Lexical Semantic Change</title>
+      <link>https://languagechange.org/publication/2018-surveypaper/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2018-surveypaper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy Policy</title>
+      <link>https://languagechange.org/privacy/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/privacy/</guid>
+      <description>&lt;p&gt;Copyright Nina Tahmasebi. All rights reserved.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Workshop on Automatic Detection of Language Change 2018</title>
+      <link>https://languagechange.org/events/2018-sltc-lcworkshop/</link>
+      <pubDate>Wed, 07 Nov 2018 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/events/2018-sltc-lcworkshop/</guid>
+      <description>&lt;p&gt;The workshop will be co-located with &lt;!-- raw HTML omitted --&gt;SLTC 2018 &lt;!-- raw HTML omitted --&gt; in Stockholm, on the 7th of November 2018.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Keynote Lena Rogström: &amp;ldquo;Two small, brown, elevated warts that undoubtedly are the breathing holes&amp;rdquo; &lt;!-- raw HTML omitted --&gt;A historical study of entomologic vocabulary In the Transactions of the Royal Swedish Academy of Sciences&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Accepted presentations:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Every Word has its History: Interactive Exploration and Visualization of Word Sense Evolution</title>
+      <link>https://languagechange.org/publication/2018-cikm2018/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2018-cikm2018/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Estonian Digital Humanities Conference 2018</title>
+      <link>https://languagechange.org/talk/keynoteedh/</link>
+      <pubDate>Thu, 27 Sep 2018 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/talk/keynoteedh/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Example Page</title>
+      <link>https://languagechange.org/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tutorial/example/</guid>
+      <description>&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;&#xA;&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;&#xA;&lt;p&gt;&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The two week-long paper</title>
+      <link>https://languagechange.org/post/the-two-week-paper/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/post/the-two-week-paper/</guid>
+      <description>Or, the story of how we wrote the Time-Out paper</description>
+    </item>
+    <item>
+      <title>Finding Individual Word Sense Changes and their Delay in Appearance</title>
+      <link>https://languagechange.org/publication/2017-ranlp-1/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2017-ranlp-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Models and Algorithms for Automatic Detection of Language Evolution</title>
+      <link>https://languagechange.org/publication/2013-phdthesis/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2013-phdthesis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Role of Language Evolution in Digital Archives</title>
+      <link>https://languagechange.org/publication/2013-sda2013/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2013-sda2013/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>NEER: An Unsupervised Method for Named Entity Evolution Recognition</title>
+      <link>https://languagechange.org/publication/2012-coling2012/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2012-coling2012/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Terminology Evolution in Web Archiving: Open Issues</title>
+      <link>https://languagechange.org/publication/2008-iwaw2008/</link>
+      <pubDate>Fri, 22 Aug 2008 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/publication/2008-iwaw2008/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

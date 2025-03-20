@@ -1,214 +1,153 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Towards Computational Lexical Semantic Change Detection</title>
     <link>https://languagechange.org/tags/</link>
     <description>Recent content in Tags on Towards Computational Lexical Semantic Change Detection</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://languagechange.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Analytical Sociology</title>
-      <link>https://languagechange.org/tags/analytical-sociology/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/analytical-sociology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Appl</title>
-      <link>https://languagechange.org/tags/appl/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/appl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Applications</title>
-      <link>https://languagechange.org/tags/applications/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/applications/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 12 May 2023 09:00:00 +0200</lastBuildDate>
+    <atom:link href="https://languagechange.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Science</title>
       <link>https://languagechange.org/tags/data-science/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
+      <pubDate>Mon, 17 Apr 2023 13:21:31 +0200</pubDate>
       <guid>https://languagechange.org/tags/data-science/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Data science</title>
-      <link>https://languagechange.org/tags/data-science/</link>
-      <pubDate>Fri, 12 May 2023 09:00:00 +0200</pubDate>
-      
-      <guid>https://languagechange.org/tags/data-science/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diachronic Conceptual Change</title>
-      <link>https://languagechange.org/tags/diachronic-conceptual-change/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/diachronic-conceptual-change/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Digital History</title>
-      <link>https://languagechange.org/tags/digital-history/</link>
-      <pubDate>Mon, 30 Sep 2019 09:30:00 +0200</pubDate>
-      
-      <guid>https://languagechange.org/tags/digital-history/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Digital Humanities</title>
       <link>https://languagechange.org/tags/digital-humanities/</link>
-      <pubDate>Fri, 12 May 2023 09:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 17 Apr 2023 13:21:31 +0200</pubDate>
       <guid>https://languagechange.org/tags/digital-humanities/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>Digital humanities</title>
-      <link>https://languagechange.org/tags/digital-humanities/</link>
-      <pubDate>Tue, 16 Jun 2020 09:30:00 +0200</pubDate>
-      
-      <guid>https://languagechange.org/tags/digital-humanities/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evaluation</title>
-      <link>https://languagechange.org/tags/evaluation/</link>
-      <pubDate>Tue, 27 Oct 2020 13:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/evaluation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Historical Iinguistics</title>
-      <link>https://languagechange.org/tags/historical-iinguistics/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/historical-iinguistics/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Historical Semantic Change</title>
       <link>https://languagechange.org/tags/historical-semantic-change/</link>
-      <pubDate>Thu, 25 Nov 2021 09:30:00 +0100</pubDate>
-      
+      <pubDate>Thu, 25 Nov 2021 09:30:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/historical-semantic-change/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>History of Concepts</title>
-      <link>https://languagechange.org/tags/history-of-concepts/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/history-of-concepts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>LR</title>
-      <link>https://languagechange.org/tags/lr/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/lr/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Language Change Detection</title>
       <link>https://languagechange.org/tags/language-change-detection/</link>
-      <pubDate>Thu, 25 Nov 2021 09:30:00 +0100</pubDate>
-      
+      <pubDate>Thu, 25 Nov 2021 09:30:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/language-change-detection/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Lexical Replacement</title>
       <link>https://languagechange.org/tags/lexical-replacement/</link>
-      <pubDate>Thu, 25 Nov 2021 09:30:00 +0100</pubDate>
-      
+      <pubDate>Thu, 25 Nov 2021 09:30:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/lexical-replacement/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Named Entity Evolution</title>
-      <link>https://languagechange.org/tags/named-entity-evolution/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/named-entity-evolution/</guid>
+      <title>Evaluation</title>
+      <link>https://languagechange.org/tags/evaluation/</link>
+      <pubDate>Tue, 27 Oct 2020 13:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/evaluation/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>SC</title>
-      <link>https://languagechange.org/tags/sc/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/sc/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Semantic Change</title>
       <link>https://languagechange.org/tags/semantic-change/</link>
-      <pubDate>Mon, 04 Nov 2019 00:00:00 +0100</pubDate>
-      
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/semantic-change/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>Sense-differentiated embeddings</title>
+      <title>Digital History</title>
+      <link>https://languagechange.org/tags/digital-history/</link>
+      <pubDate>Mon, 30 Sep 2019 09:30:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/digital-history/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Analytical Sociology</title>
+      <link>https://languagechange.org/tags/analytical-sociology/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/analytical-sociology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Appl</title>
+      <link>https://languagechange.org/tags/appl/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/appl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Applications</title>
+      <link>https://languagechange.org/tags/applications/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/applications/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diachronic Conceptual Change</title>
+      <link>https://languagechange.org/tags/diachronic-conceptual-change/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/diachronic-conceptual-change/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Historical Iinguistics</title>
+      <link>https://languagechange.org/tags/historical-iinguistics/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/historical-iinguistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>History of Concepts</title>
+      <link>https://languagechange.org/tags/history-of-concepts/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/history-of-concepts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LR</title>
+      <link>https://languagechange.org/tags/lr/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/lr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Named Entity Evolution</title>
+      <link>https://languagechange.org/tags/named-entity-evolution/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/named-entity-evolution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SC</title>
+      <link>https://languagechange.org/tags/sc/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/sc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sense-Differentiated Embeddings</title>
       <link>https://languagechange.org/tags/sense-differentiated-embeddings/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/sense-differentiated-embeddings/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>WSI</title>
-      <link>https://languagechange.org/tags/wsi/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
-      <guid>https://languagechange.org/tags/wsi/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>Word Sense Induction</title>
       <link>https://languagechange.org/tags/word-sense-induction/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/tags/word-sense-induction/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>WSI</title>
+      <link>https://languagechange.org/tags/wsi/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://languagechange.org/tags/wsi/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

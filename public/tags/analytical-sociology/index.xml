@@ -1,26 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analytical Sociology on Towards Computational Lexical Semantic Change Detection</title>
     <link>https://languagechange.org/tags/analytical-sociology/</link>
     <description>Recent content in Analytical Sociology on Towards Computational Lexical Semantic Change Detection</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
-    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://languagechange.org/tags/analytical-sociology/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://languagechange.org/tags/analytical-sociology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wp4: Applications</title>
       <link>https://languagechange.org/wps/application/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/wps/application/</guid>
-      <description>This project will bring forth tools for computationally detecting lexical and semantic changes as well as word sense induction for Swedish. These tools give us a chance to study language changes in their own right but also overcome hurdles with research on historical text. We will bring together historical linguistics with NLP and data science, a unique collaboration needed to study semantic change and lexical replacements in full.
-We believe the results of the project will advance the field in several research areas, offer benefits for researchers in the DHSS and lower the threshold for the public to make use of our textual resources.</description>
+      <description>Language change to further research</description>
     </item>
-    
   </channel>
 </rss>

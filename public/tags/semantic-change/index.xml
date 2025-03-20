@@ -1,54 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Semantic Change on Towards Computational Lexical Semantic Change Detection</title>
     <link>https://languagechange.org/tags/semantic-change/</link>
     <description>Recent content in Semantic Change on Towards Computational Lexical Semantic Change Detection</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
-    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://languagechange.org/tags/semantic-change/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://languagechange.org/tags/semantic-change/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Språkforskaren som blev it-konsult</title>
       <link>https://languagechange.org/post/curie-paper/</link>
-      <pubDate>Mon, 04 Nov 2019 00:00:00 +0100</pubDate>
-      
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/post/curie-paper/</guid>
-      <description>Läs om Susanne i tidningen Curie: https://www.tidningencurie.se/nyheter/2019/10/16/sprakforskaren-som-blev-it-konsult/#</description>
+      <description>Susanne Vejdemo i Curie</description>
     </item>
-    
     <item>
       <title>Project meeting in Gothenburg</title>
       <link>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</link>
-      <pubDate>Mon, 01 Jul 2019 00:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</guid>
-      <description>A great strength of this project is how we combine both more traditional and more digital forms of lexical semantics research. Whenever we have a chance to meet, we realize how much we all have to gain by intertwining our perspectives and knowledge. This time, Nina and Susanne got together in Gothenburg for two days, and Richard joined our first day. We talked about many things - for example:
- What is meaning?</description>
+      <description>Project meeting in Gothenburg</description>
     </item>
-    
     <item>
       <title>Wp2: Semantic Change Detection</title>
       <link>https://languagechange.org/wps/semantic-change/</link>
-      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
-      
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/wps/semantic-change/</guid>
-      <description>A rich tradition of cross-linguistic, detailed studies in lexical semantics has generated hypotheses that are ripe for further quantitative exploration made possible by the outcomes of this project. For example, synchronically: there are cognitively different kinds of temperature sensations, which form overt or covert sub-senses (Koptjevskaja-Tamm, 2015), that may be handled by different grammatical constructions (Pustet, 2015). Diachronically: word senses often go from describing external reality to internal perception (Traugott and Dasher, 2002); change often proceeds from a higher sensory modality to a lower (Viberg, 1980); perception verbs develop into cognitive verbs (Sweetser, 1991); or the exact hues denoted by Swedish color terms may change in a predictable fashion over time (Vejdemo, 2017).</description>
+      <description>Computationally detecting diachronic changes in meaning</description>
     </item>
-    
     <item>
       <title>The two week-long paper</title>
       <link>https://languagechange.org/post/the-two-week-paper/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0200</pubDate>
-      
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       <guid>https://languagechange.org/post/the-two-week-paper/</guid>
-      <description>This is the story of how four people who did not know each other well, met and spent two weeks working, analyzing and discussing, and ended up with an accepted ACL paper out of the almost 3000 submitted papers.
-It all started with Simon Hengchen and the ComHis group at the University of Helsinki, that invited the three of us (Haim Dubossarsky, Dominik Schlechtweg and me) to Helsinki for a research stay.</description>
+      <description>Or, the story of how we wrote the Time-Out paper</description>
     </item>
-    
   </channel>
 </rss>

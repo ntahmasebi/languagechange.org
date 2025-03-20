@@ -37,7 +37,7 @@ It all started with Simon Hengchen and the ComHis group at the University of Hel
 
 Next we sat down in a room and started discussing. After quite some discussions, we agreed on a task and got to work. We worked on  temporal referencing of the corpus and the algorithms, the shuffling and control settings as well as building the synthetic corpus, and on the sampling, evaluation, and drafting experiments. And some of us were also in charge of the (liquid) entertainment.
 
-{{< gallery >}}
+
 
 The week went fast and was an amazing experience, we discussed, in pairs or as a group and solved problems as we went along. We agreed on experimental setup, and after lunch and some more hours writing on Friday, we all went back home and spend a weekend at home. After that, an intensive week started, we were seeing results and started analyzing. It felt like we lived a week in front of our computers, Skyping as we went along. 
 

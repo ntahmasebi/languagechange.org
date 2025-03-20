@@ -1,789 +1,342 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/lot-2024/</loc>
-      <lastmod>2024-12-06T10:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2024-eacl-gptvbert/</loc>
-      <lastmod>2024-02-10T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2023-emnlp/</loc>
-      <lastmod>2023-12-06T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2023-chiwug/</loc>
-      <lastmod>2023-08-26T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2023-incremental-shift/</loc>
-      <lastmod>2023-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2023-rhhl-bookchapter/</loc>
-      <lastmod>2023-06-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2023-nodalida/</loc>
-      <lastmod>2023-05-20T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2023-ssh/</loc>
-      <lastmod>2023-05-12T09:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2022-kbr/</loc>
-      <lastmod>2022-10-18T14:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2022-lscdiscovery/</loc>
-      <lastmod>2022-08-26T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2022-diawug/</loc>
-      <lastmod>2022-05-26T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2022-acl-lchange/</loc>
-      <lastmod>2021-11-25T09:30:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2021-emnlp21-dwug/</loc>
-      <lastmod>2021-08-26T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2021-semchange-book/</loc>
-      <lastmod>2021-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2021-semchange-surveypaper/</loc>
-      <lastmod>2021-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2021-semchange-applications/</loc>
-      <lastmod>2021-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2021-semchange-challenges/</loc>
-      <lastmod>2021-08-21T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2021-acl-lchange/</loc>
-      <lastmod>2020-11-09T09:30:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2020-semeval-2020-task1/</loc>
-      <lastmod>2020-11-09T09:30:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/2020-stuttgart/</loc>
-      <lastmod>2020-10-27T13:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2020-semeval-taskpaper/</loc>
-      <lastmod>2020-07-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2020-sltc-lcworkshop/</loc>
-      <lastmod>2020-06-16T09:30:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2020-semeval2020-postevaldata/</loc>
-      <lastmod>2020-05-27T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/2020-jerusalem/</loc>
-      <lastmod>2020-02-27T13:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2020-semeval2020-swedishdata/</loc>
-      <lastmod>2020-02-19T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2019-cambridgesymposium/</loc>
-      <lastmod>2019-11-09T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/post/curie-paper/</loc>
-      <lastmod>2019-11-04T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2022-book-fair/</loc>
-      <lastmod>2019-10-09T10:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2022-chr/</loc>
-      <lastmod>2019-10-09T10:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2022-dh-lecture-series/</loc>
-      <lastmod>2019-10-09T10:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2019-turing-lcworkshop/</loc>
-      <lastmod>2019-09-30T09:30:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</loc>
-      <lastmod>2019-07-02T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2019-acl2019/</loc>
-      <lastmod>2019-06-08T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2019-acl-lcworkshop/</loc>
-      <lastmod>2019-05-14T09:30:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/2019-uppsala/</loc>
-      <lastmod>2019-02-18T13:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/2019-stuttgart/</loc>
-      <lastmod>2019-02-18T13:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/2019-helsinki/</loc>
-      <lastmod>2019-02-18T13:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2019-acl-lcworkshop---copy/</loc>
-      <lastmod>2019-01-24T09:30:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/wps/word-sense-induction/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/wps/semantic-change/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/wps/lexical-replacement/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/wps/application/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2018-surveypaper/</loc>
-      <lastmod>2018-11-15T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/privacy/</loc>
-      <lastmod>2018-11-12T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/events/2018-sltc-lcworkshop/</loc>
-      <lastmod>2018-11-07T09:30:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/</loc>
-      <lastmod>2018-11-05T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2018-cikm2018/</loc>
-      <lastmod>2018-10-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/keynoteedh/</loc>
-      <lastmod>2018-09-27T09:30:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tutorial/example/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tutorial/</loc>
-      <lastmod>2018-09-09T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/post/the-two-week-paper/</loc>
-      <lastmod>2018-05-14T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2017-ranlp-1/</loc>
-      <lastmod>2017-09-02T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2013-phdthesis/</loc>
-      <lastmod>2013-11-13T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2013-sda2013/</loc>
-      <lastmod>2013-04-01T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2012-coling2012/</loc>
-      <lastmod>2012-12-15T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication/2008-iwaw2008/</loc>
-      <lastmod>2008-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/1/</loc>
-      <lastmod>2023-12-06T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/2/</loc>
-      <lastmod>2024-02-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/3/</loc>
-      <lastmod>2021-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/4/</loc>
-      <lastmod>2023-12-06T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/5/</loc>
-      <lastmod>2024-02-10T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/6/</loc>
-      <lastmod>2021-08-21T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/analytical-sociology/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/appl/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/applications/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/data-science/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/data-science/</loc>
-      <lastmod>2023-05-12T09:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/diachronic-conceptual-change/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/digital-history/</loc>
-      <lastmod>2019-09-30T09:30:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/digital-humanities/</loc>
-      <lastmod>2023-05-12T09:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/digital-humanities/</loc>
-      <lastmod>2020-06-16T09:30:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/evaluation/</loc>
-      <lastmod>2020-10-27T13:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/historical-iinguistics/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/historical-semantic-change/</loc>
-      <lastmod>2021-11-25T09:30:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/history-of-concepts/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/lr/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/language-change-detection/</loc>
-      <lastmod>2021-11-25T09:30:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/lexical-replacement/</loc>
-      <lastmod>2021-11-25T09:30:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/named-entity-evolution/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/publication_types/</loc>
-      <lastmod>2023-12-06T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/sc/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/semantic-change/</loc>
-      <lastmod>2019-11-04T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/sense-differentiated-embeddings/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/slides/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/slides/example-slides/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/</loc>
-      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/wps/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/wsi/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://languagechange.org/tags/word-sense-induction/</loc>
-      <lastmod>2018-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://languagechange.org/home/hero_carousel/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/hero/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/about/</loc>
+    <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/experience/</loc>
+  </url><url>
+    <loc>https://languagechange.org/home/publications_selected/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/events_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/talks_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/talks/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/events/</loc>
+    <lastmod>2016-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/semeval/</loc>
+    <lastmod>2019-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/description/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/tags/</loc>
+    <lastmod>2017-09-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/search/</loc>
+    <lastmod>2018-07-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/contact/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/lot-2024/</loc>
+    <lastmod>2024-12-06T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/</loc>
+    <lastmod>2024-12-06T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/4/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/5/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-durel/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2024-eacl-gptvbert/</loc>
+    <lastmod>2024-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/2/</loc>
+    <lastmod>2024-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/1/</loc>
+    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-emnlp/</loc>
+    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-chiwug/</loc>
+    <lastmod>2023-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-incremental-shift/</loc>
+    <lastmod>2023-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-rhhl-bookchapter/</loc>
+    <lastmod>2023-06-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2023-nodalida/</loc>
+    <lastmod>2023-05-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/data-science/</loc>
+    <lastmod>2023-05-12T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/digital-humanities/</loc>
+    <lastmod>2023-05-12T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2023-ssh/</loc>
+    <lastmod>2023-05-12T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/</loc>
+    <lastmod>2023-05-12T09:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2022-kbr/</loc>
+    <lastmod>2022-10-18T14:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-lscdiscovery/</loc>
+    <lastmod>2022-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-diawug/</loc>
+    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2022-koptjevskajatamm/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2022-acl-lchange/</loc>
+    <lastmod>2021-11-25T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/historical-semantic-change/</loc>
+    <lastmod>2021-11-25T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/language-change-detection/</loc>
+    <lastmod>2021-11-25T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/lexical-replacement/</loc>
+    <lastmod>2021-11-25T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-emnlp21-dwug/</loc>
+    <lastmod>2021-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/3/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-semchange-book/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-semchange-surveypaper/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-semchange-applications/</loc>
+    <lastmod>2021-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication_types/6/</loc>
+    <lastmod>2021-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-semchange-challenges/</loc>
+    <lastmod>2021-08-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</loc>
+    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2021-acl-lchange/</loc>
+    <lastmod>2020-11-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2020-semeval-2020-task1/</loc>
+    <lastmod>2020-11-09T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/2020-stuttgart/</loc>
+    <lastmod>2020-10-27T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/evaluation/</loc>
+    <lastmod>2020-10-27T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2020-semeval-taskpaper/</loc>
+    <lastmod>2020-07-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2020-sltc-lcworkshop/</loc>
+    <lastmod>2020-06-16T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2020-semeval2020-postevaldata/</loc>
+    <lastmod>2020-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/2020-jerusalem/</loc>
+    <lastmod>2020-02-27T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2020-semeval2020-swedishdata/</loc>
+    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2019-cambridgesymposium/</loc>
+    <lastmod>2019-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/semantic-change/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/post/curie-paper/</loc>
+    <lastmod>2019-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2022-book-fair/</loc>
+    <lastmod>2019-10-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2022-chr/</loc>
+    <lastmod>2019-10-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2022-dh-lecture-series/</loc>
+    <lastmod>2019-10-09T10:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/digital-history/</loc>
+    <lastmod>2019-09-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2019-turing-lcworkshop/</loc>
+    <lastmod>2019-09-30T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</loc>
+    <lastmod>2019-07-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2019-acl2019/</loc>
+    <lastmod>2019-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2019-acl-lcworkshop/</loc>
+    <lastmod>2019-05-14T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/2019-uppsala/</loc>
+    <lastmod>2019-02-18T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/2019-stuttgart/</loc>
+    <lastmod>2019-02-18T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/2019-helsinki/</loc>
+    <lastmod>2019-02-18T13:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2019-acl-lcworkshop---copy/</loc>
+    <lastmod>2019-01-24T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/analytical-sociology/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/appl/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/applications/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/diachronic-conceptual-change/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/historical-iinguistics/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/history-of-concepts/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/lr/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/named-entity-evolution/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/sc/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/sense-differentiated-embeddings/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/word-sense-induction/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/wps/word-sense-induction/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/wps/semantic-change/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/wps/lexical-replacement/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/wps/application/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/wps/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tags/wsi/</loc>
+    <lastmod>2018-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2018-surveypaper/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/home/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/privacy/</loc>
+    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/events/2018-sltc-lcworkshop/</loc>
+    <lastmod>2018-11-07T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/</loc>
+    <lastmod>2018-11-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2018-cikm2018/</loc>
+    <lastmod>2018-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/keynoteedh/</loc>
+    <lastmod>2018-09-27T09:30:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tutorial/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/tutorial/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/post/the-two-week-paper/</loc>
+    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2017-ranlp-1/</loc>
+    <lastmod>2017-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/post/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/talk/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2013-phdthesis/</loc>
+    <lastmod>2013-11-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2013-sda2013/</loc>
+    <lastmod>2013-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2012-coling2012/</loc>
+    <lastmod>2012-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/publication/2008-iwaw2008/</loc>
+    <lastmod>2008-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://languagechange.org/categories/</loc>
+  </url>
 </urlset>
