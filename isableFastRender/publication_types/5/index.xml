@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 on Nina Tahmasebi</title>
+    <link>//localhost:1313/publication_types/5/</link>
+    <description>Recent content in 5 on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Proceedings of the 21st Nordic Conference on Computational Linguistics</title>
+      <link>//localhost:1313/publication/2017-nodalida2017/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-nodalida2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Models and Algorithms for Automatic Detection of Language Evolution</title>
+      <link>//localhost:1313/publication/2013-phdthesis/</link>
+      <pubDate>Wed, 13 Nov 2013 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2013-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

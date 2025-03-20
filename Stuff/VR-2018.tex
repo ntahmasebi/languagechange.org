@@ -1,0 +1,405 @@
+\documentclass[12pt,twoside,a4paper]{article}
+\usepackage{mathtools}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage[round]{natbib}
+\usepackage{marginnote}
+\usepackage{url}
+\usepackage{lipsum}
+\usepackage{anyfontsize}
+\usepackage{paralist}
+%\usepackage{biblatex}
+%\addbibresource{bibsammansatt}
+%\addbibresource{Zotero}
+%\DeclareBibliographyAlias{*}{article}
+
+\usepackage{url}
+\usepackage{graphicx,wrapfig,lipsum}
+\usepackage{latexsym}
+
+\usepackage{todonotes}
+
+\usepackage{bm}
+
+\usepackage{paralist}
+\usepackage{multicol}
+\usepackage{enumitem}
+
+\newcommand{\bu}{$\bullet$}
+\newcommand{\ci}{$\circ$}
+%\newcommand{\todo}[1]{\textbf{[TODO #1]}}
+
+
+\usepackage[top=2cm, bottom=3cm, left=2cm, right=2cm, heightrounded, marginparwidth=1.5cm, marginparsep=0.5cm]{geometry}
+\usepackage{sectsty}
+\sectionfont{\normalsize}
+\subsectionfont{\normalsize}
+
+\renewcommand{\bibname}{}
+\renewcommand{\bibsection}{}
+
+%\usepackage{hyperlinks}
+
+\def\newblock{}
+%\newcommand\eg{{\it e.g.\ }}
+%\newcommand\ie{{\it i.e.,\ }}
+%\newcommand\Eg{{\it E.g.\ }}
+%\newcommand\etc{{\it etc}}
+\newcommand\eg{{e.g.\ }}
+\newcommand\ie{{i.e.,\ }}
+\newcommand\Eg{{E.g.\ }}
+\newcommand\etc{{etc}}
+\newcommand{\smaller}{\fontsize{10.9}{11.2}\selectfont}
+\newcommand{\evensmaller}{\fontsize{10.0}{10.3}\selectfont}
+\itemsep1pt
+\addtolength{\pltopsep}{6pt}
+\setlength{\plitemsep}{1.5pt}
+\setlength{\plparsep}{1pt}
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{Research Program: Towards Automatic Detection of Language Change }
+%\rfoot{Page \thepage}
+\begin{document}
+\fontsize{11.9}{12.4}\selectfont 
+	
+	
+	\section{Purpose and aims}
+    Today, we lack computational tools for studying lexical and semantic changes at a large scale. Current methods are limited in what they can find and require huge amounts of text that is typically not available for (historical) Swedish. Studies on automatic detection of semantic change detect only main changes of a single word and offer no possibility to capture the interplay of change in a semantic field. In this project, we aim to find automatic, corpus-based methods for detecting semantic change and lexical replacement, pinpoint time point of change and handle smaller amounts of text. We will replicate existing manual studies at larger scale over a wide time span, and various media types and sources. We will help overcome hurdles based on diachronic and synchronic language change for the digital humanities and social sciences (DHSS).
+    The focus language is Swedish, which has not been targeted for this kind of research, and for which we cannot satisfactorily apply methods developed for English. Tailor-made tools will strengthen the viability of Swedish in text analysis and data mining. 
+    
+    The potential of the project is greatly enhanced by the unique collaboration that forms its core: semanticists focused on high quality detail-oriented research, which generate wide-reaching hypotheses about how word change and semantic change intertwine; and language technology and data science researchers focused on using and advancing cutting-edge technology to work with Swedish digital language data. 
+	The project adds value through its core research contributions in both Natural Language Processing (NLP) and historical semantics; its application in DHSS for both researchers and nonprofessional users of digital archives; and for new tools for Swedish large-scale text analysis.	\begin{compactitem}
+		% \setlength\itemsep{-0.2em}
+        \item \textbf{Linguistic research}:  There are many open questions in the burgeoning field of quantitative semantics, which we cannot currently answer with existing computational methods; How does lexical change and semantic change interact? Why do different parts of the vocabulary change at different speeds? How does change spread throughout a word's semantic network? High quality case studies of change often produce hypotheses, and we will provide tools to test and quantify these hypotheses, tying lexical replacement to semantic change for a semantic field.
+		\item	\textbf{Applied DHSS Research}: Most researchers interested in historical content are not experts in historical language change. In particular, we aim to help researchers in DHSS who wish to investigate concepts, \eg attitudes towards concepts, over time.
+        Imagine investigating references to the \textit{telegraph} and not knowing about sense and sentiment changes   thus wrongly interpreting the content. Or investigating criminals over time not knowing about lexical replacements - e.g., that \textit{varg} `wolf' was used to describe violent criminals in the past,     thus missing out on content. 
+	\item	\textbf{Added value for nonprofessional users}: We will assist nonprofessional users of textual archives,   to find and interpret content. For example, students are one of the largest user groups     of Språkbanken (`the Swedish Language Bank'), and often study concepts in historical content without the ability to account for language change; good visual interfaces and easily understandable results will open up these resources even more. 
+	\end{compactitem}
+	
+	The outcome of this project will advance NLP and semantics in several fields: 
+	\begin{compactitem}
+		% \setlength\itemsep{-0.2em}
+		\item	\textbf{Word sense induction} (WSI), automatically finding the meaning of words from text, has not yet been studied in depth for Swedish. Here, we will establish the state-of-the-art, contribute to research on synchronic sense differences, and enable Swedish to stay a viable language in the digital realm. Unless we make significant research investments in core NLP, bilinguals will switch to the greater computational tools of English, and lose access to Swedish material. This is evident from the lack of e.g., sentiment mining resources and tools, word sense induction and disambiguation tools etc. for Swedish.
+		\item \textbf{Semantic change} (SC): 	We will study word sense        change detection, \ie the process of automatically finding changes in a word's meanings over time. We will go beyond current limitations with 1-2 kinds of change, or a few studied time points, to be able to answer \textit{what} happened,  \textit{how} the changes relate to what we already know and \textit{when} the change took place. We will apply change detection to Swedish, to individual words and the interplay in a semantic field, setting the state-of-the-art for Swedish, and significantly furthering the research field internationally.
+		\item	\textbf{Sentiment change}: We will study changes in sentiment as a consequence of word sense  change and have a unique opportunity to create a Swedish diachronic sentiment lexicon that can be used when studying concept change over time (\eg computers, nuclear plants, women, immigration). 
+		\item	\textbf{Lexical Replacement} (LR): We will have a unique opportunity to study Lexical Replacement, a class of change that is complex and extremely difficult to detect automatically. For Swedish, it has only been done by labor-intensive and detail-rich case studies e.g. on color word change \citep{vejdemo_triangulating_2017-a}. Such studies generate hypotheses about general LR processes, which then necessitate computational approaches for falsification attempts. Here, classical diachronic semantics meet computational semantics and data science, one of the great strengths of this project. 		
+	\end{compactitem}
+  \vspace{-0.4cm}   	
+    \subsection*{Lexical Replacement and Semantic Change}
+The most common word for ‘young female human’ changed from \textit{maiden} in Old and Middle English to \textit{girl} in Modern English. This is a case of lexical replacement: a bundle of semantic material is first symbolized by one word, and later in time by another word (onomasiology). Parallel to this, \textit{girl} ‘young person’
+came to mean ‘young female person’. This is a case of semantic change: a word stays the same over time    \footnote{In this project, we largely ignore problems caused by phonological (sound) change due to the shorter time spans of our data. For spelling variations, to detect when words that are spelled differently should be considered the same (diachronic and synchronic),  we will rely on existing NLP tools and the PIs ongoing work at Språkbanken outside this project.}
+   while the semantic material it symbolizes changes (semasiology). It is often useful to talk about the semantic material of a word as clustering into several sub-meanings: senses. Senses can be added, removed or changed. A particularly interesting kind of alteration is positive/negative sentiment change: while the morpheme \textit{skit} in \textit{skitdag} 'shitty, bad day' has a negative connotation, in the last few decades it has acquired a positive connotation as an intensifier in words like \textit{skitgott} 'really good'. Sentiment analysis is increasingly important for commercial and political research and can greatly benefit from automatically handling lexical and semantic change. 
+    
+    
+All these intertwined processes make lexical and semantic change highly complex problems relying on defining a particular sense (and the allocation of senses to words), problems that are considered AI complete, i.e. equivalent of making computers as intelligent as people. Recent NLP advances based on the distributional hypothesis of meaning have proven extremely useful in assisting researchers in untangling SC processes. The distributional hypothesis links semantic similarity to distributional similarity - meaning can be induced from the set of words that appear in similar contexts. 
+	Automatically induced senses are approximations of an underlying word sense and vary naturally depending on which sentences that are used for the sense induction. A great challenge in automatic change detection is determining when two induced senses (for the same word at different times) are natural variations and when the differences represent sense change (cf \textit{okasionelle} and \textit{usuelle Bedeutung} in \cite{Paul_1886}). 
+	
+   \vspace{0.1cm} 
+    The methods developed in this project will go beyond the state-of-the-art in the field in several aspects. Previously, \textbf{SC detection} projects have primarily focused on (i) a limited number of change types, e.g., only birth of senses; (ii) a few (far apart) time points, e.g., 50-year slots; or (iii) methods that find signals for change without differentiating between change types or separating the senses of a word (i.e., one topic/vector/cluster per word); and (iv) words in isolation, not their interplay within a semantic field. 
+    Existing techniques reduce complexity severely because considering yearly time buckets over two centuries and up to 5 senses per time period, the solution space is in the order of $5^{200}$ which is impossible to compute and evaluate. This project will build on the promising reduction techniques described by \cite{Tahmasebi-RANLP2017} to enable us to answer the \textit{what}, \textit{how} and \textit{when} questions in full, and create a complete picture of all changes related to a word and its semantic field. 
+    
+    \vspace{0.1cm}   
+	For  \textbf{automatic LR}, we will set the state-of-the-art simply because there is almost no existing research. The problem is extremely complex because words must be linked based on their (stable) senses. In this project, we have a unique opportunity to study the LR problem because we are one of few research groups that will attempt to solve the problem of word sense change first. We will begin by working on word sense induction for Swedish, as this is the core of our methodology. Once we can induce word senses automatically, we can begin to detect change in senses (SC) and then, as a third step, find word replacement (LR). Using these tools, we can study the varying speed and different processes of LR and SC in e.g. different parts of the vocabulary and during different time periods.
+% * <susanne@vejdemo.se> 2018-02-19T23:23:48.465Z:
+% 
+% I think it will get to clunky to get into examples in this first general overview of what w2w is.
+% ^.
+
+Thus far, methods for detecting sentiment change, \ie words changing their sentiment value, \citep{COOK, sentimentDynamics} have not differentiated between different senses: only the predominant value of a word has been considered.  We will be able to overcome this hurdle by first solving word sense change.	We build on ongoing effort at Språkbanken and our sentiment lexicon, SenSaldo, to tackle diachronic sentiment analysis for Swedish.  
+
+ \vspace{-0.5cm}   
+         For all kinds of change targeted in this project, we will provide 	\textbf{textual evidence} to support our claims, \eg, example sentences for each sense used to help users evaluate and understand the results. This is a prerequisite for uptake in the research community, in particular in the DHSS. %Among the methods presented here, only \cite{journals/tkde/ZhangJBT16} offer similar functionality.
+	
+	We envision several use cases that will help researchers and nonprofessional users to study language changes themselves, enabling them to search and explore archival content and improve downstream large-scale text mining applications.  For researchers that are interested in language changes in general, our results will offer answers to what has changed as well as how and when it changed. It will also be possible to answer more complex questions like \textit{how is change in one word connected to changes in others in the same semantic field?}
+    
+For researchers that have an interest in the resources but not necessarily in the changes themselves, e.g., researchers in DHSS, our methods will help to gather evidence for concepts by finding linked vocabulary and their senses, \eg the word \textit{handikappad} 'handicapped' has been replaced over time \textit{(handikappad$\rightarrow$ funktionshindrad$\rightarrow$ f. nedsatt$\rightarrow$ f. variation)}. The replacement aims to remove negatively connotated senses, but from the continuous replacements, we know that these still catch up. 
+%
+Upon completion of this project, it will be possible to study the lexical replacements on the one hand, and tie it with semantic change. \Eg Does a new word like \textit{funktionshindrad} take over a subset of the senses of the previous word at first and then later add the negative senses? How fast are the negative senses added for each lexical replacement and does it speed up with additional replacements? Do we include more or less in each sense or add new senses over time?  
+   
+	 
+
+	
+	
+	The methods developed in the project will be generally applicable, but our primary target language is Swedish with equal focus on historical and modern text. \Eg Swedish historical newspapers, Kubhist 1750-1925, books (the Literature bank), parliamentary data (SUC, SOU) and modern newspapers but also social media text where there is evidence of high linguistic diversity and creativity \citep{goel2016social}. This makes the availability of large amounts of Swedish text crucial to the project. Språkbanken continuously collects texts written in Swedish, to date there is over 10 billion words of modern Swedish (\eg fiction, news, politics and social media) and over one billion words of historical news materials. We will also use digital lexical resources, like SALDO, Svedbergs, Dahlin and SAOL. We will replicate our research using English text such as the Corpus of Historical American English and Google books. We will extend previous studies and quantify hypothesis regarding lexical and semantic change, work that can feed back into our tools for quality assessment and improvement. 
+
+\vspace{-0.35cm}
+	\section{State-of-the art}\label{sec:sota}
+    \vspace{-0.2cm}
+	\subsection{Vector-space models}
+	In vector-space models of word meaning, each word is associated with a vector in a geometric space, also known as a \emph{word embedding}, so that similarity of meaning can be defined in terms of geometric proximity \citep{sahlgren2006,turney2010frequency}.
+	%
+	This is a statistical, knowledge-free method for computing a representation of word meaning, which means that the meaning can be \emph{discovered} rather than described manually by experts.
+	 The vectors are derived either by an explicit statistical analysis of the word's co-occurrence patterns, or as a by-product of training a neural network \citep{baroni2014}.
+	While traditional vector spaces associate each word with one single meaning, which is not sufficient for our purposes, a number of attempts have been made to take ambiguity of word meaning into account (Schütze, 1998, \emph{inter 	alia})\nocite{schutze1998}. Recent examples include 
+	\cite{nietopina2015}, who derived a multi-sense modification of the well-known skip-gram method, Word2Vec, \citep{mikolov2013}, and methods that rely on an expert-defined lexicon to build sense vectors	\citep{johansson2015embedding}. \cite{bartunov2016} presented a
+	Bayesian variant of the multi-sense skip-gram model that automatically determines the necessary number of word senses. 
+    
+    Neural embeddings, like Word2Vec, require a large amount of instance of each word to produce sensible vectors. Therefore, new methods are developed with a high learning rate early on, that is later slowed, to find good neighborhood also for rare words, suitable for historical corpora \citep{Herbelot-EMNLP2017}.
+    Another limitation of neural embeddings is the inherent randomness; both the initialization as well as the order in which the training examples are seen affect the resulting vectors \citep{HellrichH16-Coling}.  \cite{bamler17} point to overfitting when there is too little data.  
+	 	For Kubhist, there are only five 10-year periods (1850-1890) with over 100 million tokens, thus limiting the possibility of finding stable vectors, in particular if sense-differentiated embeddings are intended where textual evidence for each word must be further divided into senses \citep{Tahmasebi-DHN2018}. 
+	
+	\subsection{Approaches for Sense Change Detection}
+
+A rich tradition of cross-linguistic, detailed studies in lexical semantics has generated hypotheses that are ripe for further quantitative exploration made possible by the outcomes of this project. For example, synchronically:  there are cognitively different kinds of temperature sensations, which form overt or covert sub-senses
+\citep{Koptjevskaja-Tamm_2015}, that may be handled by different grammatical constructions \citep{Pustet_2015}.  Diachronically: 
+ word senses often go from describing external reality to internal perception \citep{traugott_regularity_2002}; change often proceeds from a higher sensory modality to a lower \citep{viberg_studier_1980}; perception verbs develop into cognitive verbs \citep{sweetser_etymology_1991-a}; or the exact hues denoted by Swedish color terms may change in a predictable fashion over time \citep{vejdemo_triangulating_2017-a}.     
+
+
+	The first methods for automatic detection of word sense change were based on context vectors; they investigated semantic density \citep{Sagi} and utilized mutual information \citep{Gulordava} to identify semantic change over time; both methods detect signals of change but neither aligns senses over time or determines what changed. 
+	%
+	Topic-based models (where topics are interpreted as senses) were used to detect novel senses by identifying new topics in a later corpus compared to an earlier one (\cite{NovelSenses,cook:Coling}), or by clustering topics over time \citep{Wijaya}. A dynamic topic model where topics for time t are learned with respect to topics from time t-1 is proposed by \cite{frermann2016bayesian}.
+	With one exception, no alignment is made between topics to allow following the diachronic progression of a sense.  
+	
+	Graph-based models are utilized by \cite{mitra2015automatic,WSE-Mitra} and \cite{Tahmasebi-RANLP2017} and aim to revealing complex relations between a word's senses by (a) modeling senses per se using WSI; and (b) aligning senses over time. The models allow differentiation of individual senses at different periods in time and the latter also group senses into linguistically related concepts \citep{Cooper05}.
+	
+	The largest body of work is done using word embeddings of different kinds in the last years \citep{basilediachronic,  kim-EtAl:2014:W14-25, zhang2016detecting}. Embeddings are trained on different time-sliced corpora and compared over time. \cite{kulkarni2015statistically} project words onto their frequency, POS and semantic vectors and propose a model for detecting statistically significant changes between time periods. \cite{DiachronicWordEmb} view both similarity between a priori known pairs of words, and between a word's vectors over time to detect change and have released HistWords, a set of pre-trained historical word embeddings. \cite{basilediachronic,DiachronicWordEmb,  kulkarni2015statistically} all propose different methods for projecting vectors from different time periods onto the same space to allow comparison. \cite{bamler17} propose using dynamic embeddings to completely avoid projection, which results in smoother diachronic embeddings.  
+	
+%	A method to go beyond pure vector changes and look at the surrounding words is proposed by \cite{recchia2011tracing} that detect a fully connected graph of similar words (edges represent similarity between words by means of cosine similarity of their embeddings) and allow one surrounding word to be replaced every time period (decade). \cite{vanAggelen} link embeddings to WordNet to allow quantitative exploration of language change, \eg to which degree the words in one part-of-speech change over time. \cite{hamilton-cultShift} show that word sense change can be differentiated based on lexical or cultural change, however, \cite{vanAggelen} cannot replicate the experiment, which means further investigation, possibly into additional languages, is needed.	
+	
+	Existing methods for detecting change based on word embeddings do not allow us to recover individual senses; they model words with one vector per time unit and detect meaning change as change in the direction of those vectors. 
+	Once a change point is found, the most similar words around that time are used to illustrate the change. 
+	 However, the most similar terms will only represent the dominant sense; they will not reflect the other senses or capture stable parts of a word. If multi-sense embeddings are used, to allow senses to be modeled individually, we again face multiple vectors for each time point, over hundreds of years, leading to an overwhelming result space. Solving this reduction and investigating the tradeoff between a large results space and information loss during reduction, is at the core of this field and largely ignored in previous work. 
+	 %
+	 	
+	 
+
+
+	We will take a combined approach, utilizing the potential of embeddings with the expressiveness of sense-differentiated methods, using the reduction techniques proposed in our previous work.  
+
+	
+	
+	\subsection{Lexical Replacement (LR)}
+
+There are several impressive taxonomies that lists types of LR processes \citep{ullman_principles_1957}, but these are mainly descriptive and make little attempt to predict what kind of lexical change might happen for a given concept. Some proposed general hypotheses are that nouns are replaced more readily than verbs, that more frequent words are insulated from replacement \citep{pagel-etal-2007} and that rich synonym networks speed up replacement \citep{vejdemo_semantic_2016}, hypotheses that we can investigate using quantitative approaches on large scale, diachronic text upon completion of this project. 
+
+Previous work on automatic detection of LR has been very limited and mainly focused on named entity changes. The interest has mostly been from an information retrieval (IR) perspective (\cite{Anand,Time-MachineSearch, BerberichBSW09,morsy2016accounting}). 
+	%
+	\cite{KanhabuaN10} find semantically related named entities using Wikipedia links, limiting the method to modern, common domain entities and evaluate indirectly in an IR setting.   \cite{SITAC} propose to find named entities via linked verbs that relate over time, referring the problem to diachronic linking of verbs. % which seem more likely to change (SC not LR) over time \citep{nounsMoreStable}. 
+    %
+  These attempts are computationally expensive, as they require recurrent computations because the target time is unknown beforehand. In our previous work, \cite{ourColingPaper}, we rely on bursts in frequency to detect time periods in which we search for name change thus eliminating recurrent computation.  In all work, changes are only found pairwise, senses are not differentiated and there is no validity period associated with each name. By finding word replacements after having found word sense changes, we can generalize beyond names and overcome many of these obstacles. 
+  
+	\section{Significance}
+	
+	
+	This project will bring forth tools for computationally detecting lexical and semantic changes as well as word sense induction for Swedish. These tools give us a chance to study language changes in their own right but also overcome hurdles with research on historical text. We will bring together historical linguistics with NLP and data science, a unique collaboration needed to study SC and LR in full. 
+	
+	We believe the results of the project will advance the field in several research areas, offer benefits for researchers in the DHSS and lower the threshold for the public to make use of our textual resources. These areas include but are not limited to:
+	
+	\vspace{-0.3em}
+	\begin{compactitem}
+		\item Reliable methods for detecting semantic and lexical change in both synchronic and diachronic data contexts; how do language changes spread, in which media do they appear firstly and what is the change rate? We will further the studies in e.g., \cite{vejdemo_semantic_2016}.
+        		%\item Reliable methods for detecting lexical changes like LR coupled with resources like FrameNet \citep{baker1998berkeley}  open up the possibility to perform large-scale corpus-based detection of grammatical change.
+		\item We offer researchers in the DHSS a method to gather evidence and analyze text related to their concept of interest without being experts in diachronic or synchronic language change, thus reducing the threshold to target large-scale text mining and the risk of drawing wrongful conclusions based on word sense and sentiment changes. 
+		\item We open up the vast resources of our digital archives, like the cultural treasures of Språkbanken, to the public and nonprofessional users. These users wish to use the resources without investing considerable time to (1) find all words related to their search query and then, once they have found the texts they are interested in, (2) look up words to find if their meanings have changed.  
+		\item Many downstream NLP applications, such as semantic role labeling and word sense disambiguation would benefit from robust methods to detect lexical and semantic change. The resulting tools will feed back into the Korp processing pipeline making the results directly usable.  We will openly release modern and historical (sense-differentiated) word vectors, similar to HistWords \citep{DiachronicWordEmb} for direct inspection and use in other NLP applications. 
+	\end{compactitem} 
+	\vspace{-0.3em}
+	
+		Språkbanken follows an explicit policy of openness, we will publish software, papers and corpora (when possible) under an open-source license; when we have to work with proprietary material, we will still make our annotation layers publicly available in separate files.   The scientific contributions of this project will be published at conferences like ACL, EACL, Coling, NAACL, EMNLP, as well as in journals like NLE, CL, LRE, Quantitative Linguistics, Cognitive semantics, Language Variation and Change, Semantics\&Pragmatics, Journal of Semantics. 
+
+	
+	\section{Preliminary Results}
+	In \citep{Tahmasebi-RANLP2017,tahmasebi2013models}, we present a word sense change (SC) detection method based on induced word senses that are tracked over time. We consider each change, e.g., addition of a novel sense and a later change of that sense, separately, and allow several change events per word. For novel senses, we differentiate between neologism (new word with a new sense, \eg \textit{Internet}) and existing word with a novel senses (\eg \textit{Rock} with its \textit{music} sense). In addition, we take into consideration stable senses for words that later add a novel sense. 
+	The unique perspective is that we consider each sense of a word separately and group senses, \eg the \textit{Rock-and-Roll lifestyle} sense is grouped with the \textit{music} sense of \textit{Rock} and the \textit{industrial stone} sense is grouped with \textit{natural stone}. 
+	
+Our method can determine what changed and when the change took place, on a yearly time scale (222 years). 85 \% of all changes are found with a delay of 9-11 years after it appears in our induced senses and between 11-35 years after appearing in a dictionary. Example results for English as well as our test set  can be found here: \url{ https://doi.org/10.5281/zenodo.495572}.	 
+
+	 
+	 We also present a method on detecting name changes in \cite{ourColingPaper} and released a test set to facilitate comparison, and encourage work in the field \citep{OURDATASET}.
+	 
+	 We investigated Word2Vec applied to the Kubhist dataset and concluded that the vector space produced by Word2Vec cannot be used directly for word sense change detection, due to the small size and quality of the dataset \citep{Tahmasebi-DHN2018}. We have ongoing work to correct OCR errors, normalize spelling variations (e.g., kwinna, kuinna, qvinna, qwinna, quinna and kona are all variations of the modern form kvinna) to increase the quality and boost the resulting vectors. 
+
+	 
+	In the project 'Towards a knowledge-based Culturomics', we have created a Swedish sentiment lexicon, SenSaldo, and are working on tools for sentiment analysis for Swedish \citep{Rouces-LREC2018}. 
+	
+  \vspace{-0.5cm}	 
+	
+	
+
+	
+	\section{Project Description}
+	%\paragraph{Method:}
+	We have organized the project into four work packages. Because we need evaluation for all areas, it is integrated in all our work, and we will define datasets, test sets, and evaluation methods in all Wps. 
+We are currently writing a survey paper on computational approaches for automatic detection of lexical and semantic change for the Computational Linguistics journal. As a part this, we are gathering test sets used in existing literature and in parallel, we will also develop a public Swedish test set to facilitate comparison and reproducibility.  
+
+Our work with quantitatively reproducing existing studies for lexical and semantic change and our collaborations with researchers from outside fields will be a part of all work packages. The outcome of this collaboration will help improve our tools iteratively. 
+% 	With a machine understandable test set and automatic evaluation methods, we can perform large-scale testing and proper development.
+	\vspace{-0.5em}
+    %For WSI, we will extend the evaluation method proposed by \cite{nietopina2015}, to cover historical as well as social media vocabulary. -- tror inte den metoden är relevant här eftersom den kräver att man jämför med ett grafbaserat lexikon, typ SALDO
+\vspace{-0.3cm}		
+	\paragraph{Wp1: Word Sense Induction for Swedish}
+	Automatically derived word senses are the basis for our continued work. For English, evaluated methods \citep{pantel:disc, Brody, NovelSenses} exist and new methods are developed, the latest is the utilization of word embeddings \citep{nietopina2015, Sense2Vec, pelevina2016making, Multisense-emb}. For Swedish, these methods have not been tested at large scale and might perform less well due to smaller amounts of available text. % or on error-prone data such as historical or social media text.
+    	In our previous work, we performed small-scale evaluation of embedding-based methods and the curvature clustering method \citep{Dorow04usingcurvature} on our historical newspaper corpus \cite{Kubhist}. Neither of these have proven very effective and it remains to investigate the reasons, \eg corpora size, level of noise or differences in morphology and syntax. 
+	We will adapt, develop and evaluate methods that are tailored to Swedish; and keep links to original contexts, hence providing evidence of each sense. Extracted senses can be linked to dictionaries to aid lexicographical work.    
+	%
+\vspace{-0.3cm}		
+	\paragraph{Wp2: Semantic Change Detection}
+	Existing approaches to change detection derive sense representations first and compare these over time. The most recent approaches make use of vector representations, providing a methodology that can answer when something has changed, but not how. In addition, vector representations have the target word as one unit without differentiating between a word’s senses and work poorly on smaller corpora (which our historical corpora are, but also our modern corpora might be if we split them up in \eg yearly subsets). Therefore, we need to go beyond vector representations in the following ways, (i) model word senses separately \eg using multi-sense embeddings; (ii) allow all senses to change individually; (iii) differentiate change types (novel /outdated senses, broadening/narrowing, related/un-related senses as well as stable senses); (iv) model the relation between the senses; and (v) handle smaller amounts of (noisy) text.  
+	
+		%Our research on word sense change in English texts show that the usage of a word and their senses, and what is listed in a dictionary, are quite different. There is much information that one cannot find in the dictionaries, simply because the dictionary is not meant to capture the full picture of a word; it is there to exemplify. 
+        Our experiments, e.g., Tahmasebi et al \citeyearpar{Tahmasebi-RANLP2017},  show that a word like the \textit{telephone} have senses in actual usage indicating that the word goes from being a \textit{property of a building} to the belonging to each \textit{household} to being a \textit{tool for communication} much like a radio, television or a newspaper. The word \textit{travel} has always had the \textit{moving from point A to point B} sense but was mostly used for describing literature; people read about traveling. First in the early 20th century, the word usage added the sense of actual travel by means of train, boat and eventually airplane, the literature sense still being valid but less frequent. This usage change is extremely interesting, reflects cultural change rather than explicit sense change, and is found only if we differentiate and align a word's senses over time. 
+        
+            We will investigate count-based methods like SVD$_{ppmi}$ \citep{DiachronicWordEmb} that do not suffer from randomness, and the dynamic embeddings, which increase robustness by automatically aligning embeddings at different time points, will be extended to account for multiple word senses. In addition, we will go beyond analyzing individual words to capture changes in semantic fields. 
+	
+	Using sense-differ\-en\-tiated embeddings targeted for small amounts of data, and our reduction techniques, we will answer what happens to \textit{all} senses of a word over time, allowing senses to change individually while others  stay stable for the same word.
+	We will focus on precision, which is particularly important for uptake, \ie presenting good quality results without too much noise. We will find (and rank) good text passages that exemplify each meaning and change. 
+    As proof of concept, we will revisit and enlarge several previous manually executed case studies on synchronic word sense variation and diachronic word sense change in Swedish, and look deeper into active lexical semantics research fields such as temperature, color, and smell. We will approach the under-investigated topic of how word senses change with different speed and processes in different linguistic sources (the inertia of change differs in e.g. fiction and newspapers) and different time periods (some, but not all, published work have noted an increased level of SC after the world wars, see e.g. \cite{juola_time_2003-a} ). 
+% * <susanne@vejdemo.se> 2018-02-21T00:45:38.952Z:
+% 
+% Is this enough?
+% 
+% ^.
+    
+%	Several aspects will be investigated, in addition to those already mentioned:
+%	\vspace{-0.3em}
+%	\begin{compactitem}
+%		%	\setlength\itemsep{-0.3em}
+%		\item How can we expect different change types to manifest and how can we classify the types?
+%		%\item Given a testset, how can we compare our results and measure deviation if our results consist of hundreds of senses and several hundreds of links between the senses?
+%	%\item Link to evidence in data, either by using the unambiguous, stored information, or make use of disambiguation as a post-processing step to help resolve ambiguity. 
+%		\item How can we make the results useful for users, researchers and down-stream applications?
+%		\item How can we tie changes in sentiment to WS changes and what is their relation?
+%		\item How can we find and rank good text passages to exemplify an intended meaning or change?
+%	\end{compactitem}
+%	
+\vspace{-0.3cm}	
+	
+	\paragraph{Wp3: Lexical replacements}
+	Automatic detection of lexical replacements over time has only previously targeted named entities. Previous work like \cite{journals/tkde/ZhangJBT16} and \cite{BerberichBSW09} have used word context rather than sense information, which is suitable for (unambiguous) named entities but not for words in general. Contrary to word sense change, we are targeting senses that are stable over time, so we require the induced senses to exhibit only minor variation to represent the same underlying sense. The problem requires (i) deriving word senses; (ii) tracking word senses over time; and (iii) linking words to word senses to find a word that has been used to replace another for a given sense (not necessarily for all senses of a word). 
+	%
+ %When are word senses the same if we account for natural variation, both over time and over different datasets and when are they sufficiently different? 
+	%\item	Find methods for linking words to word senses. This is not trivial; one can use majority voting for hypernym relations or embeddings, cluster labeling methods, induction methods that induce word senses with respect to a target word rather than all words at once. However, none of these give conclusive links and hence the problem needs further investigation. 
+	%\item	Link word senses over time and here we should not allow word sense change, but rather require that the senses are much more similar? However, this does not seem reasonable, and because both the words and the senses change, this problem is an extremely hard one for automatic detection. 
+
+	
+	We will investigate multi-sense embeddings for labeling, extend current word pairs to create chains of change, \eg {\em ipod}  $ \xleftarrow[2012-2001]{}$ {\em mp3 player}  $ \xleftarrow[2001-1996]{}  $ {\em minidisc} $\xleftarrow[1996-1992]{}$ {\em discman}
+	$\xleftarrow[1984-1979]{}$ {\em walkman} for the word sense of \textit{mobile music player}; and assign validity periods for follow up applications (e.g., Information retrieval) and understanding. 
+		We will analyze systematic errors to automatically reduce false positives, e.g., \textit{ear phones, tape, disc, Sony, Apple} for the above, thus rendering the results useless.
+		
+%	
+    Non-automatic research is producing interesting hypotheses on word replacement, identifying replacement affecting factors such as frequency \citep{pagel-etal-2007} and synonym network density \citep{vejdemo_semantic_2016} but much of this is based on small over-used databases of core vocabulary. We will address these hypotheses with large, diachronic datasets. 	For research on language change in general, we will investigate methods to link SC and LR changes (as well as spelling variations) to present all changes to a word and other words in its semantic field, in a scrollable and clickable map with links to relevant text passages, with the aim that it should be understandable and searchable. 
+\vspace{-0.3cm}		
+	\paragraph{Wp4: Application} 
+	The application areas aim to highlight all kinds of change and apply to researchers as well as the public. The use cases will be integrated into the Korp pipeline \citep{korp} where possible, and in the Strix environment, a new interface under development that offers a close-reading capacity where texts, not sentences, and their temporal comparison are in focus. % that uses texts rather than sentences to enable close reading scenarios needed in DHSS. 
+	
+	\textbf{Close reading (Simplify research)}
+	In this use case, we will help users (researchers and laymen) to firstly \textit{find}, and secondly \textit{understand} content in digital archives by (1) implementing features that suggest extension to search queries with relevant word replacements and their validity periods, and (2) in a text,  highlight words that have changed their meaning. Changes will be accompanied with the original passages of text such that users can verify the results, or get new entry points into the corpus.
+	
+\textbf{Distant reading (Quantify Research hypothesis)}
+	%
+		Many researchers are moving into DHSS (as seen by the increasing number of centers for Digital Humanities across Swedish universities), drawn in by the promise of large amounts of data and automatic methods for analyzing them.  %\footnote{\url{https://sweclarin.se/}, \url{https://cdh.hum.gu.se}, \url{http://www.humlab.umu.se/}, \url{www.humlab.lu.se/}} %This is also evident from the fact that the submissions almost doubled in 2018 for the Digital Humanities in the Nordic countries conference.  %, \eg an investigation into the history of rhetoric \citep{Viklund-Jon2016} or an analysis of the role of the telegraph over time\footnote{\url{https://sweclarin.se/sites/sweclarin.se/files/videos/invigning_2016/Johan-Jarlbrink.mp4}}
+		%
+		%All features from the first use case will be encoded for use in subsequent data analysis.
+	%
+	%
+	 In this use case, we will collaborate with three research groups to help quantify their hypotheses.
+	
+   Firstly, we will collaborate with Sarah Valdez at the Institute for Analytical Sociology in Norr\-köping, who works with analyzing differences in meaning for concepts in politics (\eg democracy, freedom, immigration) for different political parties, this relates primarily to word sense induction on 20th century Swedish political party programs and election manifestos.
+    
+   Secondly, we will collaborate with a group of concept historians led by Henrik Björck who are investigating the rate and spread of abstraction of the \textit{market}, that goes from a concrete time and place to an abstract concept, like job or stock markets. We will study the interplay of these concept and investigate when \textit{the market} becomes an agent that affects people rather than the other way around. Once the first abstract market has been established as a concept, does the process move faster and faster with new abstract markets and can we quantify this rate?
+% * <susanne@vejdemo.se> 2018-02-21T01:52:13.589Z:
+% 
+% whom are you asking with "is this correct"?
+% 
+% ^.
+	
+	Thirdly, we will work with historical linguists led by Lena Rogström to show that scientific texts in the 18th century attributed human-like features to animals and plants, see e.g., Linné and Bjerkander. By applying semantic change detection to the Royal Science Academy texts, as well as to texts from other contemporary genres, we can help quantify the hypothesis, and find spread and change rate. This collaboration will take place after the digitization of the relevant texts, pending a funding application. 
+   
+
+	
+	\subsection*{Personnel}
+	The research team will consist of the principal investigator (PI), a researchers, an associate professor and a full professor, and a software developer specialized in language technology.
+	
+	\textbf{Principal investigator}  Nina Tahmasebi is a researcher at the University of Gothenburg and a postdoc at the Center for Digital Humanities (2018-2019). She is a cross-disciplinary researcher whose main interest lies in statistical NLP and data science, which she has tackled both from a computer science, data-driven perspective and from a NLP, knowledge-driven perspective.  She was a national project manager in Swe-Clarin, coordinating the work on language technology tools for the DHSS and the local chair of the Nodalida2017 conference. Her research has focused on SC detection and her most influential contributions to the NLP field have been the following, all important for this project:
+	
+	
+	\begin{compactitem}
+		% \setlength\itemsep{-0.5em}
+		\item She was among the first to study modern word sense induction algorithms and the influence of noisy data  on historical text \citep{IJDL}. 
+		\item Nina studied the SC problem and its properties in a computational context \citep{evodyn, TahmasebiTPDL, TahmasebiRoleofLE} and was one of the first to define SC with respect to automatic detection \citep{Tahmasebi09Automatic, tahmasebi2013models, Tahmasebi-RANLP2017}.
+		\item She studied the properties and automatic detection of named entity changes both with respect to news corpora \citep{ourColingPaper} and blogs \citep{Holzmann-Helge2015-5}
+		\item She studied language changes with respect to the field of Culturomics \citep{Tahmasebi-Nina2015-10} and digital humanities \citep{Tahmasebi-Nina2016-6,Borin-Lars2017} in the Swe-Clarin context. 
+	\end{compactitem}
+	
+	The PI (80\% first year, then 50\% yearly) will lead the project and coordinate the dissemination efforts. In the initial stages of the project, available software and research software already developed by the PI will be used and later on, new software developed by the engineer with be used.  %The PI will work 20\% at Språkbanken on a related and interlinked infrastructure project. 
+	
+	\textbf{Researcher} Richard Johansson is an associate professor in data science at the University of Gothenburg and Chalmers University of Technology, mainly focusing on data-driven NLP methods and their interplay with representations of linguistic knowledge. He has made research contributions to core NLP technologies such as dependency parsing, semantic role labeling, and discourse processing, as well as in NLP applications such as information extraction and sentiment analysis. PI of the project “Distributional methods to represent the meaning of frames and constructions” aimed at constructing automatic, corpus-based methods for inducing and representing word meaning using distributional semantics, outcomes highly relevant for this project. He will work 15\% the first year, then 10\% yearly.
+	
+	\textbf{Researcher} Susanne Vejdemo is a researcher in lexical semantics affiliated with both Stockholm University and CUNY CSI (New York). She combines qualitative and quantitative approaches to lexical and semantic change over time. She has studied complex contact-induced LR in the color domain in seven related languages, as well as how LR intertwines with SC in the course of a generational shift. She has also developed a statistical model to explain why the speed of LR over time is different for different parts of the vocabulary (see Sec. \ref{sec:sota} for references). She will work 40\% yearly. 
+	
+	\textbf{Researcher} Maria Koptjevskaja Tamm is professor of general linguistics at the Dep. of Linguistics at Stockholm University. She is an internationally leading expert in semantically oriented typology, where she often combines synchronic and diachronic approaches. A large portion of her work focuses on the interplay between lexical and grammatical semantics. MKT was the PI and coordinator of the collaborative project “Core vocabulary in a typological perspective: semantic shifts and form /meaning correlations (TypVoc)”, involving partners from five countries. She is currently authoring the book “Temperature in language: typology, evolution and extended uses” where cross-linguistic variability in semantic systems, in space and time are explored. She will work 7.5\% yearly. 
+	
+
+	
+	\textbf{Software engineer.} We will make use of a software engineer to implement and integrate the use case scenarios into Korp and Strix, to increase dissemination of the research in this project and make use of the rich research infrastructural efforts that are ongoing in the national infrastructure of Språkbanken. The engineer will work 15\% yearly with parallel work at Språkbanken for 25\%. 
+\vspace{-1.0cm}
+\begin{wraptable}{r}{5cm}
+\small
+		\centering
+		\renewcommand{\arraystretch}{0.8}% Tighter
+		\begin{tabular}{@{}l@{}c@{}c@{}c@{}c@{}}
+			\toprule
+			Year & Wp2 & Wp3 & Wp4 & Wp5\\
+			\midrule
+			2019 &  $\bullet$ &$\bullet$ & $ $ & $\bullet$  \\
+			2020  & & $\bullet$ & $\circ$ &$\bullet$ \\
+			2021  & & $\bullet$ & $\bullet$ &$\bullet$ \\
+            2022 & & & $\bullet$ & $\bullet$ \\
+			\bottomrule
+		\end{tabular}
+%	\end{table}
+\end{wraptable}	
+\vspace{-1.3cm}
+	\paragraph{Time Plan:} 	The project is planned from January 2019 to the end of December 2022. A rough time plan is given in the table showing the distribution of work in each area ($\bullet$ active , $\circ$ planning / survey).
+
+
+
+\vspace{-0.35cm}
+	
+    \paragraph{Research Environment:} The team is distributed over Språkbanken at the Department of Swe\-d\-ish at the University of Gothenburg (GU), Computer Science at Chalmers (CTH) and Linguistics at Stockholm University (SU). The department of Swedish fits the project well since it is home of the national infrastructure of Språkbanken. There will be synergies with ongoing projects; \textit{Towards a Knowledge-based Culturomics} (a project aimed at developing LT resources and methods for deep linguistic processing of Swedish text), and \textit{Swe-Clarin} (an LT-based eScience infrastructure for DHSS). %Furthermore, the corpus collection hosted by Språkbanken is very important for the project since it relies on large corpora. 
+    The collaboration between SU and Språkbanken unites a lexical semantics expertise with a strong NLP group, a collaboration that is, to the best of our knowledge, unique in the world when it comes to its focus on diachronic and synchronic lexical semantics and language variation and change.
+	%Språkbanken also offers a computational environment with a set of powerful servers available for this project. %NLP is one of eight focus areas considered particularly important by the	University of Gothenburg. 
+	The team at SU have ongoing collaborations with Gavagai, a text analytics company, on sentiment analysis and quantitative semantics. 
+\textbf{International collaboration:}
+	The PI has ongoing collaborations with Adam Jatowt, a professor at the Kyoto University who focuses on computational history and who has made valuable contributions to language change detection, starting with a joint survey paper for the CL journal. 
+    %R.J. has collaboration with the group of Alessandro Moschitti,
+	%a well-known expert on machine learning and in particular convolution kernels to handle large feature spaces. 
+
+\vspace{-0.35cm}	
+    \paragraph{Need for infrastructure:}
+The research to be conducted in this project has a dual role with respect to the recently established national research infrastructure Språkbanken:
+%\begin{inparaenum}[(1)]
+%\item 
+(1) it will use the existing language tools and language resources (diachronic corpora and lexical resources) made available by the Språkbanken Text division; and
+%\item 
+(2) being a project with a strong LT component, it will produce new resources, methods and tools which can be integrated into the infrastructure to support future research on Swedish historical linguistics.
+%\end{inparenum}
+To optimally support both these aims, the PI and Språkbanken have agreed on an arrangement where the PI will work in Språkbanken at 30\% (funded by Språkbanken) for the duration of the project, as coordinator between the project and Språkbanken, and further that a systems developer will be shared (15\% project +25\% Språkbanken). 
+
+\vspace{-0.35cm}	
+    \paragraph{Dissemination plan:}We will disseminate the results of this project through publications, conference presentations and tutorials; at least two workshops (the second collocated with an appropriate conference) to bring together researchers from NLP with cultural and historical semantics; public software for use at Språkbanken; during the annual autumn workshop of Språkbanken; and through our collaboration with researchers from other fields and universities. We will network with high school teachers through the Linguistic Olympiad network.
+
+  \vspace{-0.2cm}  
+	\subsubsection*{References}
+	
+	\begin{multicols}{2}
+		% \renewcommand{\arraystretch}{1.0}% Tighter
+		% \footnotesize
+		% \setlength{\bibsep}{0.0pt}
+		\bibliographystyle{abbrvnat}
+		\setlength{\bibsep}{0.0pt}
+		{\evensmaller\bibliography{bibsammansatt}}
+       % \printbibliography
+		%  \bibliography{sb-swec}
+	\end{multicols}%{
+		%\bibliography{bibsammansatt}
+	\end{document}
+	
+	

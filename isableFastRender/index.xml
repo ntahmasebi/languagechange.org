@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nina Tahmasebi on Nina Tahmasebi</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in Nina Tahmasebi on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>//localhost:1313/privacy/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/privacy/</guid>
+      <description>&lt;p&gt;Copyright Nina Tahmasebi. All rights reserved.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Towards Automatic Language Change Detection</title>
+      <link>//localhost:1313/project/languagechange/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/project/languagechange/</guid>
+      <description>&lt;p&gt;Today, we lack computational tools for studying lexical and semantic changes at a large scale. Current methods are limited and require huge amounts of text. Studies on semantic change capture only main changes of a single word and offer no possibility to capture the interplay of change in a semantic field.&lt;/p&gt;
+
+&lt;p&gt;In this project, we aim to find automatic, corpus-based methods for detecting semantic change and lexical replacement for Swedish and English. We will investigate the fundamental questions of how, when, and why languages change to allow us to quantify language change and shift lexical typological research from small case studies done on limited data sets to larger
+scales and over wider time spans using various media types and sources.&lt;/p&gt;
+
+&lt;p&gt;The results of the project will advance research in NLP and semantics and have practical benefits for researchers in other fields; We aim to facilitate empirical study of language changes themselves, highlight changes for the public to avoid wrongful interpretations and account for language change in large-scale text mining applications such as information extraction and information retrieval. The results will also benefit the public as they access and interpret historical text as well as researchers that wish to track concepts over time without manually finding and accounting for language change.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.languagechange.org/&#34;&gt;Project pages&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Every Word has its History: Interactive Exploration and Visualization of Word Sense Evolution</title>
+      <link>//localhost:1313/publication/2018-cikm2018/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-cikm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estonian Digital Humanities Conference 2018</title>
+      <link>//localhost:1313/talk/keynoteedh/</link>
+      <pubDate>Thu, 27 Sep 2018 09:30:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/talk/keynoteedh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Example Page</title>
+      <link>//localhost:1313/tutorial/example/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/tutorial/example/</guid>
+      <description>
+
+&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+
+&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating a Gold Standard for a Swedish Sentiment Lexicon</title>
+      <link>//localhost:1313/publication/2018-lrec2018-2/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-lrec2018-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SenSALDO: Creating a Sentiment Lexicon for Swedish</title>
+      <link>//localhost:1313/publication/2018-lrec2018-1/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-lrec2018-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study on Word2Vec on a Historical Swedish Newspaper Corpus</title>
+      <link>//localhost:1313/publication/2018-word2vec/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-word2vec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defining a Gold Standard for a Swedish Sentiment Lexicon: Towards Higher-Yield Text Mining in the Digital Humanities</title>
+      <link>//localhost:1313/publication/2018-dhn2018/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-dhn2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter Transfer across Domains for Word Sense Disambiguation</title>
+      <link>//localhost:1313/publication/2017-ranlp-2/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-ranlp-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Individual Word Sense Changes and their Delay in Appearance</title>
+      <link>//localhost:1313/publication/2017-ranlp-1/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-ranlp-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Uses of Word Sense Change for Research in the Digital Humanities</title>
+      <link>//localhost:1313/publication/2017-tpdl2017/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-tpdl2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Swe-Clarin: Language resources and technology for Digital Humanities</title>
+      <link>//localhost:1313/publication/2017-dh2017/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-dh2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Word Sense Change Testset</title>
+      <link>//localhost:1313/publication/2017-wsctestset/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-wsctestset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Proceedings of the 21st Nordic Conference on Computational Linguistics</title>
+      <link>//localhost:1313/publication/2017-nodalida2017/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-nodalida2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

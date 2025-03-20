@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Nina Tahmasebi</title>
+    <link>//localhost:1313/publication_types/1/</link>
+    <description>Recent content in 1 on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 22 Oct 2018 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Every Word has its History: Interactive Exploration and Visualization of Word Sense Evolution</title>
+      <link>//localhost:1313/publication/2018-cikm2018/</link>
+      <pubDate>Mon, 22 Oct 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-cikm2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating a Gold Standard for a Swedish Sentiment Lexicon</title>
+      <link>//localhost:1313/publication/2018-lrec2018-2/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-lrec2018-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SenSALDO: Creating a Sentiment Lexicon for Swedish</title>
+      <link>//localhost:1313/publication/2018-lrec2018-1/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-lrec2018-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Study on Word2Vec on a Historical Swedish Newspaper Corpus</title>
+      <link>//localhost:1313/publication/2018-word2vec/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-word2vec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Defining a Gold Standard for a Swedish Sentiment Lexicon: Towards Higher-Yield Text Mining in the Digital Humanities</title>
+      <link>//localhost:1313/publication/2018-dhn2018/</link>
+      <pubDate>Wed, 07 Mar 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2018-dhn2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Parameter Transfer across Domains for Word Sense Disambiguation</title>
+      <link>//localhost:1313/publication/2017-ranlp-2/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-ranlp-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finding Individual Word Sense Changes and their Delay in Appearance</title>
+      <link>//localhost:1313/publication/2017-ranlp-1/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-ranlp-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Uses of Word Sense Change for Research in the Digital Humanities</title>
+      <link>//localhost:1313/publication/2017-tpdl2017/</link>
+      <pubDate>Sat, 02 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-tpdl2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a Sentiment Lexicon for Swedish</title>
+      <link>//localhost:1313/publication/2016-swesentim/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2016-swesentim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Swedish Culturomics Gigaword Corpus: A One Billion Word Swedish Reference Dataset for NLP</title>
+      <link>//localhost:1313/publication/2016-gigawords2016/</link>
+      <pubDate>Sat, 11 Jun 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2016-gigawords2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A case study on supervised classification of Swedish pseudo-coordination</title>
+      <link>//localhost:1313/publication/2015nodalida2015/</link>
+      <pubDate>Fri, 01 May 2015 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2015nodalida2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extractive Summarization using Continuous Vector Space Models</title>
+      <link>//localhost:1313/publication/2014-cvsc2014/</link>
+      <pubDate>Wed, 30 Apr 2014 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2014-cvsc2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BlogNEER: Applying Named Entity Evolution Recognition on the Blogospheres</title>
+      <link>//localhost:1313/publication/2013-sda2013--blogneer/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2013-sda2013--blogneer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Role of Language Evolution in Digital Archives</title>
+      <link>//localhost:1313/publication/2013-sda2013/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2013-sda2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEER: An Unsupervised Method for Named Entity Evolution Recognition</title>
+      <link>//localhost:1313/publication/2012-coling2012/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-coling2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fokas: Formerly Known As -- A Search Engine Incorporating Named Entity Evolution</title>
+      <link>//localhost:1313/publication/2012-coling-fokas/</link>
+      <pubDate>Sat, 15 Dec 2012 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-coling-fokas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Which Words Do You Remember? Temporal Properties of Language Use in Digital Archives</title>
+      <link>//localhost:1313/publication/2012-tpdl2012/</link>
+      <pubDate>Sun, 02 Sep 2012 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-tpdl2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detecting Credential Abuse in the Grid using Bayesian Networks</title>
+      <link>//localhost:1313/publication/2011-grid2011/</link>
+      <pubDate>Sun, 01 May 2011 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2011-grid2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminology Evolution Module for Web Archives in the LiWA Context</title>
+      <link>//localhost:1313/publication/2010-iwaw2010/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2010-iwaw2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Detection of Terminology Evolution</title>
+      <link>//localhost:1313/publication/2009-otm2009/</link>
+      <pubDate>Tue, 22 Jun 2010 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2009-otm2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Word Sense Discrimination on Historic Document Collections</title>
+      <link>//localhost:1313/publication/2010-jcdl2010/</link>
+      <pubDate>Tue, 22 Jun 2010 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2010-jcdl2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First Results on Detecting Term Evolutions</title>
+      <link>//localhost:1313/publication/2009-iwaw2009/</link>
+      <pubDate>Sat, 22 Aug 2009 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2009-iwaw2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminology Evolution in Web Archiving: Open Issues</title>
+      <link>//localhost:1313/publication/2008-iwaw2008/</link>
+      <pubDate>Fri, 22 Aug 2008 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2008-iwaw2008/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

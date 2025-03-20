@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WSI on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/tags/wsi/</link>
+    <description>Recent content in WSI on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/tags/wsi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wp1: Word Sense Induction</title>
+      <link>https://languagechange.org/wps/word-sense-induction/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://languagechange.org/wps/word-sense-induction/</guid>
+      <description>Automatically derived word senses are the basis for our continued work. For English, evaluated methods (Pantel and Lin, 2002; Brody and Lapata, 2009; Lau et al., 2012) exist and new methods are developed, the latest is the utilization of word embeddings (Nieto Piña and Johansson, 2015; Trask et al., 2015; Pelevina et al., 2016; Li and Jurafsky, 2015). For Swedish, these methods have not been tested at large scale and might perform less well due to smaller amounts of available text.</description>
+    </item>
+    
+  </channel>
+</rss>

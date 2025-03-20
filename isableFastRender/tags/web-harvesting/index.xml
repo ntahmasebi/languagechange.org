@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Harvesting on Nina Tahmasebi</title>
+    <link>//localhost:1313/tags/web-harvesting/</link>
+    <description>Recent content in Web Harvesting on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sat, 01 Jan 2011 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/tags/web-harvesting/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ARCOMEM</title>
+      <link>//localhost:1313/project/arcomem/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/project/arcomem/</guid>
+      <description>The vision of the ARCOMEM project is to leverage the Wisdom of the Crowds for content appraisal, selection and preservation, so that archives reflect collective memory and social content perception
+ARCOMEM is about memory institutions like archives, museums, and libraries in the age of the Social Web. Memory institutions are more important now than ever: as we face greater economic and environmental challenges we need our understanding of the past to help us navigate to a sustainable future.</description>
+    </item>
+    
+    <item>
+      <title>LiWA</title>
+      <link>//localhost:1313/project/liwa/</link>
+      <pubDate>Tue, 01 Jan 2008 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/project/liwa/</guid>
+      <description>Web content plays an increasingly important role in the knowledge-based society, and the preservation and long-term accessibility of Web history has high value (e.g., for scholarly studies, market analyses, intellectual property disputes, etc.). There is strongly growing interest in its preservation by library and archival organizations as well as emerging industrial services. Web content characteristics (high dynamics, volatility, contributor and format variety) make adequate Web archiving a challenge.
+LiWA will look beyond the pure “freezing” of Web content snapshots for a long time, transforming pure snapshot storage into a “Living” Web Archive.</description>
+    </item>
+    
+  </channel>
+</rss>

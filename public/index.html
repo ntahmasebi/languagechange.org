@@ -1,0 +1,4033 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.0.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="Towards Computational Lexical Semantic Change Detection">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://languagechange.org/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://languagechange.org/index.xml" type="application/rss+xml" title="Towards Computational Lexical Semantic Change Detection">
+  <link rel="feed" href="https://languagechange.org/index.xml" type="application/rss+xml" title="Towards Computational Lexical Semantic Change Detection">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://languagechange.org/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Towards Computational Lexical Semantic Change Detection">
+  <meta property="og:url" content="https://languagechange.org/">
+  <meta property="og:title" content="Towards Computational Lexical Semantic Change Detection">
+  <meta property="og:description" content="">
+  
+  
+    
+  <meta property="og:image" content="https://languagechange.org/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="og:updated_time" content="2017-10-15T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>Towards Computational Lexical Semantic Change Detection</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Towards Computational Lexical Semantic Change Detection</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about" data-target="#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/wps/" data-target="/wps/">
+            
+            <span>Work Packages</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/events/" data-target="/events/">
+            
+            <span>Events</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/talk/" data-target="/talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected" data-target="#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts" data-target="#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact" data-target="#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+  
+
+
+
+
+
+  
+  
+  
+  <section id="about" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      <img class="portrait" src="/img/portrait.jpg" itemprop="image" alt="Avatar">
+      
+
+      <div class="portrait-title">
+        <h2 itemprop="name">Towards Computational Lexical Semantic Change Detection</h2>
+        
+
+        
+        
+
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.gu.se/forskning/change-is-key-samhallsstudier-med-berakningsmetoder-for-spraklig-variation-och-semantisk-forandring" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">University of Gothenburg</span>
+          </a>
+        </h3>
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="http://www.cse.chalmers.se/research/lab/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Chalmers University of Technology</span>
+          </a>
+        </h3>
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.ling.su.se/english/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">Stockholm University</span>
+          </a>
+        </h3>
+        
+        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <a href="https://www.ims.uni-stuttgart.de/en/" target="_blank" itemprop="url" rel="noopener">
+          <span itemprop="name">University of Stuttgart</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <link itemprop="url" href="https://languagechange.org/">
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="mailto:info!@languagechange[remove].org" target="_blank" rel="noopener">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="" target="_blank" rel="noopener">
+            <i class="fas fa- big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="" target="_blank" rel="noopener">
+            <i class="fas fa- big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        <li>
+          <a itemprop="sameAs" href="" target="_blank" rel="noopener">
+            <i class="fas fa- big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8" itemprop="description">
+
+    
+
+<h1 id="project-description">Project Description</h1>
+
+<p>In this project, we worked on automatic, corpus-based methods for detecting semantic change and lexical replacement for Swedish and English. The project was the first of its kind. We investigated some of the fundamental questions of <em>how</em>, <em>when</em>, and <em>why</em> languages change to allow us to quantify language change and shift lexical typological research from small case studies done on limited data sets to larger scales and over wider time spans using various media types and sources.</p>
+
+<p>The team involved in the project has changed over time, the original members <a href="http://www.cse.chalmers.se/~richajo/">Richard Johansson</a>, <a href="https://www.su.se/english/profiles/suve6978-1.184085">Susanne Vejdemo</a> and <a href="http://researchdatabase.su.se/converis/portal/Person/286153">Maria Koptjevskaja Tamm</a> were strengthened by <a href="https://hengchen.net/">Simon Hengchen</a>, <a href="https://www.ims.uni-stuttgart.de/en/institute/team/Schlechtweg/">Dominik Schlechtweg</a>, and <a href="https://www.gu.se/om-universitetet/hitta-person/pierluigicassotti">Pierluigi Cassotti</a> over the course of the project. We have also had several software engineers and invited guest researchers.</p>
+
+<p>During this project, we started up the LChange workshop series, from its first resounding success in <a href="https://languagechange.org/events/2019-acl-lcworkshop/">LChange&rsquo;19</a> to its follow-ups <a href="https://languagechange.org/events/2021-acl-lchange/">LChange&rsquo;21</a>, <a href="https://languagechange.org/events/2022-acl-lchange/">LChange&rsquo;22</a> and <a href="https://www.changeiskey.org/event/2023-emnlp-lchange/">LChange&rsquo;23</a>. The series will remain long after the closing of this project. We have also participated in the first ever shared task on lexical semantic change, SemEval2020 Task 1 on <a href="http://languagechange.org/events/2020-semeval-2020-task1/">Unsupervised Lexical Semantic Change Detection</a>. There have been multiple outcomes relating to this work, including several manually annotated datasets: the <a href="https://www.ims.uni-stuttgart.de/en/research/resources/experiment-data/wugs/">largest resource of graded contextualized, diachronic word meaning</a>, in particular on <a href="https://zenodo.org/records/7389506">Swedish</a> and a paper describing the resources at <a href="https://aclanthology.org/2021.emnlp-main.567/">EMNLP&rsquo;21</a>. Since our task at SemEval2020, there has been many follow-ups, including for Italian, Russian, Spanish, Norwegian, and Chinese. We published the first book on <a href="https://langsci-press.org/catalog/book/303">Computational approaches to semantic change</a> and the <a href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf">first major survey in the field of LSC</a>. We have also written book chapters to be included in the Routledge Handbook of Historical Linguistics and The Wiley Blackwell Companion to Diachronic Linguistics. As a part of our work, we contributed to the development of the <a href="https://www.ims.uni-stuttgart.de/en/research/resources/tools/durel-annotation-tool/">DURel Annotation Tool</a> used for annotating sentence pairs (in graded Word-In-Context-style), to form sense clusters of a word and to visualize them over time.  This can reveal lexical properties such as polysemy, vagueness or change of meaning of a word and is crucial for our continued study of semantic change.</p>
+
+<p>This project led to a large research program, <a href="https://www.changeiskey.org/">Change is Key!</a> around computational semantic change for the humanities and social sciences funded by Riksbankens Jubileumsfond. The program spans six years starting in 2022 with a total of 17 researchers, a research engineer and six partner universities. It is a true testament of the progress that was made during this project.</p>
+
+<p>The project was funded 2019&ndash;2022, and got extended due to Covid-19. Early 2024, we will finally close the project and thus stop updating this webpage.
+We thank our funders, the <a href="https://www.vr.se/">Swedish Research Council</a> for funding us under project number 2018-01184.</p>
+
+
+    <div class="row">
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="experience" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>News</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+    
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                May 2022 –
+                
+                  May 2022
+                
+                
+              </div>
+              <div class="text-right">Dublin, Ireland</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">LChange&rsquo;22 in conjunction with ACL2022</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://languagechange.org/events/2022-acl-lchange/" target="_blank" rel="noopener">LChange&rsquo;22</a></h4>
+            <div class="card-text"><p>LChange&rsquo;22 is the third workshop for computational approaches to historical language change with the focus on digital text corpora.
+  This year, the workshop will feature a shared task on semantic change detection for Spanish.</p>
+
+<p>Come join us for this exciting adventure!</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                August 2021 –
+                
+                  Present
+                
+                
+              </div>
+              <div class="text-right">EMNLP&#39;21</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://arxiv.org/abs/2104.08540" target="_blank" rel="noopener">EMNLP&rsquo;21</a></h4>
+            <div class="card-text">We got our paper accepted for EMNLP&rsquo;21, in which we describe the manually annotated dataset used for SemEval2020 Task1. This dataset contains the largest resource of graded contextualized, diachronic word meaning annotation in four different languages, namely English, German, Swedish, and Latin, based on 100,000 human semantic proximity judgments. The <a href="https://zenodo.org/record/5090648#.YT5XS32xWUk">Swedish DWUG dataset</a> is freely available on Zenodo.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border exp-fill">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                August 2021 –
+                
+                  Present
+                
+                
+              </div>
+              <div class="text-right">online</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Book on Computational Approaches to Semantic Change</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://langsci-press.org/catalog/book/303" target="_blank" rel="noopener">LangSci</a></h4>
+            <div class="card-text">Our book on <a href="https://langsci-press.org/catalog/book/303">Computational approaches to semantic change</a> is finally published and openly available. There are eleven chapters ranging a survey of computational methods for semantic change, methods for and applications of semantic change, to a chapter on future challenges.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                August 2021 –
+                
+                  August 2021
+                
+                
+              </div>
+              <div class="text-right">Bangkok, Thailand</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">LChange&rsquo;21 in conjunction with ACL2021</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://languagechange.org/events/2021-acl-lchange/" target="_blank" rel="noopener">LChange&rsquo;21</a></h4>
+            <div class="card-text"><p>In this second LChange workshop, we will bring together the world’s pioneers and experts in computational approaches to historical language change with the focus on digital text corpora. In doing so, this workshop carries the triple goals of disseminating the state-of-the-art research on diachronic modelling of language change, fostering international cross-disciplinary collaborations, and exploring the fundamental theoretical and methodological challenges in this growing niche of computational linguistic research.</p>
+
+<p>Papers can be found in the <a href="https://aclanthology.org/volumes/2021.lchange-1">LChange&rsquo;21 proceedings</a>.</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                November 2020 –
+                
+                  November 2020
+                
+                
+              </div>
+              <div class="text-right">Gothenburg, Sweden</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">2nd Workshop on Computational Detection of Language Change 2020</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://languagechange.org/events/2020-sltc-lcworkshop/" target="_blank" rel="noopener">CDLC&rsquo;2020</a></h4>
+            <div class="card-text"><p>This second workshop on computational detection of language change is held in conjunction with SLTC 2020, and will be given completely online. It is aimed as a smaller, Swedish version of the LChange workshop series, but has drawn international attention.</p>
+
+<p>The keynotes are extremely interesting and are given by Dominik Schlechtweg, IMS Stuttgart, on <em>Sparse Usage Graphs as Model for Word Meaning in Context</em>, and by Stellan Petersson &amp; Emma Sköldberg, University of Gothenburg on <em>Lexical Semantics and Semantic Change - a Report from the Lexicographer&rsquo;s Shop Floor</em>.</p>
+
+<p>Tune in and register via the <a href="https://spraakbanken.gu.se/en/sltc2020">SLTS website</a>.</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                September 2019 –
+                
+                  December 2020
+                
+                
+              </div>
+              <div class="text-right">COLING2020</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">Unsupervised Lexical Semantic Change Detection Challenge</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="http://languagechange.org/events/2020-semeval-2020-task1/" target="_blank" rel="noopener">SemEval2020</a></h4>
+            <div class="card-text"><p>We participated in SemEval2020 with a task on unsupervised lexical semantic change detection for English, German, Swedish and Latin, together with Barbara McGillivray, Dominik Schlechtweg, Simon Hengchen, and Haim Dubossarsky.   Swedish testdata available <a href="https://zenodo.org/record/3672950">here</a>, postevaluation data for all participating languages available <a href="https://zenodo.org/record/3928474#.Xz0nMzVS-Uk">here</a>.  Our task description paper is <a href="https://www.aclweb.org/anthology/2020.semeval-1.1.pdf">is now published</a>.</p>
+
+<p>The workshop will be held online on December 12-13.
+  <strong>Come and join us!</strong></p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row experience">
+      
+      <div class="col-auto text-center flex-column d-none d-sm-flex">
+        <div class="row h-50">
+          <div class="col border-right">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+        <div class="m-2">
+          <span class="badge badge-pill border ">&nbsp;</span>
+        </div>
+        <div class="row h-50">
+          <div class="col ">&nbsp;</div>
+          <div class="col">&nbsp;</div>
+        </div>
+      </div>
+      
+      <div class="col py-2">
+        <div class="card">
+          <div class="card-body">
+            <div class="float-right text-muted exp-meta">
+              <div>
+                August 2019 –
+                
+                  August 2019
+                
+                
+              </div>
+              <div class="text-right">Helsinki</div>
+              
+            </div>
+            <h4 class="card-title exp-title text-muted mt-0 mb-1">The two week-long paper</h4>
+            <h4 class="card-title exp-company text-muted my-0"><a href="https://languagechange.org/post/the-two-week-paper/" target="_blank" rel="noopener">ACL2019</a></h4>
+            <div class="card-text"><p>Our paper <strong><a href="/publication/2019-acl2019/"><i>Time-Out</i>: Temporal Referencing for Robust Modeling of Lexical Semantic Change</strong></a> got accepted at ACL2019!</p>
+
+<p>Read about how it came about in <a href="/post/the-two-week-paper/" target="_top">The two week-long paper</a>.</p>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications_selected" class="home-section">
+    <div class="container">
+      
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    <p><a href="publication/">More publications</a></p>
+
+    
+      
+    
+
+    
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-rhhl-bookchapter/" itemprop="url">Routledge Handbook of Historical Linguistics, 2nd Edition</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this chapter we provide an overview of computational modeling for semantic change using large and semi-large textual corpora
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi, Haim Dubossarsky</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2304.06337" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-rhhl-bookchapter/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-rhhl-bookchapter/">
+      <img src="/publication/2023-rhhl-bookchapter/featured_hub4df3e0d5db6e601c899b549b7e56c05_39260_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2022-lscdiscovery/" itemprop="url">LSCDiscovery: A shared task on semantic change discovery and detection in Spanish</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      We present the first shared task on semantic change discovery and detection in Spanish. We create the first dataset of Spanish words …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Frank D., Zamora-Reina, Felipe Bravo-Marquez, Dominik Schlechtweg</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-lscdiscovery/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2022-lscdiscovery/">
+      <img src="/publication/2022-lscdiscovery/featured_hu9e509c84c194cd6be196bc1a5d86285a_56948_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-emnlp21-dwug/" itemprop="url">DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this paper, we describe the creation of the largest resource of graded contextualized, diachronic word meaning annotation in four …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Dominik Schlechtweg, Nina Tahmasebi, Simon Hengchen, Haim Dubossarsky, Barbara McGillivray</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2021.emnlp-main.567/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-emnlp21-dwug/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-emnlp21-dwug/">
+      <img src="/publication/2021-emnlp21-dwug/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_54843_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-semchange-book/" itemprop="url">Computational approaches to semantic change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This volume offers a survey of this exciting new direction in the study of semantic change, a discussion of the many remaining …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi, Lars Borin, Adam Jatowt, Yang Xu, Simon Hengchen</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040241/files/303-TahmasebiEtAl-2021.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-semchange-book/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-semchange-book/">
+      <img src="/publication/2021-semchange-book/featured_hu485619bb092c3d4018b1f5d0a07eebbc_29533_600x400_fit_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-semchange-surveypaper/" itemprop="url">Survey of computational approaches to lexical semantic change detection </a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This article provides a comprehensive survey of recent computational techniques to tackle both diachronic conceptual change (semantic …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi, Lars Borin, Adam Jatowt</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-semchange-surveypaper/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-semchange-surveypaper/">
+      <img src="/publication/2021-semchange-surveypaper/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_60947_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-semchange-challenges/" itemprop="url">Challenges for computational lexical semantic change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this chapter, we aim to describe the most important of these challenges and outline future directions for the field of lexical …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Simon Hengchen, Nina Tahmasebi, Dominik Schlechtweg, Haim Dubossarsky</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://langsci-press.org/catalog/view/303/3037/2384-1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-semchange-challenges/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-semchange-challenges/">
+      <img src="/publication/2021-semchange-challenges/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_55175_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2020-semeval-taskpaper/" itemprop="url">SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Lexical Semantic Change detection, i.e., the task of identifying words that change meaning over time, is a very active research area, …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky, Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.aclweb.org/anthology/2020.semeval-1.1/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2020-semeval-taskpaper/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2020-semeval-taskpaper/">
+      <img src="/publication/2020-semeval-taskpaper/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_77745_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2020-semeval2020-postevaldata/" itemprop="url">Post-Evaluation Data for SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This data collection contains the post-evaluation data for SemEval-2020 Task 1
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Dominik Schlechtweg, Barbara McGillivray, Simon Hengchen, Haim Dubossarsky, Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2020-semeval2020-postevaldata/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.5281/zenodo.3928474" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2020-semeval2020-postevaldata/">
+      <img src="/publication/2020-semeval2020-postevaldata/featured_hu30b221a59920600ce4bdcc8c6f59c2b7_67801_600x400_fit_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2019-acl2019/" itemprop="url">Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      State-of-the-art models of lexical semantic change detection suffer from noise stemming from vector space alignment. We  have …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Haim Dubossarsky, Simon Hengchen, Nina Tahmasebi, Dominik Schlechtweg</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.aclweb.org/anthology/P19-1044" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2019-acl2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2019-acl2019/">
+      <img src="/publication/2019-acl2019/featured_hu0a92d5aaff651027ad7b0f76c221e832_208726_600x400_fit_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2013-phdthesis/" itemprop="url">Models and Algorithms for Automatic Detection of Language Evolution</a>
+    </h3>
+
+    
+    
+      
+    
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://edok01.tib.uni-hannover.de/edoks/e01dh13/771705034.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2013-phdthesis/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2013-phdthesis/">
+      <img src="/publication/2013-phdthesis/featured_hu685e79f1f93365c9c849ffd9bbbe3a2c_65646_600x400_fit_box_2.PNG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="publications" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent Publications</h1>
+    
+    
+    <p class="view-all">
+      <a href="/publication/">
+        More Publications
+        <i class="fas fa-angle-double-right"></i>
+      </a>
+    </p>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+      
+    
+
+    
+
+    
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2024-eacl-gptvbert/" itemprop="url">(Chat)GPT v BERT: Dawn of Justice for Semantic Change Detection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In the universe of Natural Language Processing, Transformer-based language models like BERT and (Chat)GPT have emerged as lexical …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Francesco Periti, Haim Dubossarsky, Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2401.14040" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2024-eacl-gptvbert/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2024-eacl-gptvbert/">
+      <img src="/publication/2024-eacl-gptvbert/featured_hua96520ca23976abb74a7fadac2538e40_31680_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-emnlp/" itemprop="url">EMNLP 2023</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      We present Superlim, a multi-task NLP benchmark and analysis platform for evaluating Swedish language models, a counterpart to the …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Aleksandrs Berdicevskis, Gerlof Bouma, Robin Kurtz, Felix Morger, Joey Öhman, Yvonne Adesam, Lars Borin, Dana Dannélls, Markus Forsberg, Tim Isbister, Anna Lindahl, Martin Malmsten, Faton Rekathati, Magnus Sahlgren, Elena Volodina, Love Börjeson, Simon Hengchen, Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.emnlp-main.506" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-emnlp/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-emnlp/">
+      <img src="/publication/2023-emnlp/featured-small_hu5d7b679a2d5f0611842e3ee84786072b_33994_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-chiwug/" itemprop="url">ChiWUG: A Graph-based Evaluation Dataset for Chinese Lexical Semantic Change Detection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      we present the compilation of the first graph-based evaluation dataset for lexical semantic change in the context of the Chinese …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Jing Chen, Emmanuele Chersoni, Dominik Schlechtweg, Jelena Prokic, Chu-Ren Huang</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-chiwug/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-chiwug/">
+      <img src="/publication/2023-chiwug/featured_hu7dd3169d4bd5341f1ac4e02de242594b_91136_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-incremental-shift/" itemprop="url">Incremental Semantic Shift Detection</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this paper, we introduce a novel approach to tracing the evolution of word meaning over time.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Francesco Periti, Sergio Picascia, Stefano Montanelli, Alfio Ferrara , Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.techrxiv.org/doi/pdf/10.36227/techrxiv.24210915.v1/v1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-incremental-shift/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-incremental-shift/">
+      <img src="/publication/2023-incremental-shift/featured_hu51661e0f756b9d3138ea612a8422b121_496437_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-rhhl-bookchapter/" itemprop="url">Routledge Handbook of Historical Linguistics, 2nd Edition</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this chapter we provide an overview of computational modeling for semantic change using large and semi-large textual corpora
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi, Haim Dubossarsky</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2304.06337" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-rhhl-bookchapter/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-rhhl-bookchapter/">
+      <img src="/publication/2023-rhhl-bookchapter/featured_hub4df3e0d5db6e601c899b549b7e56c05_39260_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2023-nodalida/" itemprop="url">Nodalida 2023</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this work we investigate the hypothesis that enriching contextualized models using fine-tuning tasks can improve their capacity to …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Wei Zhou, Nina Tahmasebi, Haim Dubossarsky</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2023.nodalida-1.52.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2023-nodalida/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2023-nodalida/">
+      <img src="/publication/2023-nodalida/featured_hu5f5e507da0833acee527cfad3a7b036a_14686_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2022-lscdiscovery/" itemprop="url">LSCDiscovery: A shared task on semantic change discovery and detection in Spanish</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      We present the first shared task on semantic change discovery and detection in Spanish. We create the first dataset of Spanish words …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Frank D., Zamora-Reina, Felipe Bravo-Marquez, Dominik Schlechtweg</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-lscdiscovery/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2022-lscdiscovery/">
+      <img src="/publication/2022-lscdiscovery/featured_hu9e509c84c194cd6be196bc1a5d86285a_56948_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2022-diawug/" itemprop="url">DiaWUG: A Dataset for Diatopic Lexical Semantic Variation in Spanish</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      We provide a novel dataset – DiaWUG – with judgements on diatopic lexical semantic variation for six Spanish variants in Europe and …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Gioia Baldissin, Dominik Schlechtweg, Sabine Schulte im Walde</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040302/files/303-TahmasebiEtAl-2021-1.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2022-diawug/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2022-diawug/">
+      <img src="/publication/2022-diawug/featured_hue3a7118068192d82b74da1ecbdf17501_75945_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-emnlp21-dwug/" itemprop="url">DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      In this paper, we describe the creation of the largest resource of graded contextualized, diachronic word meaning annotation in four …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Dominik Schlechtweg, Nina Tahmasebi, Simon Hengchen, Haim Dubossarsky, Barbara McGillivray</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://aclanthology.org/2021.emnlp-main.567/" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-emnlp21-dwug/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-emnlp21-dwug/">
+      <img src="/publication/2021-emnlp21-dwug/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_54843_600x400_fit_q75_box.JPG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/2021-semchange-book/" itemprop="url">Computational approaches to semantic change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This volume offers a survey of this exciting new direction in the study of semantic change, a discussion of the many remaining …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        Nina Tahmasebi, Lars Borin, Adam Jatowt, Yang Xu, Simon Hengchen</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://zenodo.org/record/5040241/files/303-TahmasebiEtAl-2021.pdf?download=1" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2021-semchange-book/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2021-semchange-book/">
+      <img src="/publication/2021-semchange-book/featured_hu485619bb092c3d4018b1f5d0a07eebbc_29533_600x400_fit_box_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="talks" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Talks</h1>
+    
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2020-stuttgart/" itemprop="url">An introduction to lexical semantic change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      An introduction to LSC at IMS, Stuttgart, 2020 at the Online Workshop on Automatic Detection of Semantic Change
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Oct 27, 2020
+        
+          11:30 AM
+          
+        
+
+        
+          <span class="middot-divider"></span> IMS, Stuttgart, 2020
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.slideshare.net/NinaTahmasebi/2020-1026language-changestuttgartworkshop" target="_blank">
+  Slides
+</a>
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2020-stuttgart/">
+      <img src="/talk/2020-stuttgart/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_59811_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2020-jerusalem/" itemprop="url">Unsupervised Lexical Semantic Change Detection – Past, Present &amp; Future</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This talk has unfortunately been cancelled.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Mar 25, 2020
+        
+          10:45 AM
+          
+        
+
+        
+          <span class="middot-divider"></span> Language Change: Theoretical and Empirical Perspectives Conference
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-uppsala/" itemprop="url">Discovering Semantic Shifts Using Diachronic Word Sense Embeddings</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Lectures on Language Technology, Uppsala University, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Nov 26, 2019
+        
+          10:45 AM
+          
+        
+
+        
+          <span class="middot-divider"></span> Uppsala University, 2019
+        
+      </div>
+      <div itemprop="author">
+        Richard Johansson</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-stuttgart/" itemprop="url">On Lexical Semantic Change and Evaluation</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A presentation at IMS, Stuttgart, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Jun 25, 2019
+        
+          11:30 AM
+          
+        
+
+        
+          <span class="middot-divider"></span> IMS, Stuttgart, 2019
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://languagechange.org/talk/2019-stuttgart/2019-Stuttgart.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2019-stuttgart/">
+      <img src="/talk/2019-stuttgart/featured_hu4effb73779330d472ddad576ddf1161a_38789_150x0_resize_box_2.PNG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-helsinki/" itemprop="url">Workshop on Lexical Semantic Change 2019</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A presentation of LSC in Helsinki, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Feb 18, 2019
+        
+          1:00 PM
+          
+        
+
+        
+          <span class="middot-divider"></span> Workshop on Lexical Semantic Change, Helsinki, 2019
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://tahmasebi.se/talk/2019-helsinki/Helsinki-LSCw.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2019-helsinki/">
+      <img src="/talk/2019-helsinki/featured_hu306e0fecf0a86306aae1db9b02bf1b8b_873777_150x0_resize_box_2.PNG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/keynoteedh/" itemprop="url">Estonian Digital Humanities Conference 2018</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A Keynote for EDH2018 in Tartu.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Sep 27, 2018
+        
+          9:30 AM
+          
+        
+
+        
+          <span class="middot-divider"></span> 6th Estonian Digital Humanities Conference
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="talk-links">
+      
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.slideshare.net/NinaTahmasebi/detecting-language-change-for-the-digital-humanities" target="_blank">
+  Slides
+</a>
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/keynoteedh/">
+      <img src="/talk/keynoteedh/featured_hu9cbbea04db4aec058371919d30452894_69567_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="events" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Recent &amp; Upcoming Events</h1>
+    
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    
+    
+
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2020-stuttgart/" itemprop="url">An introduction to lexical semantic change</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      An introduction to LSC at IMS, Stuttgart, 2020 at the Online Workshop on Automatic Detection of Semantic Change
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Oct 27, 2020
+        
+
+        
+          <span class="middot-divider"></span> IMS, Stuttgart, 2020
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.slideshare.net/NinaTahmasebi/2020-1026language-changestuttgartworkshop" target="_blank">
+  Slides
+</a>
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2020-stuttgart/">
+      <img src="/talk/2020-stuttgart/featured_hu0641f5e4a6a26205bbf348dc1cd30c35_59811_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2020-jerusalem/" itemprop="url">Unsupervised Lexical Semantic Change Detection – Past, Present &amp; Future</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      This talk has unfortunately been cancelled.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Mar 25, 2020
+        
+
+        
+          <span class="middot-divider"></span> Language Change: Theoretical and Empirical Perspectives Conference
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-uppsala/" itemprop="url">Discovering Semantic Shifts Using Diachronic Word Sense Embeddings</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Lectures on Language Technology, Uppsala University, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Nov 26, 2019
+        
+
+        
+          <span class="middot-divider"></span> Uppsala University, 2019
+        
+      </div>
+      <div itemprop="author">
+        Richard Johansson</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-stuttgart/" itemprop="url">On Lexical Semantic Change and Evaluation</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A presentation at IMS, Stuttgart, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Jun 25, 2019
+        
+
+        
+          <span class="middot-divider"></span> IMS, Stuttgart, 2019
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://languagechange.org/talk/2019-stuttgart/2019-Stuttgart.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2019-stuttgart/">
+      <img src="/talk/2019-stuttgart/featured_hu4effb73779330d472ddad576ddf1161a_38789_150x0_resize_box_2.PNG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/2019-helsinki/" itemprop="url">Workshop on Lexical Semantic Change 2019</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A presentation of LSC in Helsinki, 2019
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Feb 18, 2019
+        
+
+        
+          <span class="middot-divider"></span> Workshop on Lexical Semantic Change, Helsinki, 2019
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://tahmasebi.se/talk/2019-helsinki/Helsinki-LSCw.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/2019-helsinki/">
+      <img src="/talk/2019-helsinki/featured_hu306e0fecf0a86306aae1db9b02bf1b8b_873777_150x0_resize_box_2.PNG" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+      
+        <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/talk/keynoteedh/" itemprop="url">Estonian Digital Humanities Conference 2018</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      A Keynote for EDH2018 in Tartu.
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div>
+        
+        Sep 27, 2018
+        
+
+        
+          <span class="middot-divider"></span> 6th Estonian Digital Humanities Conference
+        
+      </div>
+      <div itemprop="author">
+        Nina Tahmasebi</div>
+    </div>
+
+    <div class="event-links">
+      
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.slideshare.net/NinaTahmasebi/detecting-language-change-for-the-digital-humanities" target="_blank">
+  Slides
+</a>
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/keynoteedh/">
+      <img src="/talk/keynoteedh/featured_hu9cbbea04db4aec058371919d30452894_69567_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+      
+    
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="posts" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+
+    <h1>Recent Posts</h1>
+    
+    
+
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+
+      
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+
+      
+      
+        
+        
+          
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/curie-paper/" itemprop="url">Språkforskaren som blev it-konsult</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Susanne Vejdemo i Curie
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Susanne Vejdemo</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-11-04 00:00:00 &#43;0100 CET" itemprop="datePublished">
+    <time datetime="2019-11-04 00:00:00 &#43;0100 CET" itemprop="dateModified">
+      Nov 4, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Towards Computational Lexical Semantic Change Detection">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    1 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/curie-paper/">
+      <img src="/post/curie-paper/featured_hud5bee3db523db38ba6effcefdff71635_41844_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+          
+      
+
+      
+      
+        
+        
+          
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/project-meeting-in-gothenburg-july2019/" itemprop="url">Project meeting in Gothenburg</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Project meeting in Gothenburg
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Susanne Vejdemo</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nina Tahmasebi</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <meta content="2019-07-01 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2019-07-02 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      Jul 2, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Towards Computational Lexical Semantic Change Detection">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/project-meeting-in-gothenburg-july2019/">
+      <img src="/post/project-meeting-in-gothenburg-july2019/featured_hu074da938d290ac57a12b8b9295473379_1981572_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+
+      
+
+        
+
+        
+        
+
+        
+        
+          
+      
+
+      
+      
+        
+        
+          
+
+<div class="media stream-item" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="headline">
+      <a href="/post/the-two-week-paper/" itemprop="url">The two week-long paper</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Or, the story of how we wrote the Time-Out paper
+    </div>
+    
+
+    <div class="stream-meta">
+    
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Haim Dubossarsky</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Simon Hengchen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nina Tahmasebi</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dominik Schlechtweg</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      May 14, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Towards Computational Lexical Semantic Change Detection">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/post/the-two-week-paper/">
+      <img src="/post/the-two-week-paper/featured_hucbd69f87c4eb62356bdb92f2a0bcebf2_1389053_150x0_resize_q75_box.jpg" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+
+      
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="description" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Project description</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    <p>The most common word for ‘young female human’ changed from <em>maiden</em> in Old and Middle English to <em>girl</em> in Modern English. This is a case of lexical replacement: a bundle of semantic material is first symbolized by one word, and later in time by another word (onomasiology). Parallel to this, <em>girl</em> ‘young person’ came to mean ‘young female person’. This is a case of semantic change: a word stays the same over time 1 while the semantic material it symbolizes changes (semasiology). It is often useful to talk about the semantic material of a word as clustering into several sub-meanings: senses. Senses can be added, removed or changed. A particularly interesting kind of alteration is positive/negative sentiment change: while the morpheme <em>skit</em> in <em>skitdag</em> ’shitty, bad day’ has a negative connotation, in the last few decades it has acquired a positive connotation as an intensifier in words like <em>skitgott</em> ’really good’. Sentiment analysis is increasingly important for commercial and political research and can greatly benefit from automatically handling lexical and semantic change.</p>
+
+<p>All these intertwined processes make lexical and semantic change highly complex problems relying on defining a particular sense (and the allocation of senses to words), problems that are considered AI complete, i.e. equivalent of making computers as intelligent as people. Recent NLP advances based on the distributional hypothesis of meaning have proven extremely useful in assisting researchers in untangling SC processes. The distributional hypothesis links semantic similarity to distributional similarity - meaning can be induced from the set of words that appear in similar contexts. Automatically induced senses are approximations of an underlying word sense and vary naturally depending on which sentences that are used for the sense induction. A great challenge in automatic change detection is determining when two induced senses (for the same word at different times) are natural variations and when the differences represent sense change (cf <em>okasionelle</em> and <em>usuelle Bedeutung</em> in Paul (1886)).</p>
+
+<p>The methods developed in this project will go beyond the state-of-the-art in the field in several aspects. Previously, <strong>Semantic Change detection</strong> projects have primarily focused on (i) a limited number of change types, e.g., only birth of senses; (ii) a few (far apart) time points, e.g., 50-year slots; or (iii) methods that find signals for change without differentiating between change types or separating the senses of a word (i.e., one topic/vector/cluster per word); and (iv) words in isolation, not their interplay within a semantic field. Existing techniques reduce complexity severely because considering yearly time buckets over two centuries and up to 5 senses per time period, the solution space is in the order of 5200 which is impossible to compute and evaluate. This project will build on the promising reduction techniques described by Tahmasebi and Risse (2017) to enable us to answer the <em>what</em>, <em>how</em> and <em>when</em> questions in full, and create a complete picture of all changes related to a word and its semantic field.</p>
+
+<p>For <strong>automatic Lexical Replacement</strong>, we will set the state-of-the-art simply because there is almost no existing research. The problem is extremely complex because words must be linked based on their (stable) senses. In this project, we have a unique opportunity to study the LR problem because we are one of few research groups that will attempt to solve the problem of word sense change first. We will beginby working on word sense induction for Swedish, as this is the core of our methodology. Once we can induce word senses automatically, we can begin to detect change in senses (SC) and then, as a third step, find word replacement (LR). Using these tools, we can study the varying speed and different processes of LR and SC in e.g. different parts of the vocabulary and during different time periods. Thus far, methods for detecting sentiment change, i.e., words changing their sentiment value, (Cook and Stevenson, 2010; Nguyen et al., 2012) have not differentiated between different senses: only the predominant value of a word has been considered. We will be able to overcome this hurdle by first solving word sense change. We build on ongoing effort at Språkbanken and our sentiment lexicon, SenSaldo, to tackle diachronic sentiment analysis for Swedish.</p>
+
+<p>For all kinds of change targeted in this project, we will provide <strong>textual evidence</strong> to support our claims, e.g. , example sentences for each sense used to help users evaluate and understand the results. This is a prerequisite for uptake in the research community, in particular in the DHSS.</p>
+
+<p>We envision several <strong>use cases</strong> that will help researchers and nonprofessional users to study language changes themselves, enabling them to search and explore archival content and improve downstream large-scale text mining applications. For researchers that are interested in language changes in general, our results will offer answers to what has changed as well as how and when it changed. It will also be possible to answer more complex questions like <em>how is change in one word connected to changes in others in the same semantic field</em>?</p>
+
+<p>For researchers that have an interest in the resources but not necessarily in the changes themselves, e.g., researchers in DHSS, our methods will help to gather evidence for concepts by finding linked vocabulary and their senses, e.g. the word handikappad ’handicapped’ has been replaced over time (<em>handikappad</em>$\rightarrow$ <em>funktionshindrad</em> $\rightarrow$<em>funktionsnedsatt</em>$\rightarrow$ <em>funktionsvariation</em>). The replacement aims to remove negatively connotated senses, but from the continuous replacements, we know that these still catch up. Upon completion of this project, it will be possible to study the lexical replacements on the one hand, and tie it with semantic change. E.g. Does a new word like <em>funktionshindrad</em> take over a subset of the senses of the previous word at first and then later add the negative senses? How fast are the negative senses added for each lexical replacement and does it speed up with additional replacements? Do we include more or less in each sense or add new senses over time?</p>
+
+<p>The methods developed in the project will be generally applicable, but our primary target language is Swedish with equal focus on historical and modern text. E.g. Swedish historical newspapers, Kubhist 1750-1925, books (the Literature bank), parliamentary data (SUC, SOU) and modern newspapers but also social media text where there is evidence of high linguistic diversity and creativity (Goel et al., 2016). This makes the availability of large amounts of Swedish text crucial to the project.<br />
+<a href="https://spraakbanken.gu.se/eng">Språkbanken</a>  continuously collects texts written in Swedish, to date there is over 10 billion words of modern Swedish (e.g. fiction, news, politics and social media) and over one billion words of historical news materials. We will also use digital lexical resources, like SALDO, Svedbergs, Dahlin and SAOL.</p>
+
+<p>We will replicate our research using English text such as the Corpus of Historical American English and Google books. We will extend previous studies and quantify hypothesis regarding lexical and semantic change, work that can feed back into our tools for quality assessment and improvement.</p>
+
+  </div>
+  
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="tags" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Tags</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+      
+      
+
+      
+      
+      
+      
+      
+
+      <div id="tag-cloud">
+        
+          
+          
+          
+          <a href="/tags/analytical-sociology/" style="font-size:0.8rem">Analytical Sociology</a>
+        
+          
+          
+          
+          <a href="/tags/appl/" style="font-size:0.8rem">Appl</a>
+        
+          
+          
+          
+          <a href="/tags/applications/" style="font-size:0.8rem">Applications</a>
+        
+          
+          
+          
+          <a href="/tags/data-science/" style="font-size:0.8rem">Data Science</a>
+        
+          
+          
+          
+          <a href="/tags/data-science/" style="font-size:1.8751012111664174rem">Data science</a>
+        
+          
+          
+          
+          <a href="/tags/diachronic-conceptual-change/" style="font-size:0.8rem">Diachronic Conceptual Change</a>
+        
+          
+          
+          
+          <a href="/tags/digital-history/" style="font-size:1.2159059216009842rem">Digital History</a>
+        
+          
+          
+          
+          <a href="/tags/digital-humanities/" style="font-size:2.1183905791308666rem">Digital Humanities</a>
+        
+          
+          
+          
+          <a href="/tags/digital-humanities/" style="font-size:1.459195289565433rem">Digital humanities</a>
+        
+          
+          
+          
+          <a href="/tags/evaluation/" style="font-size:1.8751012111664174rem">Evaluation</a>
+        
+          
+          
+          
+          <a href="/tags/historical-iinguistics/" style="font-size:0.8rem">Historical Iinguistics</a>
+        
+          
+          
+          
+          <a href="/tags/historical-semantic-change/" style="font-size:1.8751012111664174rem">Historical Semantic Change</a>
+        
+          
+          
+          
+          <a href="/tags/history-of-concepts/" style="font-size:0.8rem">History of Concepts</a>
+        
+          
+          
+          
+          <a href="/tags/lr/" style="font-size:0.8rem">LR</a>
+        
+          
+          
+          
+          <a href="/tags/language-change-detection/" style="font-size:2.463623686403937rem">Language Change Detection</a>
+        
+          
+          
+          
+          <a href="/tags/lexical-replacement/" style="font-size:1.967595536119427rem">Lexical Replacement</a>
+        
+          
+          
+          
+          <a href="/tags/named-entity-evolution/" style="font-size:0.8rem">Named Entity Evolution</a>
+        
+          
+          
+          
+          <a href="/tags/sc/" style="font-size:0.8rem">SC</a>
+        
+          
+          
+          
+          <a href="/tags/semantic-change/" style="font-size:1.6318118432019686rem">Semantic Change</a>
+        
+          
+          
+          
+          <a href="/tags/sense-differentiated-embeddings/" style="font-size:0.8rem">Sense-differentiated embeddings</a>
+        
+          
+          
+          
+          <a href="/tags/wsi/" style="font-size:0.8rem">WSI</a>
+        
+          
+          
+          
+          <a href="/tags/word-sense-induction/" style="font-size:0.8rem">Word Sense Induction</a>
+        
+      </div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="search" class="home-section">
+    <div class="container">
+      
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 section-heading">
+    <h1>Search</h1>
+    
+  </div>
+  <div class="col-xs-12 col-md-8">
+    
+
+    <div id="search-box">
+      
+      <input name="q" id="search-query" placeholder="Search..." autocapitalize="off" autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+      
+    </div>
+
+    <div id="search-hits">
+      
+    </div>
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+  
+  
+  
+  <section id="contact" class="home-section">
+    <div class="container">
+      
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    <p><p><a href="mailto:info@[remove]languagechange.org" target="_top">Contact us</a> and <a href="https://lists.languagechange.org/mailman/listinfo/news_lists.languagechange.org" target="_top">sign up</a> for our mailinglist.</p>
+
+<p>If you want to collaborate with us on a Master thesis project or a PhD project, send us an email with a short project proposal.</p>
+</p>
+
+    
+
+    <ul class="fa-ul" itemscope>
+
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email" itemprop="email"><a href="mailto:info@languagechange.org">info@languagechange.org</a></span>
+      </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </ul>
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+  
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 - 2022 &middot; 
+
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    
+    <script src="https://languagechange.org/js/mathjax-config.83b2a65cc1ca1f6c27c3f6943cbc37b88095532149bd65090e1ace0fafa090299c14cc980ebb55fed8a2b67507f355d0ff8f2e7beb5d5b7cd5903f53c74df423.js" integrity="sha512-g7KmXMHKH2wnw/aUPLw3uICVUyFJvWUJDhrOD6&#43;gkCmcFMyYDrtV/tiitnUH81XQ/48ue&#43;tdW3zVkD9Tx030Iw=="></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+
+

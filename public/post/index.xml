@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/post/</link>
+    <description>Recent content in Posts on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Språkforskaren som blev it-konsult</title>
+      <link>https://languagechange.org/post/curie-paper/</link>
+      <pubDate>Mon, 04 Nov 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://languagechange.org/post/curie-paper/</guid>
+      <description>Läs om Susanne i tidningen Curie: https://www.tidningencurie.se/nyheter/2019/10/16/sprakforskaren-som-blev-it-konsult/#</description>
+    </item>
+    
+    <item>
+      <title>Project meeting in Gothenburg</title>
+      <link>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</guid>
+      <description>A great strength of this project is how we combine both more traditional and more digital forms of lexical semantics research. Whenever we have a chance to meet, we realize how much we all have to gain by intertwining our perspectives and knowledge. This time, Nina and Susanne got together in Gothenburg for two days, and Richard joined our first day. We talked about many things - for example:
+ What is meaning?</description>
+    </item>
+    
+    <item>
+      <title>The two week-long paper</title>
+      <link>https://languagechange.org/post/the-two-week-paper/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://languagechange.org/post/the-two-week-paper/</guid>
+      <description>This is the story of how four people who did not know each other well, met and spent two weeks working, analyzing and discussing, and ended up with an accepted ACL paper out of the almost 3000 submitted papers.
+It all started with Simon Hengchen and the ComHis group at the University of Helsinki, that invited the three of us (Haim Dubossarsky, Dominik Schlechtweg and me) to Helsinki for a research stay.</description>
+    </item>
+    
+  </channel>
+</rss>

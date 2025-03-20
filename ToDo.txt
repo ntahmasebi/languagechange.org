@@ -1,0 +1,3 @@
+
+Add poster at Cambridge Language Sciences Annual Symposium 2019, Perspective on Languages, 21.  Time for change: Evaluating models of semantic change without evaluation tasks -- Haim Dubossarsky, Simon Hengchen, Nina Tahmasebi, and Dominik Schlechtweg
+Make a page on languagechange.org/semeval and forward to codalab, plus add links to task paper, reference to task paper, and a few key results. Link to all datasets (coda data test)

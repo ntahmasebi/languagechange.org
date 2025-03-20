@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diachronic Conceptual Change on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/tags/diachronic-conceptual-change/</link>
+    <description>Recent content in Diachronic Conceptual Change on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/tags/diachronic-conceptual-change/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wp2: Semantic Change Detection</title>
+      <link>https://languagechange.org/wps/semantic-change/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://languagechange.org/wps/semantic-change/</guid>
+      <description>A rich tradition of cross-linguistic, detailed studies in lexical semantics has generated hypotheses that are ripe for further quantitative exploration made possible by the outcomes of this project. For example, synchronically: there are cognitively different kinds of temperature sensations, which form overt or covert sub-senses (Koptjevskaja-Tamm, 2015), that may be handled by different grammatical constructions (Pustet, 2015). Diachronically: word senses often go from describing external reality to internal perception (Traugott and Dasher, 2002); change often proceeds from a higher sensory modality to a lower (Viberg, 1980); perception verbs develop into cognitive verbs (Sweetser, 1991); or the exact hues denoted by Swedish color terms may change in a predictable fashion over time (Vejdemo, 2017).</description>
+    </item>
+    
+  </channel>
+</rss>

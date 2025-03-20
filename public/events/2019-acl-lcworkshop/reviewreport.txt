@@ -1,0 +1,317 @@
+ Submission 3: 	GASC: Genre-Aware Semantic Change for Ancient Greek			
+ Authors: 	Valerio Perrone, Marco Palma, Simon Hengchen, Alessandro Vatri, Jim Q. Smith and Barbara McGillivray			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.33	VAR: 1.33	MIN: 2	MAX: 4	  Scores: 2    4    4    
+				
+   Submission 5: 	Contextualized Diachronic Word Representations			
+ Authors: 	Ganesh Jawahar and Djamé Seddah			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 1.33	MIN: 3	MAX: 5	  Scores: 3    5    5    3    
+				
+   Submission 6: 	A null model of sound change			
+ Authors: 	Andrea Ceolin			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 1.33	MIN: 2	MAX: 4	  Scores: 4    2    2    4    
+				
+   Submission 7: 	Markedness is an epiphenomenon of random phonetically groundedsound change			
+ Authors: 	Ollie Sayeed and Andrea Ceolin			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 0	MIN: 3	MAX: 3	  Scores: 3    
+				
+   Submission 8: 	Visualizing Linguistic Change as Dimension Interactions			
+ Authors: 	Christin Schätzle, Frederik L. Dennig, Michael Blumenschein, Daniel A. Keim and Miriam Butt			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.33	VAR: 4.33	MIN: 1	MAX: 5	  Scores: 4    1    5    
+				
+   Submission 9: 	A method to automatically identify diachronic variation in collocations.			
+ Authors: 	Marcos Garcia and Marcos García Salido			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 1	MIN: 2	MAX: 4	  Scores: 2    3    4    
+				
+   Submission 10: 	Written on Leaves or in Stones?: Computational Evidence for the Era of Authorship of Old Thai Prose			
+ Authors: 	Attapol Rutherford and Santhawat Thanyawong			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.33	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 4    3    3    
+				
+   Submission 11: 	Identifying temporal trends based on perplexity and clustering: Are we looking at language change?			
+ Authors: 	Sidsel Boldsen, Manex Agirrezabal and Patrizia Paggio			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    4    
+				
+   Submission 12: 	Using Word Embeddings to Examine Gender Bias in Dutch Newspapers, 1950-1990			
+ Authors: 	Melvin Wevers			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.75	VAR: 0.92	MIN: 3	MAX: 5	  Scores: 5    3    3    4    
+				
+   Submission 13: 	Ab Antiquo: Proto-language Reconstruction with RNNs			
+ Authors: 	Carlo Meloni, Shauli Ravfogel and Yoav Goldberg			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.33	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 4    3    3    
+				
+   Submission 14: 	Predicting historical phonetic features using deep neural networks: A case study of the phonetic system of Proto-Indo-European			
+ Authors: 	Frederik Hartmann			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 0	MIN: 3	MAX: 3	  Scores: 3    3    
+				
+   Submission 15: 	ParHistVis: Visualization of Parallel Multilingual Historical Data			
+ Authors: 	Aikaterini-Lida Kalouli, Rebecca Kehlbeck, Rita Sevastjanova, Katharina Kaiser, Georg A. Kaiser and Miriam Butt			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.50	VAR: 0.50	MIN: 3	MAX: 4	  Scores: 3    4    
+				
+   Submission 16: 	Tracing Antisemitic Language Through Diachronic Embedding Projections: France 1789-1914			
+ Authors: 	Rocco Tripodi, Massimo Warglien, Simon Levis Sullam and Deborah Paci			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4.33	VAR: 0.33	MIN: 4	MAX: 5	  Scores: 4    4    5    
+				
+   Submission 17: 	From the Paft to the Fiiture: a Fully Automatic NMT and Word Embeddings Method for OCR Post-Correction			
+ Authors: 	Mika Hämäläinen and Simon Hengchen			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.33	VAR: 2.33	MIN: 1	MAX: 4	  Scores: 1    2    4    
+				
+   Submission 18: 	A Graph-based Model for Representing Etymological Information			
+ Authors: 	Fahad Khan			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.67	VAR: 2.33	MIN: 1	MAX: 4	  Scores: 3    4    1    
+				
+   Submission 19: 	DiaHClust: an iterative hierarchical clustering approach for identifying stages in language change			
+ Authors: 	Christin Schätzle and Hannah Booth			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 1	MIN: 2	MAX: 4	  Scores: 4    2    3    
+				
+   Submission 20: 	Treat the Word As a Whole or Look Inside? Subword Embeddings Model Language Change and Typology			
+ Authors: 	Yang Xu, Jiasheng Zhang and David Reitter			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 4    3    4    
+				
+   Submission 21: 	Times are changing: Investigating the pace of language change in diachronic word embeddings.			
+ Authors: 	Stephanie Brandl and David Lassner			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.50	VAR: 4.50	MIN: 1	MAX: 4	  Scores: 1    4    
+				
+   Submission 22: 	The Rationality of Semantic Change			
+ Authors: 	Omer Korat			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 1.33	MIN: 3	MAX: 5	  Scores: 5    3    3    
+				
+   Submission 23: 	Using Deep Cross-Lingual Word Embeddings to Infer Phylogenetic Trees			
+ Authors: 	Diptesh Kanojia, Abhijeet Dubey, Pushpak Bhattacharyya, Malhar Kulkarni and Gholamreza Haffari			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 1.50	VAR: 0.50	MIN: 1	MAX: 2	  Scores: 2    1    
+				
+   Submission 24: 	Studying Semantic Chain Shifts with Word2Vec: FOOD>MEAT>FLESH			
+ Authors: 	Richard Zimmermann			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4.33	VAR: 0.33	MIN: 4	MAX: 5	  Scores: 4    4    5    
+				
+   Submission 25: 	Algorithmic optimization of shared and free parameters in computational models of language change: four methods and their comparison			
+ Authors: 	Henri Kauhanen and George Walkden			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.50	VAR: 0.50	MIN: 2	MAX: 3	  Scores: 3    2    
+				
+   Submission 26: 	Studying Laws of Semantic Divergence across Languages using Cognate Sets			
+ Authors: 	Ana Uban, Alina Maria Ciobanu and Liviu P. Dinu			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 1	MIN: 2	MAX: 4	  Scores: 2    3    4    
+				
+   Submission 27: 	Detecting Syntactic Change Using a Neural Part-of-Speech Tagger			
+ Authors: 	William Merrill, Gigi Stark and Robert Frank			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 1.33	MIN: 3	MAX: 5	  Scores: 3    3    5    
+				
+   Submission 28: 	From insanely jealous to insanely delicious: Computational models for the semantic bleaching of English intensifiers			
+ Authors: 	Yiwei Luo, Dan Jurafsky and Beth Levin			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 1	MIN: 3	MAX: 5	  Scores: 4    3    5    
+				
+   Submission 29: 	Grammar and meaning: analysing the topology of diachronic word embeddings			
+ Authors: 	Yuri Bizzoni, Stefania Degaetano-Ortlieb, Pauline Krielke, Katrin Menzel and Elke Teich			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    4    4    
+				
+   Submission 31: 	Exploring contact-induced change through regional variation in contemporary language data: the case of Quebec English on Twitter			
+ Authors: 	Filip Miletic, Anne Przewozny-Desriaux and Ludovic Tanguy			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 2	MIN: 2	MAX: 4	  Scores: 4    2    
+				
+   Submission 32: 	Older English words are more polysemous			
+ Authors: 	Aleksandrs Berdicevskis			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 0	MIN: 2	MAX: 2	  Scores: 2    2    
+				
+   Submission 33: 	Spatio-Temporal Prediction of Swiss German Dialectal Variant Usage			
+ Authors: 	Péter Jeszenszky, Panote Siriaraya, Philipp Stoeckle and Adam Jatowt			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.50	VAR: 0.50	MIN: 2	MAX: 3	  Scores: 3    2    
+				
+   Submission 34: 	Tracking morphological changes through Shakespeare: a rose that smels just as sweet			
+ Authors: 	Ayla Karakaş, Alëna Aksënova and Mark Aronoff			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 1	MIN: 1	MAX: 3	  Scores: 1    2    3    
+				
+   Submission 35: 	Learning to predict cognates with a neural network			
+ Authors: 	Clementine Fourrier and Benoît Sagot			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.50	VAR: 0.50	MIN: 3	MAX: 4	  Scores: 4    3    
+				
+   Submission 36: 	Computational Approaches to Sound Change in 18th Century English Lexicography			
+ Authors: 	Jean-Louis Duchet, Franck Zumstein, Sylvie Hanote, Nicolas Videau, Nicolas Ballier, Nicolas Trapateau, Frédéric Duchesne and Michaël Nauge			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.25	VAR: 1.58	MIN: 1	MAX: 4	  Scores: 4    2    2    1    
+				
+   Submission 37: 	Computational Analysis of the Historical Changes in Poetry and Prose			
+ Authors: 	Amitha Gopidi and Aniket Alam			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0.67	MIN: 3	MAX: 5	  Scores: 4    3    4    5    
+				
+   Submission 38: 	Enriching Character-based Neural Machine Translation with Modern Documents for Achieving an Orthography Consistency in Historical Documents			
+ Authors: 	Miguel Domingo and Francisco Casacuberta			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.67	VAR: 1.33	MIN: 2	MAX: 4	  Scores: 2    2    4    
+				
+   Submission 39: 	Developing tools for Medieval French: challenges of language evolution and variation			
+ Authors: 	Mathilde Regnault			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.33	VAR: 1.33	MIN: 1	MAX: 3	  Scores: 1    3    3    
+				
+   Submission 40: 	One-to-X analogical reasoning on word embeddings: a case for diachronic armed conflict prediction from news texts			
+ Authors: 	Andrey Kutuzov, Erik Velldal and Lilja Øvrelid			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 4    3    4    
+				
+   Submission 41: 	Which language did Germanic runic inscriptions note?			
+ Authors: 	Clément Besnier			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 0	MIN: 2	MAX: 2	  Scores: 2    
+				
+   Submission 42: 	Modeling a historical variety of a low-resource language: Language contact effects in the verbal cluster of Early-Modern Frisian			
+ Authors: 	Jelke Bloem, Arjen Versloot and Fred Weerman			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    4    4    
+				
+   Submission 43: 	Simulating Lexical Semantic Change from Sense-Annotated Data			
+ Authors: 	Dominik Schlechtweg and Sabine Schulte im Walde			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.50	VAR: 0.50	MIN: 2	MAX: 3	  Scores: 2    3    
+				
+   Submission 44: 	Measuring diachronic evolution of evaluative adjectives with distributional models: the case for English, Norwegian, and Russian			
+ Authors: 	Andrey Kutuzov, Erik Velldal, Samia Touileb, Vadim Fomin, Julia Rodina and Daria Bakshandaeva			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    4    
+				
+   Submission 45: 	Empirical study of diachronic word embeddings for scarce data			
+ Authors: 	Syrielle Montariol and Alexandre Allauzen			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 0	MIN: 2	MAX: 2	  Scores: 2    2    2    
+				
+   Submission 46: 	Building an Old Slavic corpus: Reconciling historical data and modern computational models			
+ Authors: 	Joseph Rhyne			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.33	VAR: 0.33	MIN: 2	MAX: 3	  Scores: 2    2    3    
+				
+   Submission 47: 	Semantic Change in the Language of UK Parliamentary Debates			
+ Authors: 	Gavin Abercrombie and Riza Batista-Navarro			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.33	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 3    4    3    
+				
+   Submission 48: 	TICCLAT: a Dutch diachronical database of linked word-variants			
+ Authors: 	Janneke van der Zwaan, Patrick Bos and Martin Reynaert			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 0	MIN: 2	MAX: 2	  Scores: 2    
+				
+   Submission 49: 	Semantic Change and Emerging Tropes In a Large Corpus of New High German Poetry			
+ Authors: 	Thomas Haider and Steffen Eger			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3	VAR: 0	MIN: 3	MAX: 3	  Scores: 3    3    
+				
+   Submission 50: 	Evaluation of Semantic Change of Harm-Related Concepts in Psychology			
+ Authors: 	Ekaterina Vylomova, Sean Murphy and Nicholas Haslam			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 3    4    4    
+				
+   Submission 51: 	Conceptual Change and Distributional Semantic Models: an Exploratory Study on Pitfalls and Possibilities			
+ Authors: 	Pia Sommerauer and Antske Fokkens			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 1.33	MIN: 3	MAX: 5	  Scores: 3    5    3    
+				
+   Submission 52: 	Measuring the compositionality of noun-noun compounds over time			
+ Authors: 	Prajit Dhar, Janis Pagel and Lonneke van der Plas			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2.50	VAR: 4.50	MIN: 1	MAX: 4	  Scores: 1    4    
+				
+   Submission 53: 	Towards Automatic Variant Analysis of Ancient Liturgical Readings			
+ Authors: 	Amir Hazem and Béatrice Daille			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    
+				
+   Submission 54: 	Evaluating Synonym Alignment in Historical Bibles Using Not OnlyWord Embeddings			
+ Authors: 	Maria Moritz			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 1.67	VAR: 0.33	MIN: 1	MAX: 2	  Scores: 1    2    2    
+				
+   Submission 55: 	(Re)visitingWord Alignment for Latin: A Baseline			
+ Authors: 	Maria Moritz and Marco Passarotti			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 2	VAR: 0	MIN: 2	MAX: 2	  Scores: 2    
+				
+   Submission 56: 	Understanding the Evolution of Circular Economy through Language Change			
+ Authors: 	Sampriti Mahanty, Frank Boons and Riza Theresa Batista-Navarro			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 4	VAR: 0	MIN: 4	MAX: 4	  Scores: 4    
+				
+   Submission 57: 	Gaussian Process models of sound change in Indo-Aryan dialectology			
+ Authors: 	Chundra Cathcart			
+ Status: 	Undecided			
+ Messages: 	To Message Board  [Empty]			
+AVG: 3.67	VAR: 0.33	MIN: 3	MAX: 4	  Scores: 3    

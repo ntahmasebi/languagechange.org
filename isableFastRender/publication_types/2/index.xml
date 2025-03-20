@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Nina Tahmasebi</title>
+    <link>//localhost:1313/publication_types/2/</link>
+    <description>Recent content in 2 on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 07 Jun 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swe-Clarin: Language resources and technology for Digital Humanities</title>
+      <link>//localhost:1313/publication/2017-dh2017/</link>
+      <pubDate>Wed, 07 Jun 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2017-dh2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Named entity evolution recognition on the Blogosphere</title>
+      <link>//localhost:1313/publication/2015-ijdl2015-blogs/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2015-ijdl2015-blogs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visions and open challenges for a knowledge-based culturomics</title>
+      <link>//localhost:1313/publication/2015-ijdl2015-cult/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2015-ijdl2015-cult/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the applicability of word sense discrimination on 201 years of modern english</title>
+      <link>//localhost:1313/publication/2012-ijdl2012-ontheapplicability/</link>
+      <pubDate>Mon, 01 Apr 2013 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-ijdl2012-ontheapplicability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ambient bloom: new business, content, design and models to increase the semantic ambient media experience</title>
+      <link>//localhost:1313/publication/2012-mta2012-ambientbloom/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-mta2012-ambientbloom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Towards mobile language evolution exploitation</title>
+      <link>//localhost:1313/publication/2012-mta2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/publication/2012-mta2012/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

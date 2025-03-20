@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/publication_types/6/</link>
+    <description>Recent content in 6 on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Sat, 21 Aug 2021 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Challenges for computational lexical semantic change</title>
+      <link>https://languagechange.org/publication/2021-semchange-challenges/</link>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://languagechange.org/publication/2021-semchange-challenges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terminology Evolution in Web Archiving: Open Issues</title>
+      <link>https://languagechange.org/publication/2008-iwaw2008/</link>
+      <pubDate>Fri, 22 Aug 2008 00:00:00 +0200</pubDate>
+      
+      <guid>https://languagechange.org/publication/2008-iwaw2008/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

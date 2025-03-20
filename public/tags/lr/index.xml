@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LR on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/tags/lr/</link>
+    <description>Recent content in LR on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/tags/lr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wp3: Lexical Replacement</title>
+      <link>https://languagechange.org/wps/lexical-replacement/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0100</pubDate>
+      
+      <guid>https://languagechange.org/wps/lexical-replacement/</guid>
+      <description>There are several impressive taxonomies that lists types of lexical replacement processes (Ullman, 1957), but these are mainly descriptive and make little attempt to predict what kind of lexical change might happen for a given concept. Some proposed general hypotheses are that nouns are replaced more readily than verbs, that more frequent words are insulated from replacement (Pagel et al., 2007) and that rich synonym networks speed up replacement (Vejdemo and Hörberg, 2016), hypotheses that we can investigate using quantitative approaches on large scale, diachronic text upon completion of this project.</description>
+    </item>
+    
+  </channel>
+</rss>

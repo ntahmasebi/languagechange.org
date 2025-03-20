@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Nina Tahmasebi</title>
+    <link>//localhost:1313/home/</link>
+    <description>Recent content in Homes on Nina Tahmasebi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/hero/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/home/about/</link>
+      <pubDate>Mon, 05 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/home/about/</guid>
+      <description>Biography I am a researcher at the University of Gothenburg. I work at a Language Technology Research Lab, Språkbanken, and for the Centre for Digital Humanities. My research focuses on computational methods for detecting changes in natural language, in particular semantic changes and lexical replacements. I am the principal investigator of Towards automatic detection of language change, a 4-year research project funded by the Swedish Research Council. I also work in sentiment mining for Swedish, and text mining for the digital humanities.</description>
+    </item>
+    
+    <item>
+      <title>Experience</title>
+      <link>//localhost:1313/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>//localhost:1313/home/publications_selected/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/home/publications_selected/</guid>
+      <description>More publications</description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>//localhost:1313/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>//localhost:1313/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>//localhost:1313/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>//localhost:1313/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>//localhost:1313/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/teaching/</guid>
+      <description>I have the following teaching experiences
+2018 Supervisor, Master thesis, Spring Lecturer, LV2190 Methods in Digital Humanities (part Methods for text mining and visualization), Spring
+2017 Supervisor, Master thesis, Spring 2017
+Lecturer, LT2304 Language Technology Resources, Autumn
+2016 Supervisor, Master theses, Spring Lecturer, LT2304 Language Technology Resources, Autumn
+2011 Supervisor, Master thesis
+2010 Supervisor, Master theses, 2010
+2007 Matematisk statistik för K, (TMA072) 2007 formulas
+Summer Course Mathematics (MVE800) 2007</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>//localhost:1313/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>//localhost:1313/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0200</pubDate>
+      
+      <guid>//localhost:1313/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>//localhost:1313/home/contact/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

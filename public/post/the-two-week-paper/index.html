@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.0.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="Towards Computational Lexical Semantic Change Detection">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Or, the story of how we wrote the Time-Out paper">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://languagechange.org/post/the-two-week-paper/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="https://languagechange.org/index.xml" type="application/rss+xml" title="Towards Computational Lexical Semantic Change Detection">
+  <link rel="feed" href="https://languagechange.org/index.xml" type="application/rss+xml" title="Towards Computational Lexical Semantic Change Detection">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://languagechange.org/post/the-two-week-paper/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Towards Computational Lexical Semantic Change Detection">
+  <meta property="og:url" content="https://languagechange.org/post/the-two-week-paper/">
+  <meta property="og:title" content="The two week-long paper | Towards Computational Lexical Semantic Change Detection">
+  <meta property="og:description" content="Or, the story of how we wrote the Time-Out paper">
+  
+  
+    
+  <meta property="og:image" content="https://languagechange.org/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-05-14T00:00:00&#43;02:00">
+  
+  <meta property="article:modified_time" content="2018-05-14T00:00:00&#43;02:00">
+  
+
+  
+
+  
+
+  <title>The two week-long paper | Towards Computational Lexical Semantic Change Detection</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Towards Computational Lexical Semantic Change Detection</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/wps/">
+            
+            <span>Work Packages</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/events/">
+            
+            <span>Events</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/talk/">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-header d-xl-none">
+  <img src="/post/the-two-week-paper/featured_hucbd69f87c4eb62356bdb92f2a0bcebf2_1389053_1600x400_fill_q90_box_smart1.jpg" class="article-banner" itemprop="image" alt="">
+  <span class="article-header-caption">Simon, Nina, Dominik, and Haim in Helsinki, Feb. 2019</span>
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">The two week-long paper</h1>
+
+        
+        <p class="page-subtitle">Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change</p>
+        
+
+        
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Haim Dubossarsky</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Simon Hengchen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nina Tahmasebi</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dominik Schlechtweg</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      May 14, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Towards Computational Lexical Semantic Change Detection">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+
+</div>
+
+
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=The%20two%20week-long%20paper&amp;url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f&amp;title=The%20two%20week-long%20paper"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f&amp;title=The%20two%20week-long%20paper"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=The%20two%20week-long%20paper&amp;body=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/post/the-two-week-paper/featured_hucbd69f87c4eb62356bdb92f2a0bcebf2_1389053_680x500_fill_q90_box_smart1.jpg" itemprop="image" alt="">
+        <span class="article-header-caption">Simon, Nina, Dominik, and Haim in Helsinki, Feb. 2019</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">The two week-long paper</h1>
+
+  
+  <p class="page-subtitle">Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change</p>
+  
+
+  
+
+<div class="article-metadata">
+
+  
+  
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Haim Dubossarsky</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Simon Hengchen</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Nina Tahmasebi</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Dominik Schlechtweg</span>
+    </span>
+    
+  </div>
+  
+
+  <span class="article-date">
+    
+    <meta content="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="datePublished">
+    <time datetime="2018-05-14 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+      May 14, 2018
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Towards Computational Lexical Semantic Change Detection">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=The%20two%20week-long%20paper&amp;url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f&amp;title=The%20two%20week-long%20paper"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f&amp;title=The%20two%20week-long%20paper"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=The%20two%20week-long%20paper&amp;body=https%3a%2f%2flanguagechange.org%2fpost%2fthe-two-week-paper%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>This is the story of how four people who did not know each other well, met and spent two weeks working, analyzing and discussing, and ended up with an <a href="/publication/2019-acl2019/">accepted ACL paper</a> out of the almost 3000 submitted papers.</p>
+
+<p>It all started with Simon Hengchen and the ComHis group at the University of Helsinki, that invited the three of us (Haim Dubossarsky, Dominik Schlechtweg and me) to Helsinki for a research stay. We got funding for the trip (thank you University of Helsinki!) and decided on a week in February 2019. Haim wanted us to be bold and have a theoretical chance of submitting to ACL. We started the week on February 18th with a workshop, where we presented our work, all related to lexical semantic change, detection and evaluation.</p>
+
+<p>Next we sat down in a room and started discussing. After quite some discussions, we agreed on a task and got to work. We worked on  temporal referencing of the corpus and the algorithms, the shuffling and control settings as well as building the synthetic corpus, and on the sampling, evaluation, and drafting experiments. And some of us were also in charge of the (liquid) entertainment.</p>
+
+
+
+<div class="gallery">
+  
+  
+  
+  
+    
+      
+    
+  
+  <a data-fancybox="gallery-1"  href="/img/posts/hypotheses.jpg">
+    <img alt="" src="/img/posts/hypotheses.jpg">
+  </a>
+  
+</div>
+
+<p>The week went fast and was an amazing experience, we discussed, in pairs or as a group and solved problems as we went along. We agreed on experimental setup, and after lunch and some more hours writing on Friday, we all went back home and spend a weekend at home. After that, an intensive week started, we were seeing results and started analyzing. It felt like we lived a week in front of our computers, Skyping as we went along.</p>
+
+<p>While we had set up the Overleaf project for our paper already during our week in Helsinki, we really started to work on the paper during the last day of February and the first day of March, with the paper deadline being March 4th. The paper had less than 4 pages on March 1st, and on late night March 4th, we were reading the paper from beginning to end for the first time, and discussing changes and consolidating writing styles. We randomly assigned the order of the authors using screen sharing on Simon’s laptop, and gave Haim quite some hardship for having drawn the longest straw.</p>
+
+<p>The second to last day, we had some problems with our results, they were showing the exact opposite of what we were expecting and had seen in a previous version. But a late night and a few calls clarified the mistake and we were able to see more convincing results, supporting our initial hypothesis.</p>
+
+<p>Today, as the acceptance notification came, I am still amazed that we were able to produce a paper (submitted with four minutes to spare) that was lucid enough to get good reviews. Or that we could go from an idea, via implementation and experiments to written results in two weeks. It goes to show what can be done when you get to sit in a room with such smart people and just work. So far, this has been the single most exciting research activity that I have ever participated in. <strong>Thank you Simon, Dominik and Haim!</strong></p>
+
+<p><strong>Ps.</strong> The four of us, together with Barbara McGillivray, are organizing a <a href="/semeval">SemEval challenge on lexical semantic change detection</a> for English, German, Swedish and Latin.</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/semantic-change/">Semantic Change</a>
+  
+</div>
+
+
+
+    
+
+
+
+  
+
+
+
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<div class="container">
+  <footer class="site-footer">
+  
+  <p class="powered-by">
+    <a href="/privacy/">Privacy Policy</a>
+  </p>
+  
+
+  <p class="powered-by">
+    &copy; 2018 - 2022 &middot; 
+
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    
+    
+    <script src="https://languagechange.org/js/mathjax-config.83b2a65cc1ca1f6c27c3f6943cbc37b88095532149bd65090e1ace0fafa090299c14cc980ebb55fed8a2b67507f355d0ff8f2e7beb5d5b7cd5903f53c74df423.js" integrity="sha512-g7KmXMHKH2wnw/aUPLw3uICVUyFJvWUJDhrOD6&#43;gkCmcFMyYDrtV/tiitnUH81XQ/48ue&#43;tdW3zVkD9Tx030Iw=="></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

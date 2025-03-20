@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital History on Towards Computational Lexical Semantic Change Detection</title>
+    <link>https://languagechange.org/tags/digital-history/</link>
+    <description>Recent content in Digital History on Towards Computational Lexical Semantic Change Detection</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 - 2022</copyright>
+    <lastBuildDate>Mon, 30 Sep 2019 09:30:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://languagechange.org/tags/digital-history/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Turing workshop on automatic methods for lexical semantic change</title>
+      <link>https://languagechange.org/events/2019-turing-lcworkshop/</link>
+      <pubDate>Mon, 30 Sep 2019 09:30:00 +0200</pubDate>
+      
+      <guid>https://languagechange.org/events/2019-turing-lcworkshop/</guid>
+      <description>Words change their meaning over time, depending on a range of linguistic and extra-linguistic factors. Associating a word’s correct meaning in its historical context is a central challenge in diachronic research, and is relevant to a range of computational linguistics tasks, including information retrieval and semantic search on historical texts. In recent years, computational linguistics research has made great advances in the area of automatic detection of lexical semantic change, using a range of approaches varying from topic models to neural word embeddings.</description>
+    </item>
+    
+    <item>
+      <title>Workshop on Lexical Semantic Change</title>
+      <link>https://languagechange.org/events/2019-acl-lcworkshop---copy/</link>
+      <pubDate>Thu, 24 Jan 2019 09:30:00 +0100</pubDate>
+      
+      <guid>https://languagechange.org/events/2019-acl-lcworkshop---copy/</guid>
+      <description>Languages change with time. While the study of meaning is not a new thing, the past few years have seen a lot of attention given to the computational tackling of particular tasks within (historical) semantics. Advances in NLP and the availability of massive textual corpora have made possible new research methods focused on lexical semantic change, using a range of approaches varying from topic models to neural word embeddings. Knowing what a word means at a particular moment of time is crucial for text-based research in the humanities.</description>
+    </item>
+    
+  </channel>
+</rss>
