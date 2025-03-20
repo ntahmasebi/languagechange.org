@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Evaluation on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/evaluation/</link>
+    <link>http://localhost:1313/tags/evaluation/</link>
     <description>Recent content in Evaluation on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Tue, 27 Oct 2020 13:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/evaluation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/evaluation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An introduction to lexical semantic change</title>
-      <link>https://languagechange.org/talk/2020-stuttgart/</link>
+      <link>http://localhost:1313/talk/2020-stuttgart/</link>
       <pubDate>Tue, 27 Oct 2020 13:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/2020-stuttgart/</guid>
+      <guid>http://localhost:1313/talk/2020-stuttgart/</guid>
       <description></description>
     </item>
     <item>
       <title>Unsupervised Lexical Semantic Change Detection – Past, Present &amp; Future</title>
-      <link>https://languagechange.org/talk/2020-jerusalem/</link>
+      <link>http://localhost:1313/talk/2020-jerusalem/</link>
       <pubDate>Thu, 27 Feb 2020 13:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/2020-jerusalem/</guid>
+      <guid>http://localhost:1313/talk/2020-jerusalem/</guid>
       <description></description>
     </item>
     <item>
       <title>Project meeting in Gothenburg</title>
-      <link>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</link>
+      <link>http://localhost:1313/post/project-meeting-in-gothenburg-july2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</guid>
+      <guid>http://localhost:1313/post/project-meeting-in-gothenburg-july2019/</guid>
       <description>Project meeting in Gothenburg</description>
     </item>
     <item>
       <title>Discovering Semantic Shifts Using Diachronic Word Sense Embeddings</title>
-      <link>https://languagechange.org/talk/2019-uppsala/</link>
+      <link>http://localhost:1313/talk/2019-uppsala/</link>
       <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/2019-uppsala/</guid>
+      <guid>http://localhost:1313/talk/2019-uppsala/</guid>
       <description></description>
     </item>
     <item>
       <title>On Lexical Semantic Change and Evaluation</title>
-      <link>https://languagechange.org/talk/2019-stuttgart/</link>
+      <link>http://localhost:1313/talk/2019-stuttgart/</link>
       <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/2019-stuttgart/</guid>
+      <guid>http://localhost:1313/talk/2019-stuttgart/</guid>
       <description></description>
     </item>
     <item>
       <title>Workshop on Lexical Semantic Change 2019</title>
-      <link>https://languagechange.org/talk/2019-helsinki/</link>
+      <link>http://localhost:1313/talk/2019-helsinki/</link>
       <pubDate>Mon, 18 Feb 2019 13:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/2019-helsinki/</guid>
+      <guid>http://localhost:1313/talk/2019-helsinki/</guid>
       <description></description>
     </item>
   </channel>

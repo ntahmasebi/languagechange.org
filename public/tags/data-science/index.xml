@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Science on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/data-science/</link>
+    <link>http://localhost:1313/tags/data-science/</link>
     <description>Recent content in Data Science on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Fri, 12 May 2023 09:00:00 +0200</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Svenska Språkets Historia</title>
-      <link>https://languagechange.org/events/2023-ssh/</link>
+      <link>http://localhost:1313/events/2023-ssh/</link>
       <pubDate>Mon, 17 Apr 2023 13:21:31 +0200</pubDate>
-      <guid>https://languagechange.org/events/2023-ssh/</guid>
+      <guid>http://localhost:1313/events/2023-ssh/</guid>
       <description>&lt;p&gt;Språk förändras över tid. Ofta är dessa förändringar signifikanta för mycket mer än bara vårt språk, de pekar också på hur samhällen och kulturer förändras. Genom den revolution vi har sett de senaste två årtiondena i form av stora mängder tillgängliga digitala texter, och datorkraft nog att handskas med dessa volymer av text, kan vi nu studera språkliga, kulturella och samhälleliga förändringar. Med hjälp av datorer kan vi studera förändringar över långa tidsperioder och olika typer av genrer. Vi kan undersöka hur olika språk lånar av, påverkar, och samverkar med varandra.&lt;/p&gt;</description>
     </item>
     <item>
       <title>KBR Digital Heritage seminar series</title>
-      <link>https://languagechange.org/events/2022-kbr/</link>
+      <link>http://localhost:1313/events/2022-kbr/</link>
       <pubDate>Wed, 28 Sep 2022 13:21:31 +0200</pubDate>
-      <guid>https://languagechange.org/events/2022-kbr/</guid>
+      <guid>http://localhost:1313/events/2022-kbr/</guid>
       <description>&lt;p&gt;Image borrowed from KBR.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Göteborg Book Fair</title>
-      <link>https://languagechange.org/events/2022-book-fair/</link>
+      <link>http://localhost:1313/events/2022-book-fair/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-book-fair/</guid>
+      <guid>http://localhost:1313/events/2022-book-fair/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt; Nu digitaliserar vi hela det svenska trycket: men hur, när och varför?&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kungliga biblioteket och de fem stora universitetsbiblioteken har tagit på sig uppdraget att digitalisera allt som har tryckts i Sverige ända från 1400-talet och fram till i dag. Men hur ska det gå till, när blir det klart och vem ska betala kalaset?&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;Medverkande: Nina Tahmasebi, docent i språkteknologi, Göteborgs universitet, Lars Burman, överbibliotekarie, Uppsala universitetsbibliotek, Karin Byström, Uppsala universitetsbibliotek och Lars Ilshammar, biträdande riksbibliotekarie, KB.&#xA;Arrangör: Kungliga biblioteket&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keynote at CHR2022</title>
-      <link>https://languagechange.org/events/2022-chr/</link>
+      <link>http://localhost:1313/events/2022-chr/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-chr/</guid>
+      <guid>http://localhost:1313/events/2022-chr/</guid>
       <description></description>
     </item>
     <item>
       <title>Lecture series Digital Humanities</title>
-      <link>https://languagechange.org/events/2022-dh-lecture-series/</link>
+      <link>http://localhost:1313/events/2022-dh-lecture-series/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-dh-lecture-series/</guid>
+      <guid>http://localhost:1313/events/2022-dh-lecture-series/</guid>
       <description></description>
     </item>
     <item>
       <title>Wp1: Word Sense Induction</title>
-      <link>https://languagechange.org/wps/word-sense-induction/</link>
+      <link>http://localhost:1313/wps/word-sense-induction/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/wps/word-sense-induction/</guid>
+      <guid>http://localhost:1313/wps/word-sense-induction/</guid>
       <description>Word Sense Induction (WSI) is the task of automatically finding the meaning of words from text.</description>
     </item>
     <item>
       <title>Estonian Digital Humanities Conference 2018</title>
-      <link>https://languagechange.org/talk/keynoteedh/</link>
+      <link>http://localhost:1313/talk/keynoteedh/</link>
       <pubDate>Thu, 27 Sep 2018 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/talk/keynoteedh/</guid>
+      <guid>http://localhost:1313/talk/keynoteedh/</guid>
       <description></description>
     </item>
   </channel>

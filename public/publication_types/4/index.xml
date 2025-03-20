@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>4 on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/publication_types/4/</link>
+    <link>http://localhost:1313/publication_types/4/</link>
     <description>Recent content in 4 on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/publication_types/4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The DURel Annotation Tool</title>
-      <link>https://languagechange.org/publication/2023-durel/</link>
+      <link>http://localhost:1313/publication/2023-durel/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-durel/</guid>
+      <guid>http://localhost:1313/publication/2023-durel/</guid>
       <description></description>
     </item>
     <item>
       <title>EMNLP 2023</title>
-      <link>https://languagechange.org/publication/2023-emnlp/</link>
+      <link>http://localhost:1313/publication/2023-emnlp/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-emnlp/</guid>
+      <guid>http://localhost:1313/publication/2023-emnlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Incremental Semantic Shift Detection</title>
-      <link>https://languagechange.org/publication/2023-incremental-shift/</link>
+      <link>http://localhost:1313/publication/2023-incremental-shift/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-incremental-shift/</guid>
+      <guid>http://localhost:1313/publication/2023-incremental-shift/</guid>
       <description></description>
     </item>
     <item>
       <title>Routledge Handbook of Historical Linguistics, 2nd Edition</title>
-      <link>https://languagechange.org/publication/2023-rhhl-bookchapter/</link>
+      <link>http://localhost:1313/publication/2023-rhhl-bookchapter/</link>
       <pubDate>Thu, 22 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-rhhl-bookchapter/</guid>
+      <guid>http://localhost:1313/publication/2023-rhhl-bookchapter/</guid>
       <description></description>
     </item>
     <item>
       <title>Nodalida 2023</title>
-      <link>https://languagechange.org/publication/2023-nodalida/</link>
+      <link>http://localhost:1313/publication/2023-nodalida/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-nodalida/</guid>
+      <guid>http://localhost:1313/publication/2023-nodalida/</guid>
       <description></description>
     </item>
     <item>
       <title>Visualization systems and novel applications</title>
-      <link>https://languagechange.org/publication/2021-semchange-applications/</link>
+      <link>http://localhost:1313/publication/2021-semchange-applications/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-semchange-applications/</guid>
+      <guid>http://localhost:1313/publication/2021-semchange-applications/</guid>
       <description></description>
     </item>
   </channel>

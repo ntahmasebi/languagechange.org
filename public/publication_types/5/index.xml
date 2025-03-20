@@ -2,130 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>5 on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/publication_types/5/</link>
+    <link>http://localhost:1313/publication_types/5/</link>
     <description>Recent content in 5 on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The DURel Annotation Tool</title>
-      <link>https://languagechange.org/publication/2023-durel/</link>
+      <link>http://localhost:1313/publication/2023-durel/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-durel/</guid>
+      <guid>http://localhost:1313/publication/2023-durel/</guid>
       <description></description>
     </item>
     <item>
       <title>(Chat)GPT v BERT: Dawn of Justice for Semantic Change Detection</title>
-      <link>https://languagechange.org/publication/2024-eacl-gptvbert/</link>
+      <link>http://localhost:1313/publication/2024-eacl-gptvbert/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2024-eacl-gptvbert/</guid>
+      <guid>http://localhost:1313/publication/2024-eacl-gptvbert/</guid>
       <description></description>
     </item>
     <item>
       <title>ChiWUG: A Graph-based Evaluation Dataset for Chinese Lexical Semantic Change Detection</title>
-      <link>https://languagechange.org/publication/2023-chiwug/</link>
+      <link>http://localhost:1313/publication/2023-chiwug/</link>
       <pubDate>Sat, 26 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-chiwug/</guid>
+      <guid>http://localhost:1313/publication/2023-chiwug/</guid>
       <description></description>
     </item>
     <item>
       <title>LSCDiscovery: A shared task on semantic change discovery and detection in Spanish</title>
-      <link>https://languagechange.org/publication/2022-lscdiscovery/</link>
+      <link>http://localhost:1313/publication/2022-lscdiscovery/</link>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-lscdiscovery/</guid>
+      <guid>http://localhost:1313/publication/2022-lscdiscovery/</guid>
       <description></description>
     </item>
     <item>
       <title>DiaWUG: A Dataset for Diatopic Lexical Semantic Variation in Spanish</title>
-      <link>https://languagechange.org/publication/2022-diawug/</link>
+      <link>http://localhost:1313/publication/2022-diawug/</link>
       <pubDate>Thu, 26 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-diawug/</guid>
+      <guid>http://localhost:1313/publication/2022-diawug/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction to special issue on areal typology of lexico-semantics</title>
-      <link>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</link>
+      <link>http://localhost:1313/publication/2022-schapperantoinette/2022-schapperantoinette/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</guid>
+      <guid>http://localhost:1313/publication/2022-schapperantoinette/2022-schapperantoinette/</guid>
       <description></description>
     </item>
     <item>
       <title>Patterns of persistence and diffusibility in the European lexicon</title>
-      <link>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</link>
+      <link>http://localhost:1313/publication/2022-gastvolker/2022-gastvolker/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</guid>
+      <guid>http://localhost:1313/publication/2022-gastvolker/2022-gastvolker/</guid>
       <description></description>
     </item>
     <item>
       <title>Semantic maps and temperature: Capturing the lexicon-grammar interface across languages</title>
-      <link>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</link>
+      <link>http://localhost:1313/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</guid>
+      <guid>http://localhost:1313/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</guid>
       <description></description>
     </item>
     <item>
       <title>Talking temperature with close relatives: Semantic systems across Slavic languages</title>
-      <link>https://languagechange.org/publication/2022-koptjevskajatamm/</link>
+      <link>http://localhost:1313/publication/2022-koptjevskajatamm/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-koptjevskajatamm/</guid>
+      <guid>http://localhost:1313/publication/2022-koptjevskajatamm/</guid>
       <description></description>
     </item>
     <item>
       <title>DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</title>
-      <link>https://languagechange.org/publication/2021-emnlp21-dwug/</link>
+      <link>http://localhost:1313/publication/2021-emnlp21-dwug/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-emnlp21-dwug/</guid>
+      <guid>http://localhost:1313/publication/2021-emnlp21-dwug/</guid>
       <description></description>
     </item>
     <item>
       <title>Survey of computational approaches to lexical semantic change detection </title>
-      <link>https://languagechange.org/publication/2021-semchange-surveypaper/</link>
+      <link>http://localhost:1313/publication/2021-semchange-surveypaper/</link>
       <pubDate>Sun, 22 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-semchange-surveypaper/</guid>
+      <guid>http://localhost:1313/publication/2021-semchange-surveypaper/</guid>
       <description></description>
     </item>
     <item>
       <title>Talking about temperature and social thermoregulation in the languages of the world</title>
-      <link>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</link>
+      <link>http://localhost:1313/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</guid>
+      <guid>http://localhost:1313/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</guid>
       <description></description>
     </item>
     <item>
       <title>SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
-      <link>https://languagechange.org/publication/2020-semeval-taskpaper/</link>
+      <link>http://localhost:1313/publication/2020-semeval-taskpaper/</link>
       <pubDate>Wed, 22 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2020-semeval-taskpaper/</guid>
+      <guid>http://localhost:1313/publication/2020-semeval-taskpaper/</guid>
       <description></description>
     </item>
     <item>
       <title>Post-Evaluation Data for SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
-      <link>https://languagechange.org/publication/2020-semeval2020-postevaldata/</link>
+      <link>http://localhost:1313/publication/2020-semeval2020-postevaldata/</link>
       <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2020-semeval2020-postevaldata/</guid>
+      <guid>http://localhost:1313/publication/2020-semeval2020-postevaldata/</guid>
       <description></description>
     </item>
     <item>
       <title>Swedish Test Data for SemEval 2020 Task 1</title>
-      <link>https://languagechange.org/publication/2020-semeval2020-swedishdata/</link>
+      <link>http://localhost:1313/publication/2020-semeval2020-swedishdata/</link>
       <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2020-semeval2020-swedishdata/</guid>
+      <guid>http://localhost:1313/publication/2020-semeval2020-swedishdata/</guid>
       <description></description>
     </item>
     <item>
       <title>Time for change: Evaluating models of semantic change without evaluation tasks</title>
-      <link>https://languagechange.org/publication/2019-cambridgesymposium/</link>
+      <link>http://localhost:1313/publication/2019-cambridgesymposium/</link>
       <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2019-cambridgesymposium/</guid>
+      <guid>http://localhost:1313/publication/2019-cambridgesymposium/</guid>
       <description></description>
     </item>
     <item>
       <title>Time-Out: Temporal Referencing for Robust Modeling of Lexical Semantic Change</title>
-      <link>https://languagechange.org/publication/2019-acl2019/</link>
+      <link>http://localhost:1313/publication/2019-acl2019/</link>
       <pubDate>Sat, 08 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2019-acl2019/</guid>
+      <guid>http://localhost:1313/publication/2019-acl2019/</guid>
       <description></description>
     </item>
   </channel>

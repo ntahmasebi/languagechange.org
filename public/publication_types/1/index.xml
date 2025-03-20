@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/publication_types/1/</link>
+    <link>http://localhost:1313/publication_types/1/</link>
     <description>Recent content in 1 on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>EMNLP 2023</title>
-      <link>https://languagechange.org/publication/2023-emnlp/</link>
+      <link>http://localhost:1313/publication/2023-emnlp/</link>
       <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-emnlp/</guid>
+      <guid>http://localhost:1313/publication/2023-emnlp/</guid>
       <description></description>
     </item>
     <item>
       <title>Incremental Semantic Shift Detection</title>
-      <link>https://languagechange.org/publication/2023-incremental-shift/</link>
+      <link>http://localhost:1313/publication/2023-incremental-shift/</link>
       <pubDate>Tue, 22 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2023-incremental-shift/</guid>
+      <guid>http://localhost:1313/publication/2023-incremental-shift/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction to special issue on areal typology of lexico-semantics</title>
-      <link>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</link>
+      <link>http://localhost:1313/publication/2022-schapperantoinette/2022-schapperantoinette/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-schapperantoinette/2022-schapperantoinette/</guid>
+      <guid>http://localhost:1313/publication/2022-schapperantoinette/2022-schapperantoinette/</guid>
       <description></description>
     </item>
     <item>
       <title>Patterns of persistence and diffusibility in the European lexicon</title>
-      <link>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</link>
+      <link>http://localhost:1313/publication/2022-gastvolker/2022-gastvolker/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-gastvolker/2022-gastvolker/</guid>
+      <guid>http://localhost:1313/publication/2022-gastvolker/2022-gastvolker/</guid>
       <description></description>
     </item>
     <item>
       <title>Semantic maps and temperature: Capturing the lexicon-grammar interface across languages</title>
-      <link>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</link>
+      <link>http://localhost:1313/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</guid>
+      <guid>http://localhost:1313/publication/2022-koptjevskaja-tamm/2022-koptjevskaja-tamm/</guid>
       <description></description>
     </item>
     <item>
       <title>Talking temperature with close relatives: Semantic systems across Slavic languages</title>
-      <link>https://languagechange.org/publication/2022-koptjevskajatamm/</link>
+      <link>http://localhost:1313/publication/2022-koptjevskajatamm/</link>
       <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2022-koptjevskajatamm/</guid>
+      <guid>http://localhost:1313/publication/2022-koptjevskajatamm/</guid>
       <description></description>
     </item>
     <item>
       <title>DWUG: A large Resource of Diachronic Word Usage Graphs in Four Languages</title>
-      <link>https://languagechange.org/publication/2021-emnlp21-dwug/</link>
+      <link>http://localhost:1313/publication/2021-emnlp21-dwug/</link>
       <pubDate>Thu, 26 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-emnlp21-dwug/</guid>
+      <guid>http://localhost:1313/publication/2021-emnlp21-dwug/</guid>
       <description></description>
     </item>
     <item>
       <title>Talking about temperature and social thermoregulation in the languages of the world</title>
-      <link>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</link>
+      <link>http://localhost:1313/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</guid>
+      <guid>http://localhost:1313/publication/2021-koptjevskajatamm/2021-koptjevskajatamm/</guid>
       <description></description>
     </item>
   </channel>

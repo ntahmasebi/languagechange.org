@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Mon, 04 Nov 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Språkforskaren som blev it-konsult</title>
-      <link>https://languagechange.org/post/curie-paper/</link>
+      <link>http://localhost:1313/post/curie-paper/</link>
       <pubDate>Mon, 04 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/post/curie-paper/</guid>
+      <guid>http://localhost:1313/post/curie-paper/</guid>
       <description>Susanne Vejdemo i Curie</description>
     </item>
     <item>
       <title>Project meeting in Gothenburg</title>
-      <link>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</link>
+      <link>http://localhost:1313/post/project-meeting-in-gothenburg-july2019/</link>
       <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/post/project-meeting-in-gothenburg-july2019/</guid>
+      <guid>http://localhost:1313/post/project-meeting-in-gothenburg-july2019/</guid>
       <description>Project meeting in Gothenburg</description>
     </item>
     <item>
       <title>The two week-long paper</title>
-      <link>https://languagechange.org/post/the-two-week-paper/</link>
+      <link>http://localhost:1313/post/the-two-week-paper/</link>
       <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/post/the-two-week-paper/</guid>
+      <guid>http://localhost:1313/post/the-two-week-paper/</guid>
       <description>Or, the story of how we wrote the Time-Out paper</description>
     </item>
   </channel>

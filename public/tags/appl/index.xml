@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Appl on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/appl/</link>
+    <link>http://localhost:1313/tags/appl/</link>
     <description>Recent content in Appl on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/appl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/appl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wp4: Applications</title>
-      <link>https://languagechange.org/wps/application/</link>
+      <link>http://localhost:1313/wps/application/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/wps/application/</guid>
+      <guid>http://localhost:1313/wps/application/</guid>
       <description>Language change to further research</description>
     </item>
   </channel>

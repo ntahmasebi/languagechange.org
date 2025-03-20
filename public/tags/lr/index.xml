@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LR on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/lr/</link>
+    <link>http://localhost:1313/tags/lr/</link>
     <description>Recent content in LR on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/lr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wp3: Lexical Replacement</title>
-      <link>https://languagechange.org/wps/lexical-replacement/</link>
+      <link>http://localhost:1313/wps/lexical-replacement/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/wps/lexical-replacement/</guid>
+      <guid>http://localhost:1313/wps/lexical-replacement/</guid>
       <description>Computational detection of lexical replacements from diachronic texts.</description>
     </item>
   </channel>

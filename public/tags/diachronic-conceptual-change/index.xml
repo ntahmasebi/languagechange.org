@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Diachronic Conceptual Change on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/diachronic-conceptual-change/</link>
+    <link>http://localhost:1313/tags/diachronic-conceptual-change/</link>
     <description>Recent content in Diachronic Conceptual Change on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Sat, 01 Dec 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/diachronic-conceptual-change/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/diachronic-conceptual-change/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wp2: Semantic Change Detection</title>
-      <link>https://languagechange.org/wps/semantic-change/</link>
+      <link>http://localhost:1313/wps/semantic-change/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/wps/semantic-change/</guid>
+      <guid>http://localhost:1313/wps/semantic-change/</guid>
       <description>Computationally detecting diachronic changes in meaning</description>
     </item>
   </channel>

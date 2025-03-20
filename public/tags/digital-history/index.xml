@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital History on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/tags/digital-history/</link>
+    <link>http://localhost:1313/tags/digital-history/</link>
     <description>Recent content in Digital History on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Mon, 30 Sep 2019 09:30:00 +0000</lastBuildDate>
-    <atom:link href="https://languagechange.org/tags/digital-history/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/digital-history/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Turing workshop on automatic methods for lexical semantic change</title>
-      <link>https://languagechange.org/events/2019-turing-lcworkshop/</link>
+      <link>http://localhost:1313/events/2019-turing-lcworkshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2019-turing-lcworkshop/</guid>
+      <guid>http://localhost:1313/events/2019-turing-lcworkshop/</guid>
       <description>&lt;p&gt;Words change their meaning over time, depending on a range of linguistic and extra-linguistic factors. Associating a word’s correct meaning in its historical context is a central challenge in diachronic research, and is relevant to a range of computational linguistics tasks, including information retrieval and semantic search on historical texts. In recent years, computational linguistics research has made great advances in the area of automatic detection of lexical semantic change, using a range of approaches varying from topic models to neural word embeddings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop on Lexical Semantic Change</title>
-      <link>https://languagechange.org/events/2019-acl-lcworkshop---copy/</link>
+      <link>http://localhost:1313/events/2019-acl-lcworkshop---copy/</link>
       <pubDate>Thu, 24 Jan 2019 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2019-acl-lcworkshop---copy/</guid>
+      <guid>http://localhost:1313/events/2019-acl-lcworkshop---copy/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>

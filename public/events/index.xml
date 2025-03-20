@@ -2,109 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent and Upcoming Events on Towards Computational Lexical Semantic Change Detection</title>
-    <link>https://languagechange.org/events/</link>
+    <link>http://localhost:1313/events/</link>
     <description>Recent content in Recent and Upcoming Events on Towards Computational Lexical Semantic Change Detection</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - 2022</copyright>
     <lastBuildDate>Fri, 06 Dec 2024 10:00:00 +0200</lastBuildDate>
-    <atom:link href="https://languagechange.org/events/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LOT Winter School 2024</title>
-      <link>https://languagechange.org/events/lot-2024/</link>
+      <link>http://localhost:1313/events/lot-2024/</link>
       <pubDate>Sun, 03 Sep 2023 13:21:31 +0200</pubDate>
-      <guid>https://languagechange.org/events/lot-2024/</guid>
+      <guid>http://localhost:1313/events/lot-2024/</guid>
       <description>&lt;p&gt;Nina Tahmasebi (University of Gothenburg), together with Haim Dubossarsky, Pierluigi Cassotti, and Francesco Periti will be teaching a course on Computational modeling of semantic change.&lt;/p&gt;&#xA;&lt;p&gt;During the LOT Winter School two types of courses are on offer: 1. RM1 courses specifically designed for first-year Research Master (RM) students, and 2. Regular courses, which are open to second-year RM students and PhD students. The RM1 courses will only be given in week 1 (January 8-12). Regular courses will be given in both weeks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Svenska Språkets Historia</title>
-      <link>https://languagechange.org/events/2023-ssh/</link>
+      <link>http://localhost:1313/events/2023-ssh/</link>
       <pubDate>Mon, 17 Apr 2023 13:21:31 +0200</pubDate>
-      <guid>https://languagechange.org/events/2023-ssh/</guid>
+      <guid>http://localhost:1313/events/2023-ssh/</guid>
       <description>&lt;p&gt;Språk förändras över tid. Ofta är dessa förändringar signifikanta för mycket mer än bara vårt språk, de pekar också på hur samhällen och kulturer förändras. Genom den revolution vi har sett de senaste två årtiondena i form av stora mängder tillgängliga digitala texter, och datorkraft nog att handskas med dessa volymer av text, kan vi nu studera språkliga, kulturella och samhälleliga förändringar. Med hjälp av datorer kan vi studera förändringar över långa tidsperioder och olika typer av genrer. Vi kan undersöka hur olika språk lånar av, påverkar, och samverkar med varandra.&lt;/p&gt;</description>
     </item>
     <item>
       <title>KBR Digital Heritage seminar series</title>
-      <link>https://languagechange.org/events/2022-kbr/</link>
+      <link>http://localhost:1313/events/2022-kbr/</link>
       <pubDate>Wed, 28 Sep 2022 13:21:31 +0200</pubDate>
-      <guid>https://languagechange.org/events/2022-kbr/</guid>
+      <guid>http://localhost:1313/events/2022-kbr/</guid>
       <description>&lt;p&gt;Image borrowed from KBR.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3rd International Workshop on Computational Approaches to Historical Language Change 2022 (LChange&#39;22)</title>
-      <link>https://languagechange.org/events/2022-acl-lchange/</link>
+      <link>http://localhost:1313/events/2022-acl-lchange/</link>
       <pubDate>Thu, 25 Nov 2021 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-acl-lchange/</guid>
+      <guid>http://localhost:1313/events/2022-acl-lchange/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;We hope to make this third edition another resounding success!&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Organisers:&#xA;&lt;!-- raw HTML omitted --&gt;Nina Tahmasebi&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Adam Jatowt&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Yang Xu&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Simon Hengchen&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Syrielle Montariol&lt;!-- raw HTML omitted --&gt;, and Haim Dubossarsky.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2nd International Workshop on Computational Approaches to Historical Language Change 2021 (LChange&#39;21)</title>
-      <link>https://languagechange.org/events/2021-acl-lchange/</link>
+      <link>http://localhost:1313/events/2021-acl-lchange/</link>
       <pubDate>Mon, 09 Nov 2020 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2021-acl-lchange/</guid>
+      <guid>http://localhost:1313/events/2021-acl-lchange/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Organisers:&#xA;&lt;!-- raw HTML omitted --&gt;Nina Tahmasebi&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Adam Jatowt&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Yang Xu&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Simon Hengchen&lt;!-- raw HTML omitted --&gt;,&#xA;&lt;!-- raw HTML omitted --&gt;Syrielle Montariol&lt;!-- raw HTML omitted --&gt;, and Haim Dubossarsky.&lt;/p&gt;</description>
     </item>
     <item>
       <title>SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection</title>
-      <link>https://languagechange.org/events/2020-semeval-2020-task1/</link>
+      <link>http://localhost:1313/events/2020-semeval-2020-task1/</link>
       <pubDate>Mon, 09 Nov 2020 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2020-semeval-2020-task1/</guid>
+      <guid>http://localhost:1313/events/2020-semeval-2020-task1/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Our &lt;!-- raw HTML omitted --&gt;task description paper&lt;!-- raw HTML omitted --&gt; has been published. &lt;!-- raw HTML omitted --&gt;Videos&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;slides&lt;!-- raw HTML omitted --&gt; are now available.&lt;/p&gt;&#xA;&lt;p&gt;More information on the task itself can be found on &lt;!-- raw HTML omitted --&gt;Codalab&lt;!-- raw HTML omitted --&gt;.&#xA;Swedish testdata available &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;, postevaluation data for all participating languages available &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2nd Workshop on Computational Detection of Language Change 2020</title>
-      <link>https://languagechange.org/events/2020-sltc-lcworkshop/</link>
+      <link>http://localhost:1313/events/2020-sltc-lcworkshop/</link>
       <pubDate>Tue, 16 Jun 2020 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2020-sltc-lcworkshop/</guid>
+      <guid>http://localhost:1313/events/2020-sltc-lcworkshop/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Examples of welcomed talks include:&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Göteborg Book Fair</title>
-      <link>https://languagechange.org/events/2022-book-fair/</link>
+      <link>http://localhost:1313/events/2022-book-fair/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-book-fair/</guid>
+      <guid>http://localhost:1313/events/2022-book-fair/</guid>
       <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt; Nu digitaliserar vi hela det svenska trycket: men hur, när och varför?&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Kungliga biblioteket och de fem stora universitetsbiblioteken har tagit på sig uppdraget att digitalisera allt som har tryckts i Sverige ända från 1400-talet och fram till i dag. Men hur ska det gå till, när blir det klart och vem ska betala kalaset?&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;Medverkande: Nina Tahmasebi, docent i språkteknologi, Göteborgs universitet, Lars Burman, överbibliotekarie, Uppsala universitetsbibliotek, Karin Byström, Uppsala universitetsbibliotek och Lars Ilshammar, biträdande riksbibliotekarie, KB.&#xA;Arrangör: Kungliga biblioteket&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keynote at CHR2022</title>
-      <link>https://languagechange.org/events/2022-chr/</link>
+      <link>http://localhost:1313/events/2022-chr/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-chr/</guid>
+      <guid>http://localhost:1313/events/2022-chr/</guid>
       <description></description>
     </item>
     <item>
       <title>Lecture series Digital Humanities</title>
-      <link>https://languagechange.org/events/2022-dh-lecture-series/</link>
+      <link>http://localhost:1313/events/2022-dh-lecture-series/</link>
       <pubDate>Wed, 09 Oct 2019 10:00:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2022-dh-lecture-series/</guid>
+      <guid>http://localhost:1313/events/2022-dh-lecture-series/</guid>
       <description></description>
     </item>
     <item>
       <title>Turing workshop on automatic methods for lexical semantic change</title>
-      <link>https://languagechange.org/events/2019-turing-lcworkshop/</link>
+      <link>http://localhost:1313/events/2019-turing-lcworkshop/</link>
       <pubDate>Mon, 30 Sep 2019 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2019-turing-lcworkshop/</guid>
+      <guid>http://localhost:1313/events/2019-turing-lcworkshop/</guid>
       <description>&lt;p&gt;Words change their meaning over time, depending on a range of linguistic and extra-linguistic factors. Associating a word’s correct meaning in its historical context is a central challenge in diachronic research, and is relevant to a range of computational linguistics tasks, including information retrieval and semantic search on historical texts. In recent years, computational linguistics research has made great advances in the area of automatic detection of lexical semantic change, using a range of approaches varying from topic models to neural word embeddings.&lt;/p&gt;</description>
     </item>
     <item>
       <title>1st International Workshop on Computational Approaches to Historical Language Change 2019</title>
-      <link>https://languagechange.org/events/2019-acl-lcworkshop/</link>
+      <link>http://localhost:1313/events/2019-acl-lcworkshop/</link>
       <pubDate>Tue, 14 May 2019 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2019-acl-lcworkshop/</guid>
-      <description>&lt;p&gt;The workshop was co-located with &lt;!-- raw HTML omitted --&gt;ACL 2019 &lt;!-- raw HTML omitted --&gt; in Florence, on August 2nd, 2019.  We received over &lt;!-- raw HTML omitted --&gt;50 submissions!&lt;!-- raw HTML omitted --&gt; and had over 65 attendees. Thank you all for making the workshop such a success!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;The full list of accepted papers, together with the &lt;strong&gt;posters and presentations&lt;/strong&gt; can be found &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;.&#xA;The introduction and closing slides are here: &lt;a href=&#34;https://languagechange.org/pdf/lchange19/lchange-intro.pdf&#34;&gt;LChange&#39;19 Intro &amp;amp; Closing&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/events/2019-acl-lcworkshop/</guid>
+      <description>&lt;p&gt;The workshop was co-located with &lt;!-- raw HTML omitted --&gt;ACL 2019 &lt;!-- raw HTML omitted --&gt; in Florence, on August 2nd, 2019.  We received over &lt;!-- raw HTML omitted --&gt;50 submissions!&lt;!-- raw HTML omitted --&gt; and had over 65 attendees. Thank you all for making the workshop such a success!&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;The full list of accepted papers, together with the &lt;strong&gt;posters and presentations&lt;/strong&gt; can be found &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt;.&#xA;The introduction and closing slides are here: &lt;a href=&#34;http://localhost:1313/pdf/lchange19/lchange-intro.pdf&#34;&gt;LChange&#39;19 Intro &amp;amp; Closing&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Workshop on Lexical Semantic Change</title>
-      <link>https://languagechange.org/events/2019-acl-lcworkshop---copy/</link>
+      <link>http://localhost:1313/events/2019-acl-lcworkshop---copy/</link>
       <pubDate>Thu, 24 Jan 2019 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2019-acl-lcworkshop---copy/</guid>
+      <guid>http://localhost:1313/events/2019-acl-lcworkshop---copy/</guid>
       <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
     <item>
       <title>Workshop on Automatic Detection of Language Change 2018</title>
-      <link>https://languagechange.org/events/2018-sltc-lcworkshop/</link>
+      <link>http://localhost:1313/events/2018-sltc-lcworkshop/</link>
       <pubDate>Wed, 07 Nov 2018 09:30:00 +0000</pubDate>
-      <guid>https://languagechange.org/events/2018-sltc-lcworkshop/</guid>
+      <guid>http://localhost:1313/events/2018-sltc-lcworkshop/</guid>
       <description>&lt;p&gt;The workshop will be co-located with &lt;!-- raw HTML omitted --&gt;SLTC 2018 &lt;!-- raw HTML omitted --&gt; in Stockholm, on the 7th of November 2018.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Keynote Lena Rogström: &amp;ldquo;Two small, brown, elevated warts that undoubtedly are the breathing holes&amp;rdquo; &lt;!-- raw HTML omitted --&gt;A historical study of entomologic vocabulary In the Transactions of the Royal Swedish Academy of Sciences&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;p&gt;Accepted presentations:&lt;/p&gt;</description>
     </item>
   </channel>
