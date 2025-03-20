@@ -373,3 +373,5 @@ enableGitInfo = false
 #    name = "Wo"
 #    url = "#about"
 #    weight = 1
+
+canonifyURLs = true
