@@ -357,6 +357,10 @@ enableGitInfo = false
 [languages.en]
   languageCode = "en-us"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
 #  languageCode = "zh-Hans"
